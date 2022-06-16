@@ -1,0 +1,6878 @@
+
+Bad key savefig.frameon in file /opt/conda/lib/python3.6/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 421 ('savefig.frameon : True')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.3.1/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key verbose.level in file /opt/conda/lib/python3.6/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 472 ('verbose.level  : silent      # one of silent, helpful, debug, debug-annoying')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.3.1/matplotlibrc.template
+or from the matplotlib source distribution
+
+Bad key verbose.fileo in file /opt/conda/lib/python3.6/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle, line 473 ('verbose.fileo  : sys.stdout  # a log filename, sys.stdout or sys.stderr')
+You probably need to get an updated matplotlibrc file from
+https://github.com/matplotlib/matplotlib/blob/v3.3.1/matplotlibrc.template
+or from the matplotlib source distribution
+In /opt/conda/lib/python3.6/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The text.latex.preview rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /opt/conda/lib/python3.6/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The mathtext.fallback_to_cm rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /opt/conda/lib/python3.6/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: Support for setting the 'mathtext.fallback_to_cm' rcParam is deprecated since 3.3 and will be removed two minor releases later; use 'mathtext.fallback : 'cm' instead.
+In /opt/conda/lib/python3.6/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The validate_bool_maybe_none function was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /opt/conda/lib/python3.6/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The savefig.jpeg_quality rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /opt/conda/lib/python3.6/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The keymap.all_axes rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /opt/conda/lib/python3.6/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The animation.avconv_path rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+In /opt/conda/lib/python3.6/site-packages/matplotlib/mpl-data/stylelib/_classic_test.mplstyle: 
+The animation.avconv_args rcparam was deprecated in Matplotlib 3.3 and will be removed two minor releases later.
+[(0, 2509), (1, 2509)]
+C
+C
+feature dicts file saved as ../data/500_toxic/acutetoxic.pickle
+649206
+EPOCH:	0
+train_roc:[0.488985542443761]
+valid_roc:[0.4512067985088773]
+
+EPOCH:	1
+train_roc:[0.6300104277376644]
+valid_roc:[0.6751121501232071]
+
+EPOCH:	2
+train_roc:[0.6465227807850611]
+valid_roc:[0.6789505275794527]
+
+EPOCH:	3
+train_roc:[0.673417973474209]
+valid_roc:[0.6754438617552285]
+
+EPOCH:	4
+train_roc:[0.6986080237580292]
+valid_roc:[0.7011752069248753]
+
+EPOCH:	5
+train_roc:[0.7100479809545929]
+valid_roc:[0.7158810892778165]
+
+EPOCH:	6
+train_roc:[0.7121411916072726]
+valid_roc:[0.7224205471662348]
+
+EPOCH:	7
+train_roc:[0.7225289435053193]
+valid_roc:[0.7174290768939156]
+
+EPOCH:	8
+train_roc:[0.7271316294091676]
+valid_roc:[0.7228154419662602]
+
+EPOCH:	9
+train_roc:[0.7325359955404573]
+valid_roc:[0.7301762810387313]
+
+EPOCH:	10
+train_roc:[0.7369148790474781]
+valid_roc:[0.7330985025589183]
+
+EPOCH:	11
+train_roc:[0.7383079949329093]
+valid_roc:[0.7403645668793835]
+
+EPOCH:	12
+train_roc:[0.74203345010749]
+valid_roc:[0.7366841473431478]
+
+EPOCH:	13
+train_roc:[0.7423575607778734]
+valid_roc:[0.7410911733114298]
+
+EPOCH:	14
+train_roc:[0.7434350150737496]
+valid_roc:[0.7384216844632591]
+
+EPOCH:	15
+train_roc:[0.7460899913563938]
+valid_roc:[0.7412333354394389]
+
+EPOCH:	16
+train_roc:[0.7488941037401722]
+valid_roc:[0.7405857079673974]
+
+EPOCH:	17
+train_roc:[0.7515826798558783]
+valid_roc:[0.7443609022556391]
+
+EPOCH:	18
+train_roc:[0.7530988968840772]
+valid_roc:[0.7502211410880141]
+
+EPOCH:	19
+train_roc:[0.7520261583542448]
+valid_roc:[0.7423390408795096]
+
+EPOCH:	20
+train_roc:[0.7549188878415958]
+valid_roc:[0.7492102103999494]
+
+EPOCH:	21
+train_roc:[0.7591593439662068]
+valid_roc:[0.754280659632274]
+
+EPOCH:	22
+train_roc:[0.7599283085667197]
+valid_roc:[0.7533171163202123]
+
+EPOCH:	23
+train_roc:[0.7624234400295049]
+valid_roc:[0.7568079863524357]
+
+EPOCH:	24
+train_roc:[0.7632006572205943]
+valid_roc:[0.756436785240412]
+
+EPOCH:	25
+train_roc:[0.764897841770723]
+valid_roc:[0.7606305680166803]
+
+EPOCH:	26
+train_roc:[0.7667644991630498]
+valid_roc:[0.7613255828647248]
+
+EPOCH:	27
+train_roc:[0.7681896429595283]
+valid_roc:[0.7628103873128199]
+
+EPOCH:	28
+train_roc:[0.7705993994078963]
+valid_roc:[0.7681493650091615]
+
+EPOCH:	29
+train_roc:[0.7670450872426543]
+valid_roc:[0.7643425791369179]
+
+EPOCH:	30
+train_roc:[0.7698950801002336]
+valid_roc:[0.7667751311050737]
+
+EPOCH:	31
+train_roc:[0.7713183572393199]
+valid_roc:[0.7684810766411827]
+
+EPOCH:	32
+train_roc:[0.7697807227736722]
+valid_roc:[0.7632368736968472]
+
+EPOCH:	33
+train_roc:[0.7710291235886351]
+valid_roc:[0.7666329689770646]
+
+EPOCH:	34
+train_roc:[0.7741051784809378]
+valid_roc:[0.770187022177292]
+
+EPOCH:	35
+train_roc:[0.7704701088221961]
+valid_roc:[0.7675807164971252]
+
+EPOCH:	36
+train_roc:[0.7745451201547715]
+valid_roc:[0.7674701459531181]
+
+EPOCH:	37
+train_roc:[0.771431928604874]
+valid_roc:[0.7636791558728755]
+
+EPOCH:	38
+train_roc:[0.7760410004419065]
+valid_roc:[0.7713875023693688]
+
+EPOCH:	39
+train_roc:[0.7781611302590862]
+valid_roc:[0.7711821570733556]
+
+EPOCH:	40
+train_roc:[0.780022187679236]
+valid_roc:[0.7766475011057055]
+
+EPOCH:	41
+train_roc:[0.7786885100949814]
+valid_roc:[0.7738516459215264]
+
+EPOCH:	42
+train_roc:[0.7786048052477044]
+valid_roc:[0.778874707777848]
+
+EPOCH:	43
+train_roc:[0.7773855832351373]
+valid_roc:[0.7678808365451444]
+
+EPOCH:	44
+train_roc:[0.7811126103317324]
+valid_roc:[0.7747993934415871]
+
+EPOCH:	45
+train_roc:[0.780237344504983]
+valid_roc:[0.7771687622417387]
+
+EPOCH:	46
+train_roc:[0.7798530095724157]
+valid_roc:[0.7765527263536993]
+
+EPOCH:	47
+train_roc:[0.7833708727959443]
+valid_roc:[0.7770581916977317]
+
+EPOCH:	48
+train_roc:[0.7842853384279325]
+valid_roc:[0.7744676818095659]
+
+EPOCH:	49
+train_roc:[0.7862125148178212]
+valid_roc:[0.78328173374613]
+
+EPOCH:	50
+train_roc:[0.7852314389904645]
+valid_roc:[0.7826341062740887]
+
+EPOCH:	51
+train_roc:[0.7886436887036379]
+valid_roc:[0.7836608327541543]
+
+EPOCH:	52
+train_roc:[0.789037258678041]
+valid_roc:[0.7860302015543059]
+
+EPOCH:	53
+train_roc:[0.7886377939960831]
+valid_roc:[0.781860112466039]
+
+EPOCH:	54
+train_roc:[0.788176041904297]
+valid_roc:[0.7827446768180957]
+
+EPOCH:	55
+train_roc:[0.7897737041418771]
+valid_roc:[0.7783850382258165]
+
+EPOCH:	56
+train_roc:[0.786977844348675]
+valid_roc:[0.7832501421621278]
+
+EPOCH:	57
+train_roc:[0.7919610336251803]
+valid_roc:[0.789157768370506]
+
+EPOCH:	58
+train_roc:[0.786808469751603]
+valid_roc:[0.7735041384975042]
+
+EPOCH:	59
+train_roc:[0.7892194051414818]
+valid_roc:[0.7830132052821128]
+
+EPOCH:	60
+train_roc:[0.786016417546501]
+valid_roc:[0.7755259998736337]
+
+EPOCH:	61
+train_roc:[0.790960701753145]
+valid_roc:[0.7814178302900107]
+
+EPOCH:	62
+train_roc:[0.7944605861186318]
+valid_roc:[0.7841189107221835]
+
+EPOCH:	63
+train_roc:[0.7935797203197053]
+valid_roc:[0.7842294812661907]
+
+EPOCH:	64
+train_roc:[0.7929768882271098]
+valid_roc:[0.7863145258103241]
+
+EPOCH:	65
+train_roc:[0.7951186319719898]
+valid_roc:[0.7884469577304606]
+
+EPOCH:	66
+train_roc:[0.7969049248513207]
+valid_roc:[0.7923959057307134]
+
+EPOCH:	67
+train_roc:[0.7960479326179909]
+valid_roc:[0.7884943451064637]
+
+EPOCH:	68
+train_roc:[0.7987364104885709]
+valid_roc:[0.7887786693624819]
+
+EPOCH:	69
+train_roc:[0.7971786357721113]
+valid_roc:[0.7894105010425223]
+
+EPOCH:	70
+train_roc:[0.7980362174761967]
+valid_roc:[0.7947020913628609]
+
+EPOCH:	71
+train_roc:[0.793972700823353]
+valid_roc:[0.7769634169457258]
+
+EPOCH:	72
+train_roc:[0.8006292010843904]
+valid_roc:[0.7937701396348013]
+
+EPOCH:	73
+train_roc:[0.7978032782826594]
+valid_roc:[0.789189359954508]
+
+EPOCH:	74
+train_roc:[0.796321250558278]
+valid_roc:[0.7928855752827446]
+
+EPOCH:	75
+train_roc:[0.8002448661518229]
+valid_roc:[0.7957446136349277]
+
+EPOCH:	76
+train_roc:[0.8004462686599425]
+valid_roc:[0.7984614898591016]
+
+EPOCH:	77
+train_roc:[0.800571629440606]
+valid_roc:[0.7898843748025527]
+
+EPOCH:	78
+train_roc:[0.8023462311499533]
+valid_roc:[0.7890787894105009]
+
+EPOCH:	79
+train_roc:[0.8011966649316576]
+valid_roc:[0.7839451570101723]
+
+EPOCH:	80
+train_roc:[0.8060031112266474]
+valid_roc:[0.7979718203070701]
+
+EPOCH:	81
+train_roc:[0.8052532061805615]
+valid_roc:[0.7944809502748468]
+
+EPOCH:	82
+train_roc:[0.8074112586163431]
+valid_roc:[0.7922063562267012]
+
+EPOCH:	83
+train_roc:[0.8050233125859276]
+valid_roc:[0.7871359069943767]
+
+EPOCH:	84
+train_roc:[0.810194837768806]
+valid_roc:[0.7996461742591774]
+
+EPOCH:	85
+train_roc:[0.8055565871293776]
+valid_roc:[0.7917798698426739]
+
+EPOCH:	86
+train_roc:[0.8099878352885097]
+valid_roc:[0.7973715802110317]
+
+EPOCH:	87
+train_roc:[0.8078437336606075]
+valid_roc:[0.7895052757945282]
+
+EPOCH:	88
+train_roc:[0.8095439638096394]
+valid_roc:[0.7997409490111834]
+
+EPOCH:	89
+train_roc:[0.8041947131939863]
+valid_roc:[0.7878309218424212]
+
+EPOCH:	90
+train_roc:[0.8098707270984224]
+valid_roc:[0.7933436532507739]
+
+EPOCH:	91
+train_roc:[0.8063339025655929]
+valid_roc:[0.7811335060339925]
+
+EPOCH:	92
+train_roc:[0.8101466976571092]
+valid_roc:[0.7947178871548619]
+
+EPOCH:	93
+train_roc:[0.8101750904984977]
+valid_roc:[0.7932488784987679]
+
+EPOCH:	94
+train_roc:[0.8127659127139214]
+valid_roc:[0.7941492386428255]
+
+EPOCH:	95
+train_roc:[0.8047022475144474]
+valid_roc:[0.7865988500663423]
+
+EPOCH:	96
+train_roc:[0.8144051326397621]
+valid_roc:[0.8029001074113855]
+
+EPOCH:	97
+train_roc:[0.8127181655827282]
+valid_roc:[0.7993618500031592]
+
+EPOCH:	98
+train_roc:[0.8160793278304274]
+valid_roc:[0.8025525999873634]
+
+EPOCH:	99
+train_roc:[0.8164948064679088]
+valid_roc:[0.8040216086434573]
+
+EPOCH:	100
+train_roc:[0.8139739347821344]
+valid_roc:[0.7934384280027801]
+
+EPOCH:	101
+train_roc:[0.8159391320357511]
+valid_roc:[0.7967713401149934]
+
+EPOCH:	102
+train_roc:[0.8141726846718544]
+valid_roc:[0.8022208883553423]
+
+EPOCH:	103
+train_roc:[0.8181329456973645]
+valid_roc:[0.79484425349087]
+
+EPOCH:	104
+train_roc:[0.8200838974077238]
+valid_roc:[0.8032634106274089]
+
+EPOCH:	105
+train_roc:[0.8195751841457517]
+valid_roc:[0.799077525747141]
+
+EPOCH:	106
+train_roc:[0.8208677952673751]
+valid_roc:[0.8008150628672521]
+
+EPOCH:	107
+train_roc:[0.8202285142330661]
+valid_roc:[0.8023630504833512]
+
+EPOCH:	108
+train_roc:[0.8217935590888432]
+valid_roc:[0.8005939217792379]
+
+EPOCH:	109
+train_roc:[0.8211909234864995]
+valid_roc:[0.803421368547419]
+
+EPOCH:	110
+train_roc:[0.8193822307184607]
+valid_roc:[0.7974031717950338]
+
+EPOCH:	111
+train_roc:[0.8215831180291399]
+valid_roc:[0.8017944019713148]
+
+EPOCH:	112
+train_roc:[0.8226221584807845]
+valid_roc:[0.8025368041953623]
+
+EPOCH:	113
+train_roc:[0.8217037630437598]
+valid_roc:[0.8036109180514311]
+
+EPOCH:	114
+train_roc:[0.8217055314560262]
+valid_roc:[0.8036898970114361]
+
+EPOCH:	115
+train_roc:[0.8224915907084476]
+valid_roc:[0.803373981171416]
+
+EPOCH:	116
+train_roc:[0.8209767491120115]
+valid_roc:[0.8016522398433058]
+
+EPOCH:	117
+train_roc:[0.8223423563621873]
+valid_roc:[0.7994882163391672]
+
+EPOCH:	118
+train_roc:[0.8280276053084592]
+valid_roc:[0.8044638908194858]
+
+EPOCH:	119
+train_roc:[0.822502201182046]
+valid_roc:[0.8020471346433311]
+
+EPOCH:	120
+train_roc:[0.827461123912451]
+valid_roc:[0.8065331395716181]
+
+EPOCH:	121
+train_roc:[0.826753955496137]
+valid_roc:[0.8055380046755545]
+
+EPOCH:	122
+train_roc:[0.827089757336504]
+valid_roc:[0.8058855120995767]
+
+EPOCH:	123
+train_roc:[0.8264216904803028]
+valid_roc:[0.806375181651608]
+
+EPOCH:	124
+train_roc:[0.8269370844108368]
+valid_roc:[0.8088551209957666]
+
+EPOCH:	125
+train_roc:[0.8302383171317297]
+valid_roc:[0.8082706766917294]
+
+EPOCH:	126
+train_roc:[0.8296258570167947]
+valid_roc:[0.806296202691603]
+
+EPOCH:	127
+train_roc:[0.8325684950281089]
+valid_roc:[0.8109243697478992]
+
+EPOCH:	128
+train_roc:[0.8302009839838831]
+valid_roc:[0.8066595059076263]
+
+EPOCH:	129
+train_roc:[0.8270858275314674]
+valid_roc:[0.8057907373475706]
+
+EPOCH:	130
+train_roc:[0.8304223302525626]
+valid_roc:[0.8013837113792887]
+
+EPOCH:	131
+train_roc:[0.8289695795757029]
+valid_roc:[0.8000726606432047]
+
+EPOCH:	132
+train_roc:[0.824634218659461]
+valid_roc:[0.8001990269792127]
+
+EPOCH:	133
+train_roc:[0.831180487889225]
+valid_roc:[0.8027105579073736]
+
+EPOCH:	134
+train_roc:[0.8317909831016419]
+valid_roc:[0.8117931383079547]
+
+EPOCH:	135
+train_roc:[0.829265100914446]
+valid_roc:[0.8143678524041194]
+
+EPOCH:	136
+train_roc:[0.8305196911723414]
+valid_roc:[0.8089025083717697]
+
+EPOCH:	137
+train_roc:[0.8272027392313026]
+valid_roc:[0.8049535603715169]
+
+EPOCH:	138
+train_roc:[0.8335672549781297]
+valid_roc:[0.8089972831237757]
+
+EPOCH:	139
+train_roc:[0.8348950378548294]
+valid_roc:[0.8108611865798951]
+
+EPOCH:	140
+train_roc:[0.8340657507470068]
+valid_roc:[0.8095343400518102]
+
+EPOCH:	141
+train_roc:[0.8303786111715318]
+valid_roc:[0.8097238895558224]
+
+EPOCH:	142
+train_roc:[0.8314569496735413]
+valid_roc:[0.806201427939597]
+
+EPOCH:	143
+train_roc:[0.8326066141369628]
+valid_roc:[0.8133569217160548]
+
+EPOCH:	144
+train_roc:[0.8333577963696854]
+valid_roc:[0.8091394452517848]
+
+EPOCH:	145
+train_roc:[0.8344528365430999]
+valid_roc:[0.8085234093637456]
+
+EPOCH:	146
+train_roc:[0.8355388381649305]
+valid_roc:[0.8109243697478992]
+
+EPOCH:	147
+train_roc:[0.8363405183923718]
+valid_roc:[0.8101187843558476]
+
+EPOCH:	148
+train_roc:[0.8380792606307612]
+valid_roc:[0.8121406457319771]
+
+EPOCH:	149
+train_roc:[0.8386025141713682]
+valid_roc:[0.8139887533960953]
+
+EPOCH:	150
+train_roc:[0.8385445495470801]
+valid_roc:[0.8131041890440386]
+
+EPOCH:	151
+train_roc:[0.8372378893724515]
+valid_roc:[0.8113508561319264]
+
+EPOCH:	152
+train_roc:[0.8373616782311004]
+valid_roc:[0.8138465912680863]
+
+EPOCH:	153
+train_roc:[0.8400545771323465]
+valid_roc:[0.8132621469640489]
+
+EPOCH:	154
+train_roc:[0.8331925480679016]
+valid_roc:[0.8083970430277374]
+
+135 0.8143678524041194
+649206
+EPOCH:	0
+train_roc:[0.527374535588979]
+valid_roc:[0.48895854334677424]
+
+EPOCH:	1
+train_roc:[0.6275864223498092]
+valid_roc:[0.5935609879032258]
+
+EPOCH:	2
+train_roc:[0.6446218507043211]
+valid_roc:[0.611879410282258]
+
+EPOCH:	3
+train_roc:[0.6534728974944743]
+valid_roc:[0.6198809223790323]
+
+EPOCH:	4
+train_roc:[0.6864673246604636]
+valid_roc:[0.6654485887096775]
+
+EPOCH:	5
+train_roc:[0.6986466872750643]
+valid_roc:[0.6871219758064516]
+
+EPOCH:	6
+train_roc:[0.7096463687768826]
+valid_roc:[0.7144814768145161]
+
+EPOCH:	7
+train_roc:[0.717073604910177]
+valid_roc:[0.721222908266129]
+
+EPOCH:	8
+train_roc:[0.7239261296419243]
+valid_roc:[0.728389616935484]
+
+EPOCH:	9
+train_roc:[0.7246367087132732]
+valid_roc:[0.7259639616935483]
+
+EPOCH:	10
+train_roc:[0.7299941978708759]
+valid_roc:[0.7326738911290324]
+
+EPOCH:	11
+train_roc:[0.7339187399339543]
+valid_roc:[0.7366431451612903]
+
+EPOCH:	12
+train_roc:[0.7336286334777545]
+valid_roc:[0.7352255544354839]
+
+EPOCH:	13
+train_roc:[0.7402841844727324]
+valid_roc:[0.743069556451613]
+
+EPOCH:	14
+train_roc:[0.7395441330218169]
+valid_roc:[0.742707283266129]
+
+EPOCH:	15
+train_roc:[0.7406346110657782]
+valid_roc:[0.7424395161290323]
+
+EPOCH:	16
+train_roc:[0.7430527215679463]
+valid_roc:[0.7431955645161291]
+
+EPOCH:	17
+train_roc:[0.7461431952892921]
+valid_roc:[0.7496534778225807]
+
+EPOCH:	18
+train_roc:[0.7481487907187939]
+valid_roc:[0.7482831401209677]
+
+EPOCH:	19
+train_roc:[0.7447208582514115]
+valid_roc:[0.7447391633064517]
+
+EPOCH:	20
+train_roc:[0.7531055537555573]
+valid_roc:[0.7534337197580647]
+
+EPOCH:	21
+train_roc:[0.7537576792740992]
+valid_roc:[0.7569776965725806]
+
+EPOCH:	22
+train_roc:[0.7566259312535134]
+valid_roc:[0.7538904989919355]
+
+EPOCH:	23
+train_roc:[0.758716898342493]
+valid_roc:[0.7565209173387096]
+
+EPOCH:	24
+train_roc:[0.762076356648016]
+valid_roc:[0.7619392641129032]
+
+EPOCH:	25
+train_roc:[0.7656482125689481]
+valid_roc:[0.762301537298387]
+
+EPOCH:	26
+train_roc:[0.7624365091263188]
+valid_roc:[0.7596553679435484]
+
+EPOCH:	27
+train_roc:[0.7654533018987483]
+valid_roc:[0.7633253528225806]
+
+EPOCH:	28
+train_roc:[0.7710436228549266]
+valid_roc:[0.7678143901209677]
+
+EPOCH:	29
+train_roc:[0.770325675688686]
+valid_roc:[0.7677671370967744]
+
+EPOCH:	30
+train_roc:[0.7722908939581818]
+valid_roc:[0.7699407762096775]
+
+EPOCH:	31
+train_roc:[0.7621647737867154]
+valid_roc:[0.7632780997983871]
+
+EPOCH:	32
+train_roc:[0.7697095064732152]
+valid_roc:[0.7641759072580645]
+
+EPOCH:	33
+train_roc:[0.772459279486772]
+valid_roc:[0.7721616683467742]
+
+EPOCH:	34
+train_roc:[0.7739091240789145]
+valid_roc:[0.7661762852822582]
+
+EPOCH:	35
+train_roc:[0.7752968801914368]
+valid_roc:[0.7727129536290323]
+
+EPOCH:	36
+train_roc:[0.7781000964532743]
+valid_roc:[0.7708070816532258]
+
+EPOCH:	37
+train_roc:[0.7816943513826771]
+valid_roc:[0.7740675403225806]
+
+EPOCH:	38
+train_roc:[0.7839391642929939]
+valid_roc:[0.7751071068548385]
+
+EPOCH:	39
+train_roc:[0.7818332645317005]
+valid_roc:[0.7760521673387096]
+
+EPOCH:	40
+train_roc:[0.7835263544965322]
+valid_roc:[0.7786825856854839]
+
+EPOCH:	41
+train_roc:[0.7846655602080435]
+valid_roc:[0.7737997731854839]
+
+EPOCH:	42
+train_roc:[0.7845400078710902]
+valid_roc:[0.7797379032258065]
+
+EPOCH:	43
+train_roc:[0.7860979178549765]
+valid_roc:[0.7780840473790323]
+
+EPOCH:	44
+train_roc:[0.7876976786178476]
+valid_roc:[0.7787140877016129]
+
+EPOCH:	45
+train_roc:[0.7875414750061449]
+valid_roc:[0.7736580141129032]
+
+EPOCH:	46
+train_roc:[0.7898582005226042]
+valid_roc:[0.7794701360887096]
+
+EPOCH:	47
+train_roc:[0.7834171102096056]
+valid_roc:[0.770413306451613]
+
+EPOCH:	48
+train_roc:[0.790973238882871]
+valid_roc:[0.7797379032258065]
+
+EPOCH:	49
+train_roc:[0.7903048053143025]
+valid_roc:[0.7778477822580646]
+
+EPOCH:	50
+train_roc:[0.7889239260903453]
+valid_roc:[0.7718939012096775]
+
+EPOCH:	51
+train_roc:[0.7868427831278878]
+valid_roc:[0.7681766633064516]
+
+EPOCH:	52
+train_roc:[0.7916746815165544]
+valid_roc:[0.7796118951612904]
+
+EPOCH:	53
+train_roc:[0.7932707091113468]
+valid_roc:[0.778777091733871]
+
+EPOCH:	54
+train_roc:[0.7964631572659928]
+valid_roc:[0.776949974798387]
+
+EPOCH:	55
+train_roc:[0.7895499194323383]
+valid_roc:[0.7770602318548387]
+
+EPOCH:	56
+train_roc:[0.7964747497352889]
+valid_roc:[0.7777847782258065]
+
+EPOCH:	57
+train_roc:[0.797002894777121]
+valid_roc:[0.7816437752016128]
+
+EPOCH:	58
+train_roc:[0.7982383769285497]
+valid_roc:[0.7806042086693549]
+
+EPOCH:	59
+train_roc:[0.7965333015293611]
+valid_roc:[0.7781155493951613]
+
+EPOCH:	60
+train_roc:[0.7941291412868544]
+valid_roc:[0.7802261844758065]
+
+EPOCH:	61
+train_roc:[0.8007474588423131]
+valid_roc:[0.7835181451612904]
+
+EPOCH:	62
+train_roc:[0.799734591397877]
+valid_roc:[0.7804309475806451]
+
+EPOCH:	63
+train_roc:[0.7960802128141583]
+valid_roc:[0.7734690020161291]
+
+EPOCH:	64
+train_roc:[0.8009068061745028]
+valid_roc:[0.7819587953629031]
+
+EPOCH:	65
+train_roc:[0.8033600870496203]
+valid_roc:[0.7844159526209677]
+
+EPOCH:	66
+train_roc:[0.8010647781289794]
+valid_roc:[0.783108618951613]
+
+EPOCH:	67
+train_roc:[0.8052011283598759]
+valid_roc:[0.7791551159274194]
+
+EPOCH:	68
+train_roc:[0.8016220025853171]
+valid_roc:[0.7774540070564517]
+
+EPOCH:	69
+train_roc:[0.8043566464440297]
+valid_roc:[0.7834393901209677]
+
+EPOCH:	70
+train_roc:[0.8062813893122542]
+valid_roc:[0.7862745715725805]
+
+EPOCH:	71
+train_roc:[0.8051235177603506]
+valid_roc:[0.7835023941532259]
+
+EPOCH:	72
+train_roc:[0.8089769331474084]
+valid_roc:[0.7862430695564516]
+
+EPOCH:	73
+train_roc:[0.8047857642905183]
+valid_roc:[0.7722876764112904]
+
+EPOCH:	74
+train_roc:[0.8090839178852349]
+valid_roc:[0.7869046118951613]
+
+EPOCH:	75
+train_roc:[0.8064024225510074]
+valid_roc:[0.7859753024193549]
+
+EPOCH:	76
+train_roc:[0.8078844902781426]
+valid_roc:[0.7831086189516129]
+
+EPOCH:	77
+train_roc:[0.8115310095606435]
+valid_roc:[0.7922757056451613]
+
+EPOCH:	78
+train_roc:[0.8097978371596013]
+valid_roc:[0.7913306451612903]
+
+EPOCH:	79
+train_roc:[0.811134704296739]
+valid_roc:[0.7903068296370969]
+
+EPOCH:	80
+train_roc:[0.813464201177677]
+valid_roc:[0.7880859375]
+
+EPOCH:	81
+train_roc:[0.8150073749717802]
+valid_roc:[0.788148941532258]
+
+EPOCH:	82
+train_roc:[0.8099811553605051]
+valid_roc:[0.7868573588709677]
+
+EPOCH:	83
+train_roc:[0.8149780990747442]
+valid_roc:[0.7921024445564515]
+
+EPOCH:	84
+train_roc:[0.8159300569347427]
+valid_roc:[0.7905745967741935]
+
+EPOCH:	85
+train_roc:[0.8103947510870887]
+valid_roc:[0.7870306199596774]
+
+EPOCH:	86
+train_roc:[0.8153381533117818]
+valid_roc:[0.7907321068548386]
+
+EPOCH:	87
+train_roc:[0.8177039012195867]
+valid_roc:[0.7941815776209677]
+
+EPOCH:	88
+train_roc:[0.816253074214792]
+valid_roc:[0.7920394405241936]
+
+EPOCH:	89
+train_roc:[0.8186381756518455]
+valid_roc:[0.7922914566532258]
+
+EPOCH:	90
+train_roc:[0.8035593203354899]
+valid_roc:[0.7721301663306452]
+
+EPOCH:	91
+train_roc:[0.8153844249477011]
+valid_roc:[0.7919764364919355]
+
+EPOCH:	92
+train_roc:[0.8197484984313816]
+valid_roc:[0.7930475050403226]
+
+EPOCH:	93
+train_roc:[0.8189826095277131]
+valid_roc:[0.7980090725806452]
+
+EPOCH:	94
+train_roc:[0.8212726134200319]
+valid_roc:[0.7901335685483871]
+
+EPOCH:	95
+train_roc:[0.8198648160894043]
+valid_roc:[0.7955834173387096]
+
+EPOCH:	96
+train_roc:[0.8220893912990854]
+valid_roc:[0.7964024697580645]
+
+EPOCH:	97
+train_roc:[0.8146360229892419]
+valid_roc:[0.7884324596774195]
+
+EPOCH:	98
+train_roc:[0.8184874735509955]
+valid_roc:[0.7950951360887096]
+
+EPOCH:	99
+train_roc:[0.8171594481277278]
+valid_roc:[0.792118195564516]
+
+EPOCH:	100
+train_roc:[0.8164801097787193]
+valid_roc:[0.7883064516129032]
+
+EPOCH:	101
+train_roc:[0.8258600875408266]
+valid_roc:[0.803254158266129]
+
+EPOCH:	102
+train_roc:[0.824234292842672]
+valid_roc:[0.7950636340725807]
+
+EPOCH:	103
+train_roc:[0.8232969729311912]
+valid_roc:[0.7980563256048389]
+
+EPOCH:	104
+train_roc:[0.8260451740845044]
+valid_roc:[0.8001197076612904]
+
+EPOCH:	105
+train_roc:[0.8274079769156605]
+valid_roc:[0.8020413306451613]
+
+EPOCH:	106
+train_roc:[0.8260455670495652]
+valid_roc:[0.7934255292338709]
+
+EPOCH:	107
+train_roc:[0.8291411493167026]
+valid_roc:[0.800229964717742]
+
+EPOCH:	108
+train_roc:[0.8297152712706585]
+valid_roc:[0.8019468245967742]
+
+EPOCH:	109
+train_roc:[0.8221593390799233]
+valid_roc:[0.7929529989919355]
+
+EPOCH:	110
+train_roc:[0.824092137731896]
+valid_roc:[0.8000409526209676]
+
+EPOCH:	111
+train_roc:[0.8233360729547494]
+valid_roc:[0.796292212701613]
+
+EPOCH:	112
+train_roc:[0.8309087061605722]
+valid_roc:[0.7984501008064516]
+
+EPOCH:	113
+train_roc:[0.8316311724250129]
+valid_roc:[0.798796622983871]
+
+EPOCH:	114
+train_roc:[0.8235093705466006]
+valid_roc:[0.8013640372983872]
+
+EPOCH:	115
+train_roc:[0.8322671863760585]
+valid_roc:[0.8043567288306451]
+
+EPOCH:	116
+train_roc:[0.8303514817042343]
+valid_roc:[0.796906502016129]
+
+EPOCH:	117
+train_roc:[0.8324988392794515]
+valid_roc:[0.8051600302419355]
+
+EPOCH:	118
+train_roc:[0.8330945743117562]
+valid_roc:[0.8021200856854838]
+
+EPOCH:	119
+train_roc:[0.8265530814257007]
+valid_roc:[0.8034116683467742]
+
+EPOCH:	120
+train_roc:[0.8358435613951909]
+valid_roc:[0.8010962701612905]
+
+EPOCH:	121
+train_roc:[0.8356694778732181]
+valid_roc:[0.8053017893145162]
+
+EPOCH:	122
+train_roc:[0.8389807979587822]
+valid_roc:[0.8049395161290323]
+
+EPOCH:	123
+train_roc:[0.8391949639169658]
+valid_roc:[0.8045457409274195]
+
+EPOCH:	124
+train_roc:[0.8337196834823619]
+valid_roc:[0.8059633316532258]
+
+EPOCH:	125
+train_roc:[0.8358351126463819]
+valid_roc:[0.8084992439516129]
+
+EPOCH:	126
+train_roc:[0.8392765041670998]
+valid_roc:[0.811003654233871]
+
+EPOCH:	127
+train_roc:[0.8396236887983934]
+valid_roc:[0.809601814516129]
+
+EPOCH:	128
+train_roc:[0.8415871387251153]
+valid_roc:[0.8067823840725806]
+
+EPOCH:	129
+train_roc:[0.8419099595226339]
+valid_roc:[0.8096805695564515]
+
+EPOCH:	130
+train_roc:[0.8422532145033187]
+valid_roc:[0.8139490927419354]
+
+EPOCH:	131
+train_roc:[0.8448141678051193]
+valid_roc:[0.8093970514112903]
+
+EPOCH:	132
+train_roc:[0.840746586459878]
+valid_roc:[0.814453125]
+
+EPOCH:	133
+train_roc:[0.8427369544932706]
+valid_roc:[0.8059475806451611]
+
+EPOCH:	134
+train_roc:[0.8450039699295276]
+valid_roc:[0.8077746975806452]
+
+EPOCH:	135
+train_roc:[0.843147406499367]
+valid_roc:[0.8058688256048386]
+
+EPOCH:	136
+train_roc:[0.8460690034857965]
+valid_roc:[0.8134293094758065]
+
+EPOCH:	137
+train_roc:[0.8452929957318099]
+valid_roc:[0.810877646169355]
+
+EPOCH:	138
+train_roc:[0.8449743010674307]
+valid_roc:[0.807585685483871]
+
+EPOCH:	139
+train_roc:[0.844507065610036]
+valid_roc:[0.8118227066532258]
+
+EPOCH:	140
+train_roc:[0.8446074681830926]
+valid_roc:[0.8106571320564516]
+
+EPOCH:	141
+train_roc:[0.841400087356133]
+valid_roc:[0.8129410282258065]
+
+EPOCH:	142
+train_roc:[0.8372947813650466]
+valid_roc:[0.8160124747983872]
+
+EPOCH:	143
+train_roc:[0.8432747271790944]
+valid_roc:[0.8078061995967742]
+
+EPOCH:	144
+train_roc:[0.8463875016676454]
+valid_roc:[0.8067351310483871]
+
+EPOCH:	145
+train_roc:[0.8474348517961745]
+valid_roc:[0.8109721522177419]
+
+EPOCH:	146
+train_roc:[0.8485410484425715]
+valid_roc:[0.813019783266129]
+
+EPOCH:	147
+train_roc:[0.8474725764420197]
+valid_roc:[0.8080109627016131]
+
+EPOCH:	148
+train_roc:[0.8447140599558582]
+valid_roc:[0.8111769153225807]
+
+EPOCH:	149
+train_roc:[0.84165571112824]
+valid_roc:[0.8129252772177419]
+
+EPOCH:	150
+train_roc:[0.8496380104100374]
+valid_roc:[0.8160124747983872]
+
+EPOCH:	151
+train_roc:[0.8493236383613277]
+valid_roc:[0.808168472782258]
+
+EPOCH:	152
+train_roc:[0.8498148446874365]
+valid_roc:[0.8064201108870968]
+
+EPOCH:	153
+train_roc:[0.852627000904409]
+valid_roc:[0.8149886592741936]
+
+EPOCH:	154
+train_roc:[0.8474985121360381]
+valid_roc:[0.8163747479838709]
+
+EPOCH:	155
+train_roc:[0.84558536173711]
+valid_roc:[0.8188319052419355]
+
+EPOCH:	156
+train_roc:[0.8499642696518388]
+valid_roc:[0.8188319052419354]
+
+EPOCH:	157
+train_roc:[0.8525591161901409]
+valid_roc:[0.81787109375]
+
+EPOCH:	158
+train_roc:[0.8487856691929736]
+valid_roc:[0.8187689012096774]
+
+EPOCH:	159
+train_roc:[0.852987644589038]
+valid_roc:[0.8136813256048387]
+
+EPOCH:	160
+train_roc:[0.8523954462422815]
+valid_roc:[0.8162644909274195]
+
+EPOCH:	161
+train_roc:[0.8514694240763012]
+valid_roc:[0.8125472530241935]
+
+EPOCH:	162
+train_roc:[0.8487984405574523]
+valid_roc:[0.8109564012096774]
+
+EPOCH:	163
+train_roc:[0.8456651336444699]
+valid_roc:[0.8049710181451614]
+
+EPOCH:	164
+train_roc:[0.8537635541017594]
+valid_roc:[0.8148311491935485]
+
+EPOCH:	165
+train_roc:[0.8572330426243309]
+valid_roc:[0.8156029485887096]
+
+EPOCH:	166
+train_roc:[0.856331580774656]
+valid_roc:[0.8148941532258064]
+
+EPOCH:	167
+train_roc:[0.845576912988301]
+valid_roc:[0.8116651965725805]
+
+EPOCH:	168
+train_roc:[0.8551762634956481]
+valid_roc:[0.8155241935483871]
+
+EPOCH:	169
+train_roc:[0.854369899190708]
+valid_roc:[0.8185956401209677]
+
+EPOCH:	170
+train_roc:[0.85756057900258]
+valid_roc:[0.8168157762096774]
+
+EPOCH:	171
+train_roc:[0.8558399814834863]
+valid_roc:[0.8159652217741936]
+
+EPOCH:	172
+train_roc:[0.8568639501908926]
+valid_roc:[0.8115391885080645]
+
+EPOCH:	173
+train_roc:[0.8552084866306409]
+valid_roc:[0.8151461693548387]
+
+EPOCH:	174
+train_roc:[0.8511016087793111]
+valid_roc:[0.8164535030241936]
+
+155 0.8188319052419355
+649206
+EPOCH:	0
+train_roc:[0.5723446043617623]
+valid_roc:[0.5630778762749022]
+
+EPOCH:	1
+train_roc:[0.620295216359751]
+valid_roc:[0.6248212753788962]
+
+EPOCH:	2
+train_roc:[0.6505275438375966]
+valid_roc:[0.6462364566453785]
+
+EPOCH:	3
+train_roc:[0.6641845657092578]
+valid_roc:[0.6598513011152416]
+
+EPOCH:	4
+train_roc:[0.6857501296273019]
+valid_roc:[0.681314142280685]
+
+EPOCH:	5
+train_roc:[0.7030806124693608]
+valid_roc:[0.6945000476598989]
+
+EPOCH:	6
+train_roc:[0.7133103670416694]
+valid_roc:[0.7087026975502811]
+
+EPOCH:	7
+train_roc:[0.7229580753880963]
+valid_roc:[0.7125154894671624]
+
+EPOCH:	8
+train_roc:[0.7276819103136196]
+valid_roc:[0.7168843135385886]
+
+EPOCH:	9
+train_roc:[0.728747702061467]
+valid_roc:[0.7204746925936517]
+
+EPOCH:	10
+train_roc:[0.7355530372069636]
+valid_roc:[0.7223493152861182]
+
+EPOCH:	11
+train_roc:[0.7362178681415373]
+valid_roc:[0.728322689289232]
+
+EPOCH:	12
+train_roc:[0.7414799509773113]
+valid_roc:[0.7255901884154672]
+
+EPOCH:	13
+train_roc:[0.7431325026711081]
+valid_roc:[0.7315476757855939]
+
+EPOCH:	14
+train_roc:[0.744701189428697]
+valid_roc:[0.7330092460203983]
+
+EPOCH:	15
+train_roc:[0.7456798755577903]
+valid_roc:[0.731229943125854]
+
+EPOCH:	16
+train_roc:[0.7492781134121048]
+valid_roc:[0.7322466876370223]
+
+EPOCH:	17
+train_roc:[0.7515396188171706]
+valid_roc:[0.7342325167603978]
+
+EPOCH:	18
+train_roc:[0.753889997486016]
+valid_roc:[0.7368538112032537]
+
+EPOCH:	19
+train_roc:[0.7536912356231538]
+valid_roc:[0.7313888094557239]
+
+EPOCH:	20
+train_roc:[0.7572485230343787]
+valid_roc:[0.7403806437263687]
+
+EPOCH:	21
+train_roc:[0.7588060147068066]
+valid_roc:[0.741619801099355]
+
+EPOCH:	22
+train_roc:[0.7616020363270692]
+valid_roc:[0.7438757029835098]
+
+EPOCH:	23
+train_roc:[0.7609137349946578]
+valid_roc:[0.7383312680710448]
+
+EPOCH:	24
+train_roc:[0.7617494382816918]
+valid_roc:[0.7436850633876655]
+
+EPOCH:	25
+train_roc:[0.7672451448683302]
+valid_roc:[0.7408413560829917]
+
+EPOCH:	26
+train_roc:[0.7693034692979699]
+valid_roc:[0.7494360245289612]
+
+EPOCH:	27
+train_roc:[0.771756174973289]
+valid_roc:[0.7506592952689607]
+
+EPOCH:	28
+train_roc:[0.7690110222487586]
+valid_roc:[0.7508975947637658]
+
+EPOCH:	29
+train_roc:[0.7708772625856326]
+valid_roc:[0.7498808502525973]
+
+EPOCH:	30
+train_roc:[0.771092915278738]
+valid_roc:[0.7523750516315573]
+
+EPOCH:	31
+train_roc:[0.7748536782728931]
+valid_roc:[0.7542179010580498]
+
+EPOCH:	32
+train_roc:[0.7773364339136446]
+valid_roc:[0.7586820449273979]
+
+EPOCH:	33
+train_roc:[0.7744581185971969]
+valid_roc:[0.7599212023003844]
+
+EPOCH:	34
+train_roc:[0.779724718748036]
+valid_roc:[0.7597464493375274]
+
+EPOCH:	35
+train_roc:[0.769502427565835]
+valid_roc:[0.7574587741873987]
+
+EPOCH:	36
+train_roc:[0.7764037065552134]
+valid_roc:[0.7589362310551901]
+
+EPOCH:	37
+train_roc:[0.7809381088555087]
+valid_roc:[0.7600641819972673]
+
+EPOCH:	38
+train_roc:[0.7854259631701339]
+valid_roc:[0.761827598258825]
+
+EPOCH:	39
+train_roc:[0.7787711724593048]
+valid_roc:[0.7626854764401233]
+
+EPOCH:	40
+train_roc:[0.786457089434982]
+valid_roc:[0.7687541702411591]
+
+EPOCH:	41
+train_roc:[0.7865048158506693]
+valid_roc:[0.7672449401073936]
+
+EPOCH:	42
+train_roc:[0.7877433457985042]
+valid_roc:[0.7710259587583008]
+
+EPOCH:	43
+train_roc:[0.7884865423292062]
+valid_roc:[0.7712801448860929]
+
+EPOCH:	44
+train_roc:[0.7869481019420526]
+valid_roc:[0.7710895052902487]
+
+EPOCH:	45
+train_roc:[0.7902537945446546]
+valid_roc:[0.768944809837003]
+
+EPOCH:	46
+train_roc:[0.7877753598139652]
+valid_roc:[0.7710100721253137]
+
+EPOCH:	47
+train_roc:[0.7922037034127334]
+valid_roc:[0.771979156737521]
+
+EPOCH:	48
+train_roc:[0.7841937181823896]
+valid_roc:[0.7614780923331108]
+
+EPOCH:	49
+train_roc:[0.7927455848155364]
+valid_roc:[0.77490229720713]
+
+EPOCH:	50
+train_roc:[0.7924238734209037]
+valid_roc:[0.7734089537063515]
+
+EPOCH:	51
+train_roc:[0.7864481530073534]
+valid_roc:[0.7676579925650557]
+
+EPOCH:	52
+train_roc:[0.7944327037898309]
+valid_roc:[0.775108823435961]
+
+EPOCH:	53
+train_roc:[0.7963727924077681]
+valid_roc:[0.7757442887554411]
+
+EPOCH:	54
+train_roc:[0.7990542117088806]
+valid_roc:[0.7769357862294665]
+
+EPOCH:	55
+train_roc:[0.7967609868958582]
+valid_roc:[0.7743621516855719]
+
+EPOCH:	56
+train_roc:[0.7979577807805921]
+valid_roc:[0.7754424427286881]
+
+EPOCH:	57
+train_roc:[0.800899731317956]
+valid_roc:[0.774918183840117]
+
+EPOCH:	58
+train_roc:[0.7988347291182201]
+valid_roc:[0.7753947828297271]
+
+EPOCH:	59
+train_roc:[0.801631732763497]
+valid_roc:[0.7786197693260891]
+
+EPOCH:	60
+train_roc:[0.7954496888944755]
+valid_roc:[0.7731388809455724]
+
+EPOCH:	61
+train_roc:[0.8049600119414241]
+valid_roc:[0.7815905696946589]
+
+EPOCH:	62
+train_roc:[0.8033047105775879]
+valid_roc:[0.7765703936707653]
+
+EPOCH:	63
+train_roc:[0.8023358446986362]
+valid_roc:[0.7771105391923236]
+
+EPOCH:	64
+train_roc:[0.8052031613349255]
+valid_roc:[0.778143170336479]
+
+EPOCH:	65
+train_roc:[0.8044502427565836]
+valid_roc:[0.7783179232993359]
+
+EPOCH:	66
+train_roc:[0.8045290993652191]
+valid_roc:[0.7742350586216757]
+
+EPOCH:	67
+train_roc:[0.8056639274715605]
+valid_roc:[0.7811457439710228]
+
+EPOCH:	68
+train_roc:[0.8097776302557979]
+valid_roc:[0.7830362532964763]
+
+EPOCH:	69
+train_roc:[0.8049749387216392]
+valid_roc:[0.7794776475073872]
+
+EPOCH:	70
+train_roc:[0.8118394899754886]
+valid_roc:[0.7846884631271248]
+
+EPOCH:	71
+train_roc:[0.8103055669034]
+valid_roc:[0.7832745527912814]
+
+EPOCH:	72
+train_roc:[0.8078078844824336]
+valid_roc:[0.7770946525593365]
+
+EPOCH:	73
+train_roc:[0.8078380326503676]
+valid_roc:[0.7830680265624503]
+
+EPOCH:	74
+train_roc:[0.8090004556596065]
+valid_roc:[0.7833380993232294]
+
+EPOCH:	75
+train_roc:[0.813259105335931]
+valid_roc:[0.7830997998284244]
+
+EPOCH:	76
+train_roc:[0.8115765036767018]
+valid_roc:[0.7822736949131001]
+
+EPOCH:	77
+train_roc:[0.8169000612783609]
+valid_roc:[0.7859276205001111]
+
+EPOCH:	78
+train_roc:[0.8117857732072151]
+valid_roc:[0.7836876052489435]
+
+EPOCH:	79
+train_roc:[0.8117841037646911]
+valid_roc:[0.7836240587169956]
+
+EPOCH:	80
+train_roc:[0.810368612909308]
+valid_roc:[0.7779048708416737]
+
+EPOCH:	81
+train_roc:[0.8163854801709509]
+valid_roc:[0.7860070536650461]
+
+EPOCH:	82
+train_roc:[0.816561459053485]
+valid_roc:[0.7878181298255649]
+
+EPOCH:	83
+train_roc:[0.8217322135629439]
+valid_roc:[0.7912814158167318]
+
+EPOCH:	84
+train_roc:[0.8126308057318836]
+valid_roc:[0.7795253074063483]
+
+EPOCH:	85
+train_roc:[0.8215375762051411]
+valid_roc:[0.7894862262892002]
+
+EPOCH:	86
+train_roc:[0.8181091304757715]
+valid_roc:[0.7841642042385536]
+
+EPOCH:	87
+train_roc:[0.8196025941172774]
+valid_roc:[0.7869602516442664]
+
+EPOCH:	88
+train_roc:[0.8222964851360693]
+valid_roc:[0.785689321005306]
+
+EPOCH:	89
+train_roc:[0.8205957160140782]
+valid_roc:[0.7870079115432276]
+
+EPOCH:	90
+train_roc:[0.821023191502734]
+valid_roc:[0.785133288850761]
+
+EPOCH:	91
+train_roc:[0.8157573769719062]
+valid_roc:[0.7838146983128396]
+
+EPOCH:	92
+train_roc:[0.8194085459744831]
+valid_roc:[0.7907730435611476]
+
+EPOCH:	93
+train_roc:[0.8223481396518132]
+valid_roc:[0.7878022431925777]
+
+EPOCH:	94
+train_roc:[0.8171558787945445]
+valid_roc:[0.7842754106694627]
+
+EPOCH:	95
+train_roc:[0.8180439240148325]
+valid_roc:[0.7900581450767324]
+
+EPOCH:	96
+train_roc:[0.8282074901011879]
+valid_roc:[0.7956978997871191]
+
+EPOCH:	97
+train_roc:[0.8198726509961662]
+valid_roc:[0.7874527372668636]
+
+EPOCH:	98
+train_roc:[0.8299354613160707]
+valid_roc:[0.7940298033234836]
+
+EPOCH:	99
+train_roc:[0.8295770221859091]
+valid_roc:[0.7973501096177675]
+
+EPOCH:	100
+train_roc:[0.8265500282823204]
+valid_roc:[0.7935532043338734]
+
+EPOCH:	101
+train_roc:[0.8315323321915656]
+valid_roc:[0.7949830013027039]
+
+EPOCH:	102
+train_roc:[0.8291105603041921]
+valid_roc:[0.794824134972834]
+
+EPOCH:	103
+train_roc:[0.8259802573691156]
+valid_roc:[0.7942681028182886]
+
+EPOCH:	104
+train_roc:[0.8267945525108417]
+valid_roc:[0.7936167508658214]
+
+EPOCH:	105
+train_roc:[0.834561388347684]
+valid_roc:[0.7962062720427032]
+
+EPOCH:	106
+train_roc:[0.8294809801395262]
+valid_roc:[0.7955866933562101]
+
+EPOCH:	107
+train_roc:[0.8350991452454276]
+valid_roc:[0.8016395005242588]
+
+EPOCH:	108
+train_roc:[0.8345246606121551]
+valid_roc:[0.7967146442982873]
+
+EPOCH:	109
+train_roc:[0.8337916771416001]
+valid_roc:[0.7950306612016649]
+
+EPOCH:	110
+train_roc:[0.8324123248067374]
+valid_roc:[0.8024973787055572]
+
+EPOCH:	111
+train_roc:[0.8324140924517629]
+valid_roc:[0.7942522161853017]
+
+EPOCH:	112
+train_roc:[0.8375149267802149]
+valid_roc:[0.801671273790233]
+
+EPOCH:	113
+train_roc:[0.8380495411979134]
+valid_roc:[0.8018936866520511]
+
+EPOCH:	114
+train_roc:[0.8377981427942933]
+valid_roc:[0.8001779302894545]
+
+EPOCH:	115
+train_roc:[0.8339578357739929]
+valid_roc:[0.7979220284052999]
+
+EPOCH:	116
+train_roc:[0.8364515900949028]
+valid_roc:[0.8044990944619197]
+
+EPOCH:	117
+train_roc:[0.8330261886430771]
+valid_roc:[0.7967623041972486]
+
+EPOCH:	118
+train_roc:[0.835453263465527]
+valid_roc:[0.7975407492136116]
+
+EPOCH:	119
+train_roc:[0.8384024809879956]
+valid_roc:[0.8043878880310107]
+
+EPOCH:	120
+train_roc:[0.8404643407076866]
+valid_roc:[0.8004956629491945]
+
+EPOCH:	121
+train_roc:[0.8409791182200992]
+valid_roc:[0.8025132653385441]
+
+EPOCH:	122
+train_roc:[0.840837706618063]
+valid_roc:[0.8036571029136086]
+
+EPOCH:	123
+train_roc:[0.8431800326817925]
+valid_roc:[0.8038795157754266]
+
+EPOCH:	124
+train_roc:[0.8382769781911884]
+valid_roc:[0.798541607091793]
+
+EPOCH:	125
+train_roc:[0.8418501744076425]
+valid_roc:[0.8041337019032188]
+
+EPOCH:	126
+train_roc:[0.8429938407391112]
+valid_roc:[0.808852031900359]
+
+EPOCH:	127
+train_roc:[0.8431743369367104]
+valid_roc:[0.8033870301528293]
+
+EPOCH:	128
+train_roc:[0.8445542784865816]
+valid_roc:[0.8031963905569852]
+
+EPOCH:	129
+train_roc:[0.8413599475205832]
+valid_roc:[0.8047691672226989]
+
+EPOCH:	130
+train_roc:[0.8393177283011752]
+valid_roc:[0.7964604581704954]
+
+EPOCH:	131
+train_roc:[0.8468973901703223]
+valid_roc:[0.8058812315317891]
+
+EPOCH:	132
+train_roc:[0.8471912120545535]
+valid_roc:[0.8063260572554252]
+
+EPOCH:	133
+train_roc:[0.8383360960970399]
+valid_roc:[0.798652813522702]
+
+EPOCH:	134
+train_roc:[0.8456781079127648]
+valid_roc:[0.8040542687382837]
+
+EPOCH:	135
+train_roc:[0.8478401341838979]
+valid_roc:[0.808645505671528]
+
+EPOCH:	136
+train_roc:[0.8477996747533152]
+valid_roc:[0.8080100403520478]
+
+EPOCH:	137
+train_roc:[0.845985481742191]
+valid_roc:[0.8094398373208782]
+
+EPOCH:	138
+train_roc:[0.8483113097856828]
+valid_roc:[0.808852031900359]
+
+EPOCH:	139
+train_roc:[0.8468284520143298]
+valid_roc:[0.8065961300162042]
+
+EPOCH:	140
+train_roc:[0.846037921877946]
+valid_roc:[0.8073428017665936]
+
+EPOCH:	141
+train_roc:[0.8493019766199486]
+valid_roc:[0.8114574397102278]
+
+EPOCH:	142
+train_roc:[0.8482879375903464]
+valid_roc:[0.8089155784323071]
+
+EPOCH:	143
+train_roc:[0.8497567524039973]
+valid_roc:[0.8126012772852921]
+
+EPOCH:	144
+train_roc:[0.8473194645214003]
+valid_roc:[0.8064690369523084]
+
+EPOCH:	145
+train_roc:[0.8494135346615549]
+valid_roc:[0.8058494582658152]
+
+EPOCH:	146
+train_roc:[0.8449154672867827]
+valid_roc:[0.8060400978616591]
+
+EPOCH:	147
+train_roc:[0.8514266859405442]
+valid_roc:[0.8102500556032155]
+
+EPOCH:	148
+train_roc:[0.8525831185971969]
+valid_roc:[0.8065484701172434]
+
+EPOCH:	149
+train_roc:[0.8447673779146503]
+valid_roc:[0.8072633686016585]
+
+EPOCH:	150
+train_roc:[0.8519283043177677]
+valid_roc:[0.8114574397102277]
+
+EPOCH:	151
+train_roc:[0.8522311608321287]
+valid_roc:[0.811648079306072]
+
+EPOCH:	152
+train_roc:[0.8517705911004965]
+valid_roc:[0.8106472214278905]
+
+EPOCH:	153
+train_roc:[0.8472697740556847]
+valid_roc:[0.8081371334159437]
+
+EPOCH:	154
+train_roc:[0.8384152473131795]
+valid_roc:[0.7903917643694595]
+
+EPOCH:	155
+train_roc:[0.852631041417887]
+valid_roc:[0.8110443872525657]
+
+EPOCH:	156
+train_roc:[0.8481092090377726]
+valid_roc:[0.8062307374575032]
+
+EPOCH:	157
+train_roc:[0.8510755137954874]
+valid_roc:[0.8078511740221779]
+
+EPOCH:	158
+train_roc:[0.8535373523034379]
+valid_roc:[0.809471610586852]
+
+EPOCH:	159
+train_roc:[0.8502588617937276]
+valid_roc:[0.8133797223016553]
+
+EPOCH:	160
+train_roc:[0.8496674863302118]
+valid_roc:[0.8129825564769804]
+
+EPOCH:	161
+train_roc:[0.8519308575828043]
+valid_roc:[0.8095828170177612]
+
+EPOCH:	162
+train_roc:[0.851845421406574]
+valid_roc:[0.8107107679598387]
+
+EPOCH:	163
+train_roc:[0.8530262082835773]
+valid_roc:[0.8105995615289295]
+
+EPOCH:	164
+train_roc:[0.8506420479542455]
+valid_roc:[0.8112191402154227]
+
+EPOCH:	165
+train_roc:[0.8527013544088995]
+valid_roc:[0.8131890827058113]
+
+EPOCH:	166
+train_roc:[0.8486728913958896]
+valid_roc:[0.8129666698439932]
+
+EPOCH:	167
+train_roc:[0.8526866240336873]
+valid_roc:[0.8160010167445111]
+
+EPOCH:	168
+train_roc:[0.8538786059958519]
+valid_roc:[0.8147459727385378]
+
+EPOCH:	169
+train_roc:[0.8567586889573251]
+valid_roc:[0.8150637053982779]
+
+EPOCH:	170
+train_roc:[0.8591074963861479]
+valid_roc:[0.8175261335112636]
+
+EPOCH:	171
+train_roc:[0.8570917918421218]
+valid_roc:[0.8140787341530836]
+
+EPOCH:	172
+train_roc:[0.8580219659355164]
+valid_roc:[0.8143011470149016]
+
+EPOCH:	173
+train_roc:[0.8564988451385833]
+valid_roc:[0.8156673974517841]
+
+EPOCH:	174
+train_roc:[0.8536802369429954]
+valid_roc:[0.8131414228068501]
+
+EPOCH:	175
+train_roc:[0.8555401923197787]
+valid_roc:[0.8127442569821752]
+
+EPOCH:	176
+train_roc:[0.8561286217082522]
+valid_roc:[0.8105519016299685]
+
+EPOCH:	177
+train_roc:[0.8604664226007165]
+valid_roc:[0.8199409017252883]
+
+EPOCH:	178
+train_roc:[0.856351737791465]
+valid_roc:[0.8110285006195787]
+
+EPOCH:	179
+train_roc:[0.8578062150399095]
+valid_roc:[0.8124741842213961]
+
+EPOCH:	180
+train_roc:[0.860744924894727]
+valid_roc:[0.8139198678232136]
+
+EPOCH:	181
+train_roc:[0.8538970680661179]
+valid_roc:[0.8085342992406189]
+
+EPOCH:	182
+train_roc:[0.8503894711206084]
+valid_roc:[0.8128554634130842]
+
+EPOCH:	183
+train_roc:[0.8604805637609201]
+valid_roc:[0.8175102468782764]
+
+EPOCH:	184
+train_roc:[0.8607883304003521]
+valid_roc:[0.8138245480252916]
+
+EPOCH:	185
+train_roc:[0.8610391395889636]
+valid_roc:[0.8127124837162012]
+
+EPOCH:	186
+train_roc:[0.8597640783106028]
+valid_roc:[0.815286118260096]
+
+EPOCH:	187
+train_roc:[0.8528109484004776]
+valid_roc:[0.805341086010231]
+
+EPOCH:	188
+train_roc:[0.8591033718810885]
+valid_roc:[0.8138086613923046]
+
+EPOCH:	189
+train_roc:[0.8622735450317391]
+valid_roc:[0.8179709592348998]
+
+EPOCH:	190
+train_roc:[0.8570041952108604]
+valid_roc:[0.8106948813268515]
+
+EPOCH:	191
+train_roc:[0.8610921689397273]
+valid_roc:[0.815715057350745]
+
+EPOCH:	192
+train_roc:[0.859253818113255]
+valid_roc:[0.8084230928097099]
+
+EPOCH:	193
+train_roc:[0.8586406416944252]
+valid_roc:[0.809074444762177]
+
+EPOCH:	194
+train_roc:[0.863174454779712]
+valid_roc:[0.8195119626346393]
+
+EPOCH:	195
+train_roc:[0.8644974388787632]
+valid_roc:[0.8198773551933405]
+
+EPOCH:	196
+train_roc:[0.8653940277166741]
+valid_roc:[0.8213706986941189]
+
+EPOCH:	197
+train_roc:[0.8623849066683426]
+valid_roc:[0.8207670066406126]
+
+EPOCH:	198
+train_roc:[0.8643652583118596]
+valid_roc:[0.8171607409525625]
+
+EPOCH:	199
+train_roc:[0.8646916834265602]
+valid_roc:[0.8191942299748992]
+
+EPOCH:	200
+train_roc:[0.8629827634969518]
+valid_roc:[0.8160963365424332]
+
+EPOCH:	201
+train_roc:[0.8633131167117089]
+valid_roc:[0.8217043179868457]
+
+EPOCH:	202
+train_roc:[0.8607679042800578]
+valid_roc:[0.8193530963047693]
+
+EPOCH:	203
+train_roc:[0.8636145983910503]
+valid_roc:[0.8130778762749022]
+
+EPOCH:	204
+train_roc:[0.8676821459996229]
+valid_roc:[0.822037937279573]
+
+EPOCH:	205
+train_roc:[0.8654060084218465]
+valid_roc:[0.8163981825691863]
+
+EPOCH:	206
+train_roc:[0.8641792627741814]
+valid_roc:[0.815603850919836]
+
+EPOCH:	207
+train_roc:[0.868158820941487]
+valid_roc:[0.8220220506465861]
+
+EPOCH:	208
+train_roc:[0.8676894129847276]
+valid_roc:[0.8199409017252883]
+
+EPOCH:	209
+train_roc:[0.8686032854628873]
+valid_roc:[0.8232453213865853]
+
+EPOCH:	210
+train_roc:[0.8680861510904404]
+valid_roc:[0.8209417596034696]
+
+EPOCH:	211
+train_roc:[0.8674719926465967]
+valid_roc:[0.8177485463730817]
+
+EPOCH:	212
+train_roc:[0.8702102711960279]
+valid_roc:[0.8199885616242495]
+
+EPOCH:	213
+train_roc:[0.8697532367544466]
+valid_roc:[0.8226575159660663]
+
+EPOCH:	214
+train_roc:[0.8705991531016277]
+valid_roc:[0.8191942299748991]
+
+EPOCH:	215
+train_roc:[0.8696943152535982]
+valid_roc:[0.8215295650239887]
+
+EPOCH:	216
+train_roc:[0.8673592561749732]
+valid_roc:[0.8166364820639914]
+
+EPOCH:	217
+train_roc:[0.8612243495066306]
+valid_roc:[0.8207828932735997]
+
+EPOCH:	218
+train_roc:[0.8679304019231978]
+valid_roc:[0.8194325294697042]
+
+EPOCH:	219
+train_roc:[0.8663234161900573]
+valid_roc:[0.8190512502780161]
+
+EPOCH:	220
+train_roc:[0.8703558073031237]
+valid_roc:[0.8177326597400947]
+
+EPOCH:	221
+train_roc:[0.8667028706555213]
+valid_roc:[0.8187335176182761]
+
+EPOCH:	222
+train_roc:[0.8695789273144365]
+valid_roc:[0.8179868458678867]
+
+EPOCH:	223
+train_roc:[0.8711714772798692]
+valid_roc:[0.821545451656976]
+
+EPOCH:	224
+train_roc:[0.8706828216328326]
+valid_roc:[0.8258666158294411]
+
+EPOCH:	225
+train_roc:[0.8702470971340581]
+valid_roc:[0.8239602198710007]
+
+EPOCH:	226
+train_roc:[0.8708462305951857]
+valid_roc:[0.8237060337432084]
+
+EPOCH:	227
+train_roc:[0.8721148105084533]
+valid_roc:[0.8265497410478824]
+
+EPOCH:	228
+train_roc:[0.872618196530702]
+valid_roc:[0.8237695802751565]
+
+EPOCH:	229
+train_roc:[0.8723235890264597]
+valid_roc:[0.8294887681504782]
+
+EPOCH:	230
+train_roc:[0.8727790522280183]
+valid_roc:[0.8240555396689226]
+
+EPOCH:	231
+train_roc:[0.8688175633209728]
+valid_roc:[0.8302195532678804]
+
+EPOCH:	232
+train_roc:[0.8726453986235938]
+valid_roc:[0.8252788104089219]
+
+EPOCH:	233
+train_roc:[0.8711657815347873]
+valid_roc:[0.8215136783910019]
+
+EPOCH:	234
+train_roc:[0.8728640955942429]
+valid_roc:[0.8276618053569726]
+
+EPOCH:	235
+train_roc:[0.8672981742190937]
+valid_roc:[0.8113780065452929]
+
+EPOCH:	236
+train_roc:[0.8703361668028409]
+valid_roc:[0.8169383280907444]
+
+EPOCH:	237
+train_roc:[0.8729909732260701]
+valid_roc:[0.82878975629905]
+
+EPOCH:	238
+train_roc:[0.8719463932185281]
+valid_roc:[0.8229593619928193]
+
+EPOCH:	239
+train_roc:[0.8722401169002577]
+valid_roc:[0.8272646395322976]
+
+EPOCH:	240
+train_roc:[0.8719633822512727]
+valid_roc:[0.8266609474787913]
+
+EPOCH:	241
+train_roc:[0.8778906888316259]
+valid_roc:[0.8242144059987926]
+
+EPOCH:	242
+train_roc:[0.8725305016969394]
+valid_roc:[0.8269310202395703]
+
+EPOCH:	243
+train_roc:[0.8740197426308843]
+valid_roc:[0.82831315730944]
+
+EPOCH:	244
+train_roc:[0.8737237602916221]
+valid_roc:[0.8182728052616527]
+
+EPOCH:	245
+train_roc:[0.8782088649362076]
+valid_roc:[0.8264067613509993]
+
+EPOCH:	246
+train_roc:[0.877937924234806]
+valid_roc:[0.8295840879484002]
+
+EPOCH:	247
+train_roc:[0.874701660800704]
+valid_roc:[0.8246115718234678]
+
+EPOCH:	248
+train_roc:[0.8779747501728364]
+valid_roc:[0.8248339846852857]
+
+EPOCH:	249
+train_roc:[0.8772639604676009]
+valid_roc:[0.832475455152035]
+
+EPOCH:	250
+train_roc:[0.8714548896989504]
+valid_roc:[0.8223397833063261]
+
+EPOCH:	251
+train_roc:[0.879634372446735]
+valid_roc:[0.8272646395322976]
+
+EPOCH:	252
+train_roc:[0.8796011800012569]
+valid_roc:[0.8289645092619071]
+
+EPOCH:	253
+train_roc:[0.8774898262208536]
+valid_roc:[0.8221968036094429]
+
+EPOCH:	254
+train_roc:[0.8777926827352146]
+valid_roc:[0.8211641724652877]
+
+EPOCH:	255
+train_roc:[0.8769819228835397]
+valid_roc:[0.8319353096304769]
+
+EPOCH:	256
+train_roc:[0.8816471309157186]
+valid_roc:[0.8262478950211292]
+
+EPOCH:	257
+train_roc:[0.8785779099365219]
+valid_roc:[0.829171035490738]
+
+EPOCH:	258
+train_roc:[0.8787399440638552]
+valid_roc:[0.8295999745813872]
+
+EPOCH:	259
+train_roc:[0.8810048865564704]
+valid_roc:[0.8273758459632065]
+
+EPOCH:	260
+train_roc:[0.8793927942932561]
+valid_roc:[0.8252788104089219]
+
+EPOCH:	261
+train_roc:[0.881530073534033]
+valid_roc:[0.829250468655673]
+
+EPOCH:	262
+train_roc:[0.8831517896423858]
+valid_roc:[0.8294569948845041]
+
+EPOCH:	263
+train_roc:[0.8832301552385142]
+valid_roc:[0.828932735995933]
+
+EPOCH:	264
+train_roc:[0.8816797341461882]
+valid_roc:[0.83223715565723]
+
+EPOCH:	265
+train_roc:[0.8839637279240776]
+valid_roc:[0.8302195532678804]
+
+EPOCH:	266
+train_roc:[0.88421944723776]
+valid_roc:[0.8316334636037238]
+
+EPOCH:	267
+train_roc:[0.8848493180818302]
+valid_roc:[0.8297270676452833]
+
+EPOCH:	268
+train_roc:[0.8821780136383635]
+valid_roc:[0.8301877800019064]
+
+249 0.832475455152035
+649206
+EPOCH:	0
+train_roc:[0.484163856662265]
+valid_roc:[0.4938308852719333]
+
+EPOCH:	1
+train_roc:[0.6294922734704144]
+valid_roc:[0.5753552997221119]
+
+EPOCH:	2
+train_roc:[0.6498663774130667]
+valid_roc:[0.5916951171099643]
+
+EPOCH:	3
+train_roc:[0.6673113956486197]
+valid_roc:[0.6298531163159985]
+
+EPOCH:	4
+train_roc:[0.6962977700748286]
+valid_roc:[0.655180627233029]
+
+EPOCH:	5
+train_roc:[0.7124469439728353]
+valid_roc:[0.6753791186978959]
+
+EPOCH:	6
+train_roc:[0.7199751029679935]
+valid_roc:[0.6895117109964273]
+
+EPOCH:	7
+train_roc:[0.7252896466075585]
+valid_roc:[0.6938467645891226]
+
+EPOCH:	8
+train_roc:[0.7306976278060744]
+valid_roc:[0.7006589916633583]
+
+EPOCH:	9
+train_roc:[0.7291616558196568]
+valid_roc:[0.7029932512901946]
+
+EPOCH:	10
+train_roc:[0.7388790636986732]
+valid_roc:[0.7118062723302898]
+
+EPOCH:	11
+train_roc:[0.7365528516632083]
+valid_roc:[0.7081063914251686]
+
+EPOCH:	12
+train_roc:[0.737342796956549]
+valid_roc:[0.7101389440254069]
+
+EPOCH:	13
+train_roc:[0.7421393565679432]
+valid_roc:[0.7136482731242557]
+
+EPOCH:	14
+train_roc:[0.7431551829843426]
+valid_roc:[0.7131877729257642]
+
+EPOCH:	15
+train_roc:[0.7459626328365717]
+valid_roc:[0.7191107582373958]
+
+EPOCH:	16
+train_roc:[0.7470754338803999]
+valid_roc:[0.7200793965859468]
+
+EPOCH:	17
+train_roc:[0.7517294299817645]
+valid_roc:[0.7230964668519253]
+
+EPOCH:	18
+train_roc:[0.7511949396340313]
+valid_roc:[0.7206986899563319]
+
+EPOCH:	19
+train_roc:[0.7532855436081242]
+valid_roc:[0.7208574831282255]
+
+EPOCH:	20
+train_roc:[0.7573404978620385]
+valid_roc:[0.7266057959507741]
+
+EPOCH:	21
+train_roc:[0.7570122382569326]
+valid_roc:[0.7260658991663359]
+
+EPOCH:	22
+train_roc:[0.7575864223731372]
+valid_roc:[0.7350535926955141]
+
+EPOCH:	23
+train_roc:[0.763123997830598]
+valid_roc:[0.7355458515283843]
+
+EPOCH:	24
+train_roc:[0.7652640225114757]
+valid_roc:[0.7348947995236206]
+
+EPOCH:	25
+train_roc:[0.7667694381563227]
+valid_roc:[0.7430408892417626]
+
+EPOCH:	26
+train_roc:[0.7682712184807898]
+valid_roc:[0.7405795950774117]
+
+EPOCH:	27
+train_roc:[0.7712685892598881]
+valid_roc:[0.737514886859865]
+
+EPOCH:	28
+train_roc:[0.7716610073571025]
+valid_roc:[0.7442794759825329]
+
+EPOCH:	29
+train_roc:[0.7696642339495693]
+valid_roc:[0.7385311631599841]
+
+EPOCH:	30
+train_roc:[0.7728928897063447]
+valid_roc:[0.7454227868201666]
+
+EPOCH:	31
+train_roc:[0.773901740237691]
+valid_roc:[0.7348471615720524]
+
+EPOCH:	32
+train_roc:[0.77678936364208]
+valid_roc:[0.7462802699483924]
+
+EPOCH:	33
+train_roc:[0.7777249182544175]
+valid_roc:[0.7484080984517665]
+
+EPOCH:	34
+train_roc:[0.7779269241652518]
+valid_roc:[0.7352600238189757]
+
+EPOCH:	35
+train_roc:[0.7756754818273282]
+valid_roc:[0.7439777689559348]
+
+EPOCH:	36
+train_roc:[0.7821566685531033]
+valid_roc:[0.7467407701468838]
+
+EPOCH:	37
+train_roc:[0.7820533075520342]
+valid_roc:[0.7485192536720922]
+
+EPOCH:	38
+train_roc:[0.7849935939759793]
+valid_roc:[0.7452004763795157]
+
+EPOCH:	39
+train_roc:[0.7855719046720746]
+valid_roc:[0.7500754267566495]
+
+EPOCH:	40
+train_roc:[0.7847257592907]
+valid_roc:[0.748026994839222]
+
+EPOCH:	41
+train_roc:[0.7866835266930767]
+valid_roc:[0.7487098054783645]
+
+EPOCH:	42
+train_roc:[0.7857532776834559]
+valid_roc:[0.7512028582770941]
+
+EPOCH:	43
+train_roc:[0.7865487250833176]
+valid_roc:[0.7524414450178643]
+
+EPOCH:	44
+train_roc:[0.7850842804816701]
+valid_roc:[0.7513457721317983]
+
+EPOCH:	45
+train_roc:[0.7858224470225743]
+valid_roc:[0.7538547042477174]
+
+EPOCH:	46
+train_roc:[0.7894982471860654]
+valid_roc:[0.7437872171496626]
+
+EPOCH:	47
+train_roc:[0.790692007797271]
+valid_roc:[0.7533783247320366]
+
+EPOCH:	48
+train_roc:[0.7908930311890838]
+valid_roc:[0.752870186581977]
+
+EPOCH:	49
+train_roc:[0.7915700850468465]
+valid_roc:[0.7499642715363238]
+
+EPOCH:	50
+train_roc:[0.7935779609193234]
+valid_roc:[0.7540928940055578]
+
+EPOCH:	51
+train_roc:[0.7871958121109226]
+valid_roc:[0.7435172687574434]
+
+EPOCH:	52
+train_roc:[0.7912249261145696]
+valid_roc:[0.7429456133386264]
+
+EPOCH:	53
+train_roc:[0.7950088033704334]
+valid_roc:[0.7551885668916236]
+
+EPOCH:	54
+train_roc:[0.7955142111551279]
+valid_roc:[0.7542993251290195]
+
+EPOCH:	55
+train_roc:[0.7927535292083254]
+valid_roc:[0.7510599444223898]
+
+EPOCH:	56
+train_roc:[0.7974629393825065]
+valid_roc:[0.7470107185391027]
+
+EPOCH:	57
+train_roc:[0.7891467018801485]
+valid_roc:[0.756173084557364]
+
+EPOCH:	58
+train_roc:[0.7971047129472427]
+valid_roc:[0.748471615720524]
+
+EPOCH:	59
+train_roc:[0.796051157800415]
+valid_roc:[0.747502977371973]
+
+EPOCH:	60
+train_roc:[0.8006869772998806]
+valid_roc:[0.7556649464073045]
+
+EPOCH:	61
+train_roc:[0.8014495103125197]
+valid_roc:[0.7532195315601429]
+
+EPOCH:	62
+train_roc:[0.8013741511035652]
+valid_roc:[0.7564589122667725]
+
+EPOCH:	63
+train_roc:[0.8020670235175753]
+valid_roc:[0.759428344581183]
+
+EPOCH:	64
+train_roc:[0.8042073429541595]
+valid_roc:[0.756173084557364]
+
+EPOCH:	65
+train_roc:[0.804262167515563]
+valid_roc:[0.755823739579198]
+
+EPOCH:	66
+train_roc:[0.8059018935106583]
+valid_roc:[0.7532989281460898]
+
+EPOCH:	67
+train_roc:[0.8058310538892034]
+valid_roc:[0.7596982929734022]
+
+EPOCH:	68
+train_roc:[0.8068412799471798]
+valid_roc:[0.7577610162763001]
+
+EPOCH:	69
+train_roc:[0.804468300006288]
+valid_roc:[0.7569511710996428]
+
+EPOCH:	70
+train_roc:[0.8016355011633025]
+valid_roc:[0.7612068281063914]
+
+EPOCH:	71
+train_roc:[0.8109478164497265]
+valid_roc:[0.7613497419610957]
+
+EPOCH:	72
+train_roc:[0.807331360435138]
+valid_roc:[0.7609051210797936]
+
+EPOCH:	73
+train_roc:[0.8125654357668364]
+valid_roc:[0.7620484319174274]
+
+EPOCH:	74
+train_roc:[0.8102398132427844]
+valid_roc:[0.7602540690750298]
+
+EPOCH:	75
+train_roc:[0.8122827650443313]
+valid_roc:[0.7645097260817784]
+
+EPOCH:	76
+train_roc:[0.8148647267811105]
+valid_roc:[0.7607622072250894]
+
+EPOCH:	77
+train_roc:[0.813623903508772]
+valid_roc:[0.7617784835252084]
+
+EPOCH:	78
+train_roc:[0.8111474643149093]
+valid_roc:[0.7585073441842001]
+
+EPOCH:	79
+train_roc:[0.811541454442558]
+valid_roc:[0.7649543469630806]
+
+EPOCH:	80
+train_roc:[0.8153078428598377]
+valid_roc:[0.7616196903533148]
+
+EPOCH:	81
+train_roc:[0.8171357212475634]
+valid_roc:[0.7640333465660977]
+
+EPOCH:	82
+train_roc:[0.8168610089291328]
+valid_roc:[0.7636363636363637]
+
+EPOCH:	83
+train_roc:[0.8119788719109602]
+valid_roc:[0.757094084954347]
+
+EPOCH:	84
+train_roc:[0.818280159403886]
+valid_roc:[0.771226677252878]
+
+EPOCH:	85
+train_roc:[0.8129859539080675]
+valid_roc:[0.7682254863040889]
+
+EPOCH:	86
+train_roc:[0.8144237722442307]
+valid_roc:[0.7640968638348552]
+
+EPOCH:	87
+train_roc:[0.8155086697478463]
+valid_roc:[0.7704485907105996]
+
+EPOCH:	88
+train_roc:[0.817014478400302]
+valid_roc:[0.7556649464073044]
+
+EPOCH:	89
+train_roc:[0.8221427364333773]
+valid_roc:[0.7659229853116316]
+
+EPOCH:	90
+train_roc:[0.8193245771238131]
+valid_roc:[0.7663993648273124]
+
+EPOCH:	91
+train_roc:[0.8108777628434887]
+valid_roc:[0.7677967447399762]
+
+EPOCH:	92
+train_roc:[0.8176996871659435]
+valid_roc:[0.7644462088130212]
+
+EPOCH:	93
+train_roc:[0.8201622728416021]
+valid_roc:[0.7720524017467248]
+
+EPOCH:	94
+train_roc:[0.8205884895931586]
+valid_roc:[0.7722270742358079]
+
+EPOCH:	95
+train_roc:[0.8193277211846822]
+valid_roc:[0.7724335053592695]
+
+EPOCH:	96
+train_roc:[0.823931903571653]
+valid_roc:[0.7692894005557761]
+
+EPOCH:	97
+train_roc:[0.8127975067597308]
+valid_roc:[0.7522508932115919]
+
+EPOCH:	98
+train_roc:[0.8244287634408602]
+valid_roc:[0.7641445017864232]
+
+EPOCH:	99
+train_roc:[0.8172453703703704]
+valid_roc:[0.755474394601032]
+
+EPOCH:	100
+train_roc:[0.8268814256744011]
+valid_roc:[0.7716077808654227]
+
+EPOCH:	101
+train_roc:[0.8204609586241589]
+valid_roc:[0.7553473600635172]
+
+EPOCH:	102
+train_roc:[0.8297681648116707]
+valid_roc:[0.7729734021437076]
+
+EPOCH:	103
+train_roc:[0.8297532305225429]
+valid_roc:[0.7650337435490274]
+
+EPOCH:	104
+train_roc:[0.8279725130478526]
+valid_roc:[0.7691464867010718]
+
+EPOCH:	105
+train_roc:[0.8314708702760486]
+valid_roc:[0.7674315204446209]
+
+EPOCH:	106
+train_roc:[0.8203736126831416]
+valid_roc:[0.7527749106788408]
+
+EPOCH:	107
+train_roc:[0.8316355404640634]
+valid_roc:[0.7736085748312822]
+
+EPOCH:	108
+train_roc:[0.8233528068603408]
+valid_roc:[0.7737038507344185]
+
+EPOCH:	109
+train_roc:[0.8331417421241275]
+valid_roc:[0.7717506947201269]
+
+EPOCH:	110
+train_roc:[0.8297467458970006]
+valid_roc:[0.7707502977371973]
+
+EPOCH:	111
+train_roc:[0.8308613154750676]
+valid_roc:[0.7744025406907503]
+
+EPOCH:	112
+train_roc:[0.8321682622775576]
+valid_roc:[0.7666534339023422]
+
+EPOCH:	113
+train_roc:[0.8309760736967868]
+valid_roc:[0.7636046050019849]
+
+EPOCH:	114
+train_roc:[0.8316965548953028]
+valid_roc:[0.775228265184597]
+
+EPOCH:	115
+train_roc:[0.8349636271458215]
+valid_roc:[0.7733386264390631]
+
+EPOCH:	116
+train_roc:[0.8315927026347231]
+valid_roc:[0.7687018658197697]
+
+EPOCH:	117
+train_roc:[0.8374583411934855]
+valid_roc:[0.7739102818578801]
+
+EPOCH:	118
+train_roc:[0.8349772841602214]
+valid_roc:[0.7759904724096863]
+
+EPOCH:	119
+train_roc:[0.8303073712507074]
+valid_roc:[0.7633028979753871]
+
+EPOCH:	120
+train_roc:[0.8341358548701503]
+valid_roc:[0.7708773322747121]
+
+EPOCH:	121
+train_roc:[0.8368951612903226]
+valid_roc:[0.7771020246129415]
+
+EPOCH:	122
+train_roc:[0.8363701031251964]
+valid_roc:[0.7775625248114332]
+
+EPOCH:	123
+train_roc:[0.8337194633088096]
+valid_roc:[0.7754505756252481]
+
+EPOCH:	124
+train_roc:[0.8233717694774572]
+valid_roc:[0.7674473997618102]
+
+EPOCH:	125
+train_roc:[0.8305614506696849]
+valid_roc:[0.7789599047240969]
+
+EPOCH:	126
+train_roc:[0.8362231182795699]
+valid_roc:[0.772719333068678]
+
+EPOCH:	127
+train_roc:[0.8338564264604162]
+valid_roc:[0.7736085748312822]
+
+EPOCH:	128
+train_roc:[0.8374717034521788]
+valid_roc:[0.773021040095276]
+
+EPOCH:	129
+train_roc:[0.8379446881091619]
+valid_roc:[0.7733862643906312]
+
+EPOCH:	130
+train_roc:[0.8420099588128026]
+valid_roc:[0.7734497816593886]
+
+EPOCH:	131
+train_roc:[0.8411425910205621]
+valid_roc:[0.7750377133783246]
+
+EPOCH:	132
+train_roc:[0.8395446220838836]
+valid_roc:[0.7742119888844778]
+
+EPOCH:	133
+train_roc:[0.8411021112368736]
+valid_roc:[0.777737197300516]
+
+EPOCH:	134
+train_roc:[0.8435846420486701]
+valid_roc:[0.7785470424771734]
+
+EPOCH:	135
+train_roc:[0.8412143149091367]
+valid_roc:[0.7780071456927352]
+
+EPOCH:	136
+train_roc:[0.8433190671571402]
+valid_roc:[0.7731639539499802]
+
+EPOCH:	137
+train_roc:[0.8440567424385337]
+valid_roc:[0.7797221119491862]
+
+EPOCH:	138
+train_roc:[0.835323523863422]
+valid_roc:[0.7744819372766971]
+
+EPOCH:	139
+train_roc:[0.8339269713261649]
+valid_roc:[0.776323938070663]
+
+EPOCH:	140
+train_roc:[0.8339937826196315]
+valid_roc:[0.7700833664152442]
+
+EPOCH:	141
+train_roc:[0.8429734169653526]
+valid_roc:[0.7759904724096864]
+
+EPOCH:	142
+train_roc:[0.8429435483870968]
+valid_roc:[0.7732274712187376]
+
+EPOCH:	143
+train_roc:[0.8406939728353141]
+valid_roc:[0.7635252084160382]
+
+EPOCH:	144
+train_roc:[0.8355999064641892]
+valid_roc:[0.7748947995236204]
+
+EPOCH:	145
+train_roc:[0.8430685248066403]
+valid_roc:[0.7814529575228266]
+
+EPOCH:	146
+train_roc:[0.8452876422687543]
+valid_roc:[0.7770226280269947]
+
+EPOCH:	147
+train_roc:[0.8397548811544991]
+valid_roc:[0.7647479158396189]
+
+EPOCH:	148
+train_roc:[0.8463621250707414]
+valid_roc:[0.778086542278682]
+
+EPOCH:	149
+train_roc:[0.846668277997862]
+valid_roc:[0.7777689559348949]
+
+EPOCH:	150
+train_roc:[0.8422832956046029]
+valid_roc:[0.7798173878523222]
+
+EPOCH:	151
+train_roc:[0.8464695143997988]
+valid_roc:[0.7830726478761414]
+
+EPOCH:	152
+train_roc:[0.8448152471231843]
+valid_roc:[0.7761016276300118]
+
+EPOCH:	153
+train_roc:[0.8474727645727221]
+valid_roc:[0.7837395791980944]
+
+EPOCH:	154
+train_roc:[0.8424399091366409]
+valid_roc:[0.7835172687574434]
+
+EPOCH:	155
+train_roc:[0.8447134581525498]
+valid_roc:[0.773021040095276]
+
+EPOCH:	156
+train_roc:[0.8472611299754764]
+valid_roc:[0.7769273521238587]
+
+EPOCH:	157
+train_roc:[0.8475083317613029]
+valid_roc:[0.7871853910281857]
+
+EPOCH:	158
+train_roc:[0.8498811151983902]
+valid_roc:[0.7763398173878524]
+
+EPOCH:	159
+train_roc:[0.8452190624410489]
+valid_roc:[0.7874870980547836]
+
+EPOCH:	160
+train_roc:[0.8501043435200906]
+valid_roc:[0.7829456133386264]
+
+EPOCH:	161
+train_roc:[0.83212326290637]
+valid_roc:[0.7715601429138548]
+
+EPOCH:	162
+train_roc:[0.8464603769728982]
+valid_roc:[0.7821992854307265]
+
+EPOCH:	163
+train_roc:[0.8494881075897631]
+valid_roc:[0.7818975784041287]
+
+EPOCH:	164
+train_roc:[0.8484317031377727]
+valid_roc:[0.7800873362445415]
+
+EPOCH:	165
+train_roc:[0.849248176444696]
+valid_roc:[0.772544660579595]
+
+EPOCH:	166
+train_roc:[0.8515093457209332]
+valid_roc:[0.7869472012703452]
+
+EPOCH:	167
+train_roc:[0.8460036038797711]
+valid_roc:[0.7873918221516476]
+
+EPOCH:	168
+train_roc:[0.842765712444193]
+valid_roc:[0.7773560936879713]
+
+EPOCH:	169
+train_roc:[0.8441054753820034]
+valid_roc:[0.7812624057165541]
+
+EPOCH:	170
+train_roc:[0.8482363783562851]
+valid_roc:[0.7819293370385074]
+
+EPOCH:	171
+train_roc:[0.8523376092561152]
+valid_roc:[0.7820722508932116]
+
+EPOCH:	172
+train_roc:[0.8462701612903226]
+valid_roc:[0.7868201667328305]
+
+EPOCH:	173
+train_roc:[0.8527868169527761]
+valid_roc:[0.7797856292179436]
+
+EPOCH:	174
+train_roc:[0.8542976364522417]
+valid_roc:[0.7849622866216752]
+
+EPOCH:	175
+train_roc:[0.8514963764698484]
+valid_roc:[0.7874394601032155]
+
+EPOCH:	176
+train_roc:[0.8512672530340187]
+valid_roc:[0.7754982135768163]
+
+EPOCH:	177
+train_roc:[0.852193375463749]
+valid_roc:[0.7831202858277093]
+
+EPOCH:	178
+train_roc:[0.8529878403445891]
+valid_roc:[0.7731798332671695]
+
+159 0.7874870980547836
+649206
+EPOCH:	0
+train_roc:[0.5202215890681836]
+valid_roc:[0.4894153225806452]
+
+EPOCH:	1
+train_roc:[0.6402303679076438]
+valid_roc:[0.648405997983871]
+
+EPOCH:	2
+train_roc:[0.6382455996263688]
+valid_roc:[0.64404296875]
+
+EPOCH:	3
+train_roc:[0.6715581320091459]
+valid_roc:[0.6594947076612904]
+
+EPOCH:	4
+train_roc:[0.6918804183741817]
+valid_roc:[0.6733555947580645]
+
+EPOCH:	5
+train_roc:[0.7109425640302183]
+valid_roc:[0.6929498487903225]
+
+EPOCH:	6
+train_roc:[0.7083381880891897]
+valid_roc:[0.680112777217742]
+
+EPOCH:	7
+train_roc:[0.7250403820720694]
+valid_roc:[0.7028414818548387]
+
+EPOCH:	8
+train_roc:[0.7318805284043989]
+valid_roc:[0.7061176915322581]
+
+EPOCH:	9
+train_roc:[0.7334390278358767]
+valid_roc:[0.700778099798387]
+
+EPOCH:	10
+train_roc:[0.7406674236483624]
+valid_roc:[0.7091576360887096]
+
+EPOCH:	11
+train_roc:[0.7397539763643304]
+valid_roc:[0.7052198840725806]
+
+EPOCH:	12
+train_roc:[0.7431676638482557]
+valid_roc:[0.7123708417338709]
+
+EPOCH:	13
+train_roc:[0.7492295428774984]
+valid_roc:[0.7132056451612903]
+
+EPOCH:	14
+train_roc:[0.7475806614820166]
+valid_roc:[0.7125126008064516]
+
+EPOCH:	15
+train_roc:[0.7488251818298458]
+valid_roc:[0.7145444808467742]
+
+EPOCH:	16
+train_roc:[0.752398806093552]
+valid_roc:[0.7172064012096775]
+
+EPOCH:	17
+train_roc:[0.7537936355771704]
+valid_roc:[0.7201360887096774]
+
+EPOCH:	18
+train_roc:[0.7537590546518124]
+valid_roc:[0.7161038306451613]
+
+EPOCH:	19
+train_roc:[0.7548813628657056]
+valid_roc:[0.7285313760080646]
+
+EPOCH:	20
+train_roc:[0.7617128639666955]
+valid_roc:[0.7291771673387096]
+
+EPOCH:	21
+train_roc:[0.7588944203087487]
+valid_roc:[0.7264049899193549]
+
+EPOCH:	22
+train_roc:[0.7649644533630048]
+valid_roc:[0.7322013608870968]
+
+EPOCH:	23
+train_roc:[0.765131070548821]
+valid_roc:[0.7386750252016129]
+
+EPOCH:	24
+train_roc:[0.7671296908484921]
+valid_roc:[0.7421717489919355]
+
+EPOCH:	25
+train_roc:[0.7692568107230734]
+valid_roc:[0.7407069052419355]
+
+EPOCH:	26
+train_roc:[0.7706860246495193]
+valid_roc:[0.7453534526209677]
+
+EPOCH:	27
+train_roc:[0.7716971237511816]
+valid_roc:[0.7466607862903226]
+
+EPOCH:	28
+train_roc:[0.768620010841906]
+valid_roc:[0.7362493699596773]
+
+EPOCH:	29
+train_roc:[0.7735947520302049]
+valid_roc:[0.7431640625]
+
+EPOCH:	30
+train_roc:[0.7758244357856776]
+valid_roc:[0.7460779989919355]
+
+EPOCH:	31
+train_roc:[0.7792595398654212]
+valid_roc:[0.7463457661290323]
+
+EPOCH:	32
+train_roc:[0.7743857906977704]
+valid_roc:[0.7417622227822582]
+
+EPOCH:	33
+train_roc:[0.7792719182648391]
+valid_roc:[0.7469600554435484]
+
+EPOCH:	34
+train_roc:[0.7804331300197602]
+valid_roc:[0.7513703377016128]
+
+EPOCH:	35
+train_roc:[0.7803423550906954]
+valid_roc:[0.7502047631048386]
+
+EPOCH:	36
+train_roc:[0.7832943086280784]
+valid_roc:[0.7493227066532259]
+
+EPOCH:	37
+train_roc:[0.7815744970391065]
+valid_roc:[0.7492282006048387]
+
+EPOCH:	38
+train_roc:[0.7852846766614711]
+valid_roc:[0.7493857106854838]
+
+EPOCH:	39
+train_roc:[0.7832797689208256]
+valid_roc:[0.7503150201612903]
+
+EPOCH:	40
+train_roc:[0.7851895791167365]
+valid_roc:[0.7571667086693548]
+
+EPOCH:	41
+train_roc:[0.7869156781466825]
+valid_roc:[0.7545677923387096]
+
+EPOCH:	42
+train_roc:[0.7836416897419025]
+valid_roc:[0.7515120967741936]
+
+EPOCH:	43
+train_roc:[0.7881198213345055]
+valid_roc:[0.7568831905241935]
+
+EPOCH:	44
+train_roc:[0.7815715498011497]
+valid_roc:[0.7565996723790323]
+
+EPOCH:	45
+train_roc:[0.789775677859818]
+valid_roc:[0.7593876008064515]
+
+EPOCH:	46
+train_roc:[0.7902191389310289]
+valid_roc:[0.7540795110887096]
+
+EPOCH:	47
+train_roc:[0.7869997726697122]
+valid_roc:[0.7581590221774193]
+
+EPOCH:	48
+train_roc:[0.7883678805291903]
+valid_roc:[0.7562846522177419]
+
+EPOCH:	49
+train_roc:[0.7864207386524952]
+valid_roc:[0.7562689012096775]
+
+EPOCH:	50
+train_roc:[0.7922975311380602]
+valid_roc:[0.7622700352822581]
+
+EPOCH:	51
+train_roc:[0.7937931561597961]
+valid_roc:[0.7586000504032258]
+
+EPOCH:	52
+train_roc:[0.7876216398785659]
+valid_roc:[0.7556231098790323]
+
+EPOCH:	53
+train_roc:[0.7933441935777327]
+valid_roc:[0.7629000756048386]
+
+EPOCH:	54
+train_roc:[0.7896625039222824]
+valid_roc:[0.7559696320564516]
+
+EPOCH:	55
+train_roc:[0.7912141264651947]
+valid_roc:[0.758694556451613]
+
+EPOCH:	56
+train_roc:[0.7962994873181334]
+valid_roc:[0.7641759072580645]
+
+EPOCH:	57
+train_roc:[0.7872878160593424]
+valid_roc:[0.7508348034274195]
+
+EPOCH:	58
+train_roc:[0.7965515744046923]
+valid_roc:[0.7595136088709677]
+
+EPOCH:	59
+train_roc:[0.7961815977998672]
+valid_roc:[0.7590725806451613]
+
+EPOCH:	60
+train_roc:[0.7976106152437827]
+valid_roc:[0.7671370967741936]
+
+EPOCH:	61
+train_roc:[0.7970195957922087]
+valid_roc:[0.7654832409274194]
+
+EPOCH:	62
+train_roc:[0.798388686064339]
+valid_roc:[0.7657195060483872]
+
+EPOCH:	63
+train_roc:[0.7997041366056582]
+valid_roc:[0.7662707913306451]
+
+EPOCH:	64
+train_roc:[0.7922276815984876]
+valid_roc:[0.7605531754032258]
+
+EPOCH:	65
+train_roc:[0.7997622954346695]
+valid_roc:[0.7634828629032258]
+
+EPOCH:	66
+train_roc:[0.8019446269003054]
+valid_roc:[0.7685546875]
+
+EPOCH:	67
+train_roc:[0.7968215414015216]
+valid_roc:[0.7654517389112904]
+
+EPOCH:	68
+train_roc:[0.8019271399550958]
+valid_roc:[0.7635616179435485]
+
+EPOCH:	69
+train_roc:[0.8041703810051694]
+valid_roc:[0.768491683467742]
+
+EPOCH:	70
+train_roc:[0.8033736443442209]
+valid_roc:[0.7675938760080645]
+
+EPOCH:	71
+train_roc:[0.797169020756611]
+valid_roc:[0.7678931451612904]
+
+EPOCH:	72
+train_roc:[0.7976746685487074]
+valid_roc:[0.763703377016129]
+
+EPOCH:	73
+train_roc:[0.8018330248230134]
+valid_roc:[0.7674363659274193]
+
+EPOCH:	74
+train_roc:[0.8032966231922871]
+valid_roc:[0.7700195312500001]
+
+EPOCH:	75
+train_roc:[0.8033352320095192]
+valid_roc:[0.7676883820564516]
+
+EPOCH:	76
+train_roc:[0.8046822179969746]
+valid_roc:[0.7689327116935484]
+
+EPOCH:	77
+train_roc:[0.8039968869307876]
+valid_roc:[0.7711221018145161]
+
+EPOCH:	78
+train_roc:[0.8048707429849351]
+valid_roc:[0.7691059727822581]
+
+EPOCH:	79
+train_roc:[0.8026860537289338]
+valid_roc:[0.7649477066532259]
+
+EPOCH:	80
+train_roc:[0.8081611376810071]
+valid_roc:[0.7717993951612904]
+
+EPOCH:	81
+train_roc:[0.8050525875668606]
+valid_roc:[0.7720514112903225]
+
+EPOCH:	82
+train_roc:[0.8061336344493606]
+valid_roc:[0.7740045362903226]
+
+EPOCH:	83
+train_roc:[0.8101729223102181]
+valid_roc:[0.7754063760080646]
+
+EPOCH:	84
+train_roc:[0.8095182425187802]
+valid_roc:[0.7749180947580645]
+
+EPOCH:	85
+train_roc:[0.8044206997489542]
+valid_roc:[0.7709803427419354]
+
+EPOCH:	86
+train_roc:[0.8117948855990291]
+valid_roc:[0.7791551159274193]
+
+EPOCH:	87
+train_roc:[0.8132759709135122]
+valid_roc:[0.7804466985887097]
+
+EPOCH:	88
+train_roc:[0.812713244946322]
+valid_roc:[0.7795803931451614]
+
+EPOCH:	89
+train_roc:[0.8144965203926271]
+valid_roc:[0.7766507056451611]
+
+EPOCH:	90
+train_roc:[0.8139554075037856]
+valid_roc:[0.7786353326612904]
+
+EPOCH:	91
+train_roc:[0.8087138430391446]
+valid_roc:[0.7735320060483871]
+
+EPOCH:	92
+train_roc:[0.8096498858141774]
+valid_roc:[0.774807837701613]
+
+EPOCH:	93
+train_roc:[0.8140254535258888]
+valid_roc:[0.7802891885080645]
+
+EPOCH:	94
+train_roc:[0.8117493998932315]
+valid_roc:[0.780635710685484]
+
+EPOCH:	95
+train_roc:[0.8153598646313958]
+valid_roc:[0.7810137348790323]
+
+EPOCH:	96
+train_roc:[0.8174944508421339]
+valid_roc:[0.7837386592741935]
+
+EPOCH:	97
+train_roc:[0.8175247091518222]
+valid_roc:[0.7817225302419355]
+
+EPOCH:	98
+train_roc:[0.8191731975822432]
+valid_roc:[0.7879126764112904]
+
+EPOCH:	99
+train_roc:[0.820218681126733]
+valid_roc:[0.7886372227822581]
+
+EPOCH:	100
+train_roc:[0.8212060058422115]
+valid_roc:[0.7869991179435483]
+
+EPOCH:	101
+train_roc:[0.8210708258612665]
+valid_roc:[0.7887474798387097]
+
+EPOCH:	102
+train_roc:[0.8209979308424719]
+valid_roc:[0.7893932711693549]
+
+EPOCH:	103
+train_roc:[0.8215482784102441]
+valid_roc:[0.7911731350806452]
+
+EPOCH:	104
+train_roc:[0.8214867793782153]
+valid_roc:[0.7806199596774195]
+
+EPOCH:	105
+train_roc:[0.8100611237503956]
+valid_roc:[0.7760994203629032]
+
+EPOCH:	106
+train_roc:[0.8221552129467842]
+valid_roc:[0.7886844758064516]
+
+EPOCH:	107
+train_roc:[0.819651632543873]
+valid_roc:[0.7870621219758064]
+
+EPOCH:	108
+train_roc:[0.822873356595555]
+valid_roc:[0.7890624999999999]
+
+EPOCH:	109
+train_roc:[0.8251075594492281]
+valid_roc:[0.794559601814516]
+
+EPOCH:	110
+train_roc:[0.8251641464179957]
+valid_roc:[0.7900233114919354]
+
+EPOCH:	111
+train_roc:[0.8272098242837083]
+valid_roc:[0.7938035534274194]
+
+EPOCH:	112
+train_roc:[0.8267878780495808]
+valid_roc:[0.7908108618951614]
+
+EPOCH:	113
+train_roc:[0.8261027434659244]
+valid_roc:[0.7924174647177418]
+
+EPOCH:	114
+train_roc:[0.8300158895422369]
+valid_roc:[0.7972372731854839]
+
+EPOCH:	115
+train_roc:[0.8260286695519471]
+valid_roc:[0.786069808467742]
+
+EPOCH:	116
+train_roc:[0.8273262401829959]
+valid_roc:[0.7897397933467742]
+
+EPOCH:	117
+train_roc:[0.8249464437742644]
+valid_roc:[0.7912991431451613]
+
+EPOCH:	118
+train_roc:[0.8298052602696016]
+valid_roc:[0.7941185735887097]
+
+EPOCH:	119
+train_roc:[0.8303218128421375]
+valid_roc:[0.794921875]
+
+EPOCH:	120
+train_roc:[0.8311576495266442]
+valid_roc:[0.7974735383064515]
+
+EPOCH:	121
+train_roc:[0.8293295760633979]
+valid_roc:[0.7899918094758064]
+
+EPOCH:	122
+train_roc:[0.8267185197163343]
+valid_roc:[0.7940398185483871]
+
+EPOCH:	123
+train_roc:[0.8235505336367286]
+valid_roc:[0.7861170614919355]
+
+EPOCH:	124
+train_roc:[0.826255410392079]
+valid_roc:[0.7938350554435484]
+
+EPOCH:	125
+train_roc:[0.8330301280417706]
+valid_roc:[0.7996786794354838]
+
+EPOCH:	126
+train_roc:[0.8292415518897591]
+valid_roc:[0.7901965725806452]
+
+EPOCH:	127
+train_roc:[0.8350812091770702]
+valid_roc:[0.7952368951612903]
+
+EPOCH:	128
+train_roc:[0.8318197956542387]
+valid_roc:[0.7922442036290323]
+
+EPOCH:	129
+train_roc:[0.8293058016772141]
+valid_roc:[0.790621849798387]
+
+EPOCH:	130
+train_roc:[0.8322671863760586]
+valid_roc:[0.7947643649193549]
+
+EPOCH:	131
+train_roc:[0.8353075570521411]
+valid_roc:[0.7963394657258065]
+
+EPOCH:	132
+train_roc:[0.8290962530584962]
+valid_roc:[0.7921339465725807]
+
+EPOCH:	133
+train_roc:[0.8372676667758454]
+valid_roc:[0.8015372983870968]
+
+EPOCH:	134
+train_roc:[0.830177594664792]
+valid_roc:[0.7918189264112904]
+
+EPOCH:	135
+train_roc:[0.8377180047356219]
+valid_roc:[0.7980563256048387]
+
+EPOCH:	136
+train_roc:[0.8363479320508395]
+valid_roc:[0.7987651209677418]
+
+EPOCH:	137
+train_roc:[0.8373106964500125]
+valid_roc:[0.7956464213709677]
+
+EPOCH:	138
+train_roc:[0.8395652352455865]
+valid_roc:[0.800812752016129]
+
+EPOCH:	139
+train_roc:[0.836337518476726]
+valid_roc:[0.7961819556451613]
+
+EPOCH:	140
+train_roc:[0.8331947804022823]
+valid_roc:[0.7923544606854839]
+
+EPOCH:	141
+train_roc:[0.8400603712223041]
+valid_roc:[0.7998204385080645]
+
+EPOCH:	142
+train_roc:[0.8393841765937828]
+valid_roc:[0.7991746471774193]
+
+EPOCH:	143
+train_roc:[0.8410584042356917]
+valid_roc:[0.799221900201613]
+
+EPOCH:	144
+train_roc:[0.8418284192724999]
+valid_roc:[0.80126953125]
+
+EPOCH:	145
+train_roc:[0.8399060341946407]
+valid_roc:[0.7932207661290323]
+
+EPOCH:	146
+train_roc:[0.8406526678103261]
+valid_roc:[0.7966702368951613]
+
+EPOCH:	147
+train_roc:[0.8429947395732125]
+valid_roc:[0.8014585433467742]
+
+EPOCH:	148
+train_roc:[0.8418663404008755]
+valid_roc:[0.799773185483871]
+
+EPOCH:	149
+train_roc:[0.838538515782754]
+valid_roc:[0.799741683467742]
+
+EPOCH:	150
+train_roc:[0.8402433946994121]
+valid_roc:[0.7956936743951613]
+
+EPOCH:	151
+train_roc:[0.8377439404296405]
+valid_roc:[0.7976940524193548]
+
+EPOCH:	152
+train_roc:[0.8397427572118422]
+valid_roc:[0.7969852570564517]
+
+133 0.8015372983870968
+649206
+EPOCH:	0
+train_roc:[0.5252391300930583]
+valid_roc:[0.5800205647393815]
+
+EPOCH:	1
+train_roc:[0.6393870056275152]
+valid_roc:[0.6788895040734004]
+
+EPOCH:	2
+train_roc:[0.6496245048415492]
+valid_roc:[0.6827018903741201]
+
+EPOCH:	3
+train_roc:[0.6647265428508553]
+valid_roc:[0.6604761528118326]
+
+EPOCH:	4
+train_roc:[0.6980707487110162]
+valid_roc:[0.7001502807877876]
+
+EPOCH:	5
+train_roc:[0.7150679467429577]
+valid_roc:[0.6999920904848533]
+
+EPOCH:	6
+train_roc:[0.7161383339097083]
+valid_roc:[0.7052598275725699]
+
+EPOCH:	7
+train_roc:[0.729520875251509]
+valid_roc:[0.7125365815075535]
+
+EPOCH:	8
+train_roc:[0.7350399270623742]
+valid_roc:[0.7100688127817764]
+
+EPOCH:	9
+train_roc:[0.7363319565832495]
+valid_roc:[0.714767064778929]
+
+EPOCH:	10
+train_roc:[0.7424930442027162]
+valid_roc:[0.7178201376255635]
+
+EPOCH:	11
+train_roc:[0.7358879841549296]
+valid_roc:[0.7159851301115241]
+
+EPOCH:	12
+train_roc:[0.7415676677251006]
+valid_roc:[0.7180574230799652]
+
+EPOCH:	13
+train_roc:[0.7480547346579477]
+valid_roc:[0.7243533971367555]
+
+EPOCH:	14
+train_roc:[0.7488399144869217]
+valid_roc:[0.7263782330143163]
+
+EPOCH:	15
+train_roc:[0.7537379550741952]
+valid_roc:[0.7237680930158981]
+
+EPOCH:	16
+train_roc:[0.753606207557847]
+valid_roc:[0.728798544649213]
+
+EPOCH:	17
+train_roc:[0.7584736937248492]
+valid_roc:[0.7318990745867278]
+
+EPOCH:	18
+train_roc:[0.7621889540367203]
+valid_roc:[0.7292414774974294]
+
+EPOCH:	19
+train_roc:[0.7648301920900402]
+valid_roc:[0.7302855334967966]
+
+EPOCH:	20
+train_roc:[0.7674138581488934]
+valid_roc:[0.7339239104642885]
+
+EPOCH:	21
+train_roc:[0.7710756727867204]
+valid_roc:[0.7379577631891164]
+
+EPOCH:	22
+train_roc:[0.7696685975226358]
+valid_roc:[0.7361543937356638]
+
+EPOCH:	23
+train_roc:[0.7719377790178572]
+valid_roc:[0.735838013129795]
+
+EPOCH:	24
+train_roc:[0.7733420051559357]
+valid_roc:[0.7382425057343984]
+
+EPOCH:	25
+train_roc:[0.7752636915241449]
+valid_roc:[0.7443802894882543]
+
+EPOCH:	26
+train_roc:[0.7737104266222334]
+valid_roc:[0.7488728940915922]
+
+EPOCH:	27
+train_roc:[0.7730016819668009]
+valid_roc:[0.7399667800363838]
+
+EPOCH:	28
+train_roc:[0.7775705011317907]
+valid_roc:[0.7396820374911017]
+
+EPOCH:	29
+train_roc:[0.7801687075578471]
+valid_roc:[0.7485723325160167]
+
+EPOCH:	30
+train_roc:[0.7795648893360161]
+valid_roc:[0.7523530807561496]
+
+EPOCH:	31
+train_roc:[0.7814633897132797]
+valid_roc:[0.7541089931187218]
+
+EPOCH:	32
+train_roc:[0.7790659975477867]
+valid_roc:[0.7465633156687494]
+
+EPOCH:	33
+train_roc:[0.7836725430709255]
+valid_roc:[0.7465000395475757]
+
+EPOCH:	34
+train_roc:[0.7783415335764587]
+valid_roc:[0.7525903662105511]
+
+EPOCH:	35
+train_roc:[0.7836750974597585]
+valid_roc:[0.7483192280313216]
+
+EPOCH:	36
+train_roc:[0.7843188034456741]
+valid_roc:[0.7458356402752512]
+
+EPOCH:	37
+train_roc:[0.7845573440643863]
+valid_roc:[0.7529542039073005]
+
+EPOCH:	38
+train_roc:[0.7848699619592556]
+valid_roc:[0.7521316143320415]
+
+EPOCH:	39
+train_roc:[0.7879489829602615]
+valid_roc:[0.7504231590603496]
+
+EPOCH:	40
+train_roc:[0.7896765357771629]
+valid_roc:[0.7542671834216562]
+
+EPOCH:	41
+train_roc:[0.7881142322686117]
+valid_roc:[0.752542909119671]
+
+EPOCH:	42
+train_roc:[0.7903612102301308]
+valid_roc:[0.7547575733607529]
+
+EPOCH:	43
+train_roc:[0.7926099566146881]
+valid_roc:[0.7589337973582219]
+
+EPOCH:	44
+train_roc:[0.7936735648264588]
+valid_roc:[0.7572411611168235]
+
+EPOCH:	45
+train_roc:[0.791632804640342]
+valid_roc:[0.7518785098473463]
+
+EPOCH:	46
+train_roc:[0.792110278860664]
+valid_roc:[0.758364312267658]
+
+EPOCH:	47
+train_roc:[0.7884795098717305]
+valid_roc:[0.7429091196709641]
+
+EPOCH:	48
+train_roc:[0.7927889603244467]
+valid_roc:[0.7602784149331646]
+
+EPOCH:	49
+train_roc:[0.7961073079099596]
+valid_roc:[0.7579055603891481]
+
+EPOCH:	50
+train_roc:[0.792965606136821]
+valid_roc:[0.7531914893617021]
+
+EPOCH:	51
+train_roc:[0.7957923321177063]
+valid_roc:[0.7588863402673417]
+
+EPOCH:	52
+train_roc:[0.7904121997610664]
+valid_roc:[0.7610693664478368]
+
+EPOCH:	53
+train_roc:[0.789224015970825]
+valid_roc:[0.7560389148145219]
+
+EPOCH:	54
+train_roc:[0.7980964890907947]
+valid_roc:[0.7603100529937515]
+
+EPOCH:	55
+train_roc:[0.7939523861921529]
+valid_roc:[0.7550264968757416]
+
+EPOCH:	56
+train_roc:[0.7979199415241449]
+valid_roc:[0.7520683382108676]
+
+EPOCH:	57
+train_roc:[0.7993665115694165]
+valid_roc:[0.7586965119038204]
+
+EPOCH:	58
+train_roc:[0.7976031973088531]
+valid_roc:[0.76154393735664]
+
+EPOCH:	59
+train_roc:[0.7997807155432596]
+valid_roc:[0.7642331725065254]
+
+EPOCH:	60
+train_roc:[0.7993210237990442]
+valid_roc:[0.7591078066914497]
+
+EPOCH:	61
+train_roc:[0.8030130981199698]
+valid_roc:[0.7603575100846317]
+
+EPOCH:	62
+train_roc:[0.8039308114310864]
+valid_roc:[0.767254607292573]
+
+EPOCH:	63
+train_roc:[0.7959633779237928]
+valid_roc:[0.7606106145693268]
+
+EPOCH:	64
+train_roc:[0.8010956363179075]
+valid_roc:[0.7696749189274698]
+
+EPOCH:	65
+train_roc:[0.8032415194290745]
+valid_roc:[0.770718974926837]
+
+EPOCH:	66
+train_roc:[0.8078217350980885]
+valid_roc:[0.7674127975955074]
+
+EPOCH:	67
+train_roc:[0.7956300301810865]
+valid_roc:[0.7581744839041367]
+
+EPOCH:	68
+train_roc:[0.8049606231136821]
+valid_roc:[0.7581586648738433]
+
+EPOCH:	69
+train_roc:[0.806943516568159]
+valid_roc:[0.7679981017163648]
+
+EPOCH:	70
+train_roc:[0.8063172000754528]
+valid_roc:[0.766400379656727]
+
+EPOCH:	71
+train_roc:[0.8078346052879778]
+valid_roc:[0.7666693031717156]
+
+EPOCH:	72
+train_roc:[0.8016461071114186]
+valid_roc:[0.7665585699596615]
+
+EPOCH:	73
+train_roc:[0.7995702732017104]
+valid_roc:[0.7570671517835956]
+
+EPOCH:	74
+train_roc:[0.8076417489310865]
+valid_roc:[0.7605631574784466]
+
+EPOCH:	75
+train_roc:[0.8096255265970825]
+valid_roc:[0.7624614411136597]
+
+EPOCH:	76
+train_roc:[0.8130824006539235]
+valid_roc:[0.7639484299612432]
+
+EPOCH:	77
+train_roc:[0.8113744969818913]
+valid_roc:[0.7706556988056632]
+
+EPOCH:	78
+train_roc:[0.8116395639461771]
+valid_roc:[0.7680930158981255]
+
+EPOCH:	79
+train_roc:[0.8117933185047788]
+valid_roc:[0.762793640749822]
+
+EPOCH:	80
+train_roc:[0.8146081567530181]
+valid_roc:[0.7729494581982125]
+
+EPOCH:	81
+train_roc:[0.8156802140970825]
+valid_roc:[0.7674286166258009]
+
+EPOCH:	82
+train_roc:[0.8143707950829979]
+valid_roc:[0.7698172902001106]
+
+EPOCH:	83
+train_roc:[0.8146256444919516]
+valid_roc:[0.7652139523847188]
+
+EPOCH:	84
+train_roc:[0.8189378458249497]
+valid_roc:[0.7712410029265205]
+
+EPOCH:	85
+train_roc:[0.8191028986418512]
+valid_roc:[0.7696116428062959]
+
+EPOCH:	86
+train_roc:[0.8184737330231387]
+valid_roc:[0.7692794431701336]
+
+EPOCH:	87
+train_roc:[0.8164228535274145]
+valid_roc:[0.7661630942023253]
+
+EPOCH:	88
+train_roc:[0.8208070689763581]
+valid_roc:[0.7720952305623665]
+
+EPOCH:	89
+train_roc:[0.8199951663103622]
+valid_roc:[0.7670173218381713]
+
+EPOCH:	90
+train_roc:[0.8224829445422535]
+valid_roc:[0.7670410503836116]
+
+EPOCH:	91
+train_roc:[0.8194512779803823]
+valid_roc:[0.7616230325081071]
+
+EPOCH:	92
+train_roc:[0.8206697214537223]
+valid_roc:[0.7730443723799729]
+
+EPOCH:	93
+train_roc:[0.8172837808098592]
+valid_roc:[0.7673495214743337]
+
+EPOCH:	94
+train_roc:[0.818762771944165]
+valid_roc:[0.7714466503203353]
+
+EPOCH:	95
+train_roc:[0.8253326600226358]
+valid_roc:[0.775259036621055]
+
+EPOCH:	96
+train_roc:[0.8215773154552313]
+valid_roc:[0.7712726409871073]
+
+EPOCH:	97
+train_roc:[0.8276937012701207]
+valid_roc:[0.7772996915289092]
+
+EPOCH:	98
+train_roc:[0.8249732771629779]
+valid_roc:[0.7705133275330222]
+
+EPOCH:	99
+train_roc:[0.8278573786468812]
+valid_roc:[0.7775527960136043]
+
+EPOCH:	100
+train_roc:[0.8097733864122233]
+valid_roc:[0.7734556671676025]
+
+EPOCH:	101
+train_roc:[0.8285726075201207]
+valid_roc:[0.7725539824408763]
+
+EPOCH:	102
+train_roc:[0.8301915005658954]
+valid_roc:[0.7771889583168551]
+
+EPOCH:	103
+train_roc:[0.8276060660840039]
+valid_roc:[0.7707506129874238]
+
+EPOCH:	104
+train_roc:[0.8304216902980383]
+valid_roc:[0.7808747923752275]
+
+EPOCH:	105
+train_roc:[0.8300753741197183]
+valid_roc:[0.7757019694692715]
+
+EPOCH:	106
+train_roc:[0.8313232913103622]
+valid_roc:[0.7735664003796567]
+
+EPOCH:	107
+train_roc:[0.8221225792253521]
+valid_roc:[0.7632365735980383]
+
+EPOCH:	108
+train_roc:[0.8336684167505031]
+valid_roc:[0.7769358538321602]
+
+EPOCH:	109
+train_roc:[0.8357371769680583]
+valid_roc:[0.7777268053468323]
+
+EPOCH:	110
+train_roc:[0.8356836330482897]
+valid_roc:[0.7790872419520682]
+
+EPOCH:	111
+train_roc:[0.8370150591046278]
+valid_roc:[0.7807798781934668]
+
+EPOCH:	112
+train_roc:[0.8343060315015092]
+valid_roc:[0.7746579134699043]
+
+EPOCH:	113
+train_roc:[0.8372506523516097]
+valid_roc:[0.7797516412243929]
+
+EPOCH:	114
+train_roc:[0.8381668919768612]
+valid_roc:[0.774214980621688]
+
+EPOCH:	115
+train_roc:[0.8367431149396378]
+valid_roc:[0.7743415328640353]
+
+EPOCH:	116
+train_roc:[0.839589686556841]
+valid_roc:[0.7819979435260618]
+
+EPOCH:	117
+train_roc:[0.8374654175050302]
+valid_roc:[0.7794036225579373]
+
+EPOCH:	118
+train_roc:[0.838864043636821]
+valid_roc:[0.7815550106778456]
+
+EPOCH:	119
+train_roc:[0.8344915194290745]
+valid_roc:[0.7745471802578501]
+
+EPOCH:	120
+train_roc:[0.841851106639839]
+valid_roc:[0.7820928577078226]
+
+EPOCH:	121
+train_roc:[0.8310574383802817]
+valid_roc:[0.7811437158902159]
+
+EPOCH:	122
+train_roc:[0.8424337037852112]
+valid_roc:[0.7820770386775291]
+
+EPOCH:	123
+train_roc:[0.8434586031815896]
+valid_roc:[0.7814917345566716]
+
+EPOCH:	124
+train_roc:[0.8366279709507042]
+valid_roc:[0.7811595349205094]
+
+EPOCH:	125
+train_roc:[0.8408729722082494]
+valid_roc:[0.7796567270426322]
+
+EPOCH:	126
+train_roc:[0.8444109972334004]
+valid_roc:[0.7863798149173457]
+
+EPOCH:	127
+train_roc:[0.8410419548541247]
+valid_roc:[0.781934667404888]
+
+EPOCH:	128
+train_roc:[0.8447491590165996]
+valid_roc:[0.7881673653405046]
+
+EPOCH:	129
+train_roc:[0.8447707730759556]
+valid_roc:[0.7773313295894961]
+
+EPOCH:	130
+train_roc:[0.838238414864185]
+valid_roc:[0.7771889583168552]
+
+EPOCH:	131
+train_roc:[0.8449324855382294]
+valid_roc:[0.7832951040101241]
+
+EPOCH:	132
+train_roc:[0.8416597239688128]
+valid_roc:[0.7864272720082259]
+
+EPOCH:	133
+train_roc:[0.8425924688757546]
+valid_roc:[0.7813651823143242]
+
+EPOCH:	134
+train_roc:[0.849267872862173]
+valid_roc:[0.7850826544332832]
+
+EPOCH:	135
+train_roc:[0.8462140027665996]
+valid_roc:[0.7846871786759473]
+
+EPOCH:	136
+train_roc:[0.8494553257042253]
+valid_roc:[0.7882306414616784]
+
+EPOCH:	137
+train_roc:[0.8423511773767605]
+valid_roc:[0.7769042157715732]
+
+EPOCH:	138
+train_roc:[0.8444285832180582]
+valid_roc:[0.7824883334651587]
+
+EPOCH:	139
+train_roc:[0.8490037883551308]
+valid_roc:[0.778043185952701]
+
+EPOCH:	140
+train_roc:[0.8438549264336016]
+valid_roc:[0.7850193783121094]
+
+EPOCH:	141
+train_roc:[0.8468241087147887]
+valid_roc:[0.7818872103140078]
+
+EPOCH:	142
+train_roc:[0.850933137889839]
+valid_roc:[0.7871865854623111]
+
+EPOCH:	143
+train_roc:[0.8505376006036216]
+valid_roc:[0.7927707031558966]
+
+EPOCH:	144
+train_roc:[0.8465969646001006]
+valid_roc:[0.7794194415882307]
+
+EPOCH:	145
+train_roc:[0.847155786280181]
+valid_roc:[0.7876927944317013]
+
+EPOCH:	146
+train_roc:[0.8547796544894367]
+valid_roc:[0.7871233093411374]
+
+EPOCH:	147
+train_roc:[0.8532309088908451]
+valid_roc:[0.7938780352764375]
+
+EPOCH:	148
+train_roc:[0.853258712430835]
+valid_roc:[0.7860317962508898]
+
+EPOCH:	149
+train_roc:[0.8530071051307846]
+valid_roc:[0.7846555406153602]
+
+EPOCH:	150
+train_roc:[0.8533884950326962]
+valid_roc:[0.7841176935853832]
+
+EPOCH:	151
+train_roc:[0.8553215779049297]
+valid_roc:[0.7925808747923753]
+
+EPOCH:	152
+train_roc:[0.8557145608023139]
+valid_roc:[0.7869018429170291]
+
+EPOCH:	153
+train_roc:[0.8583463672660965]
+valid_roc:[0.7930554457011785]
+
+EPOCH:	154
+train_roc:[0.8532336597711268]
+valid_roc:[0.7891165071581112]
+
+EPOCH:	155
+train_roc:[0.8524799185739437]
+valid_roc:[0.7847029977062406]
+
+EPOCH:	156
+train_roc:[0.8565549547283702]
+valid_roc:[0.792501779640908]
+
+EPOCH:	157
+train_roc:[0.8568656077087526]
+valid_roc:[0.7879142608558096]
+
+EPOCH:	158
+train_roc:[0.8579113351986922]
+valid_roc:[0.79568140472989]
+
+EPOCH:	159
+train_roc:[0.8481608400402414]
+valid_roc:[0.7798149173455666]
+
+EPOCH:	160
+train_roc:[0.8509709624937123]
+valid_roc:[0.7884679269160801]
+
+EPOCH:	161
+train_roc:[0.8579810896629778]
+valid_roc:[0.7826307047377996]
+
+EPOCH:	162
+train_roc:[0.8580842476735413]
+valid_roc:[0.7896859922486752]
+
+EPOCH:	163
+train_roc:[0.8580645985286721]
+valid_roc:[0.7872182235228979]
+
+EPOCH:	164
+train_roc:[0.8600862990442656]
+valid_roc:[0.791426085580954]
+
+EPOCH:	165
+train_roc:[0.8614157601861167]
+valid_roc:[0.7928339792770704]
+
+EPOCH:	166
+train_roc:[0.85774038763833]
+valid_roc:[0.7840544174642095]
+
+EPOCH:	167
+train_roc:[0.8573336503395372]
+valid_roc:[0.7944791584275883]
+
+EPOCH:	168
+train_roc:[0.8612485459632797]
+valid_roc:[0.7908724195206833]
+
+EPOCH:	169
+train_roc:[0.8600346217932596]
+valid_roc:[0.794146958791426]
+
+EPOCH:	170
+train_roc:[0.8609571491448693]
+valid_roc:[0.7920113897018114]
+
+EPOCH:	171
+train_roc:[0.8618374308350101]
+valid_roc:[0.7889741358854703]
+
+EPOCH:	172
+train_roc:[0.8599263550050302]
+valid_roc:[0.7849402831606422]
+
+EPOCH:	173
+train_roc:[0.8616785674987425]
+valid_roc:[0.7926757889741359]
+
+EPOCH:	174
+train_roc:[0.8650284519617706]
+valid_roc:[0.7956181286087163]
+
+EPOCH:	175
+train_roc:[0.8575857488682093]
+valid_roc:[0.7889899549157636]
+
+EPOCH:	176
+train_roc:[0.8623581331740442]
+valid_roc:[0.7931503598829391]
+
+EPOCH:	177
+train_roc:[0.8617568693410462]
+valid_roc:[0.7875187850984735]
+
+158 0.79568140472989
+649206
+EPOCH:	0
+train_roc:[0.5050673559051067]
+valid_roc:[0.5111892988462027]
+
+EPOCH:	1
+train_roc:[0.6296152886807905]
+valid_roc:[0.6126854317230886]
+
+EPOCH:	2
+train_roc:[0.6486508196817903]
+valid_roc:[0.62969126410549]
+
+EPOCH:	3
+train_roc:[0.6724970097866882]
+valid_roc:[0.6579022441993153]
+
+EPOCH:	4
+train_roc:[0.7008130041381803]
+valid_roc:[0.6822777989095982]
+
+EPOCH:	5
+train_roc:[0.7185805668540992]
+valid_roc:[0.6891879041460631]
+
+EPOCH:	6
+train_roc:[0.7165189399816562]
+valid_roc:[0.6903448713072144]
+
+EPOCH:	7
+train_roc:[0.7287899112461482]
+valid_roc:[0.7020888804361608]
+
+EPOCH:	8
+train_roc:[0.7341176955815547]
+valid_roc:[0.7083491821985545]
+
+EPOCH:	9
+train_roc:[0.7360363421393233]
+valid_roc:[0.7116615950297959]
+
+EPOCH:	10
+train_roc:[0.7418600403408745]
+valid_roc:[0.715465322682896]
+
+EPOCH:	11
+train_roc:[0.7406244783084328]
+valid_roc:[0.7164162545961709]
+
+EPOCH:	12
+train_roc:[0.7445411176425533]
+valid_roc:[0.7186033979967035]
+
+EPOCH:	13
+train_roc:[0.7480631863006004]
+valid_roc:[0.7238176746544948]
+
+EPOCH:	14
+train_roc:[0.7490296782353716]
+valid_roc:[0.7248320020286547]
+
+EPOCH:	15
+train_roc:[0.7515970390505164]
+valid_roc:[0.7268131101813111]
+
+EPOCH:	16
+train_roc:[0.7557240244244945]
+valid_roc:[0.7295391149993661]
+
+EPOCH:	17
+train_roc:[0.7560691019147185]
+valid_roc:[0.7309496640040574]
+
+EPOCH:	18
+train_roc:[0.7602007027246784]
+valid_roc:[0.7356409281095473]
+
+EPOCH:	19
+train_roc:[0.7561802651813474]
+valid_roc:[0.7282395080512237]
+
+EPOCH:	20
+train_roc:[0.7634978916295632]
+valid_roc:[0.7406016229237986]
+
+EPOCH:	21
+train_roc:[0.762154799758819]
+valid_roc:[0.7396506910105236]
+
+EPOCH:	22
+train_roc:[0.7639631668568488]
+valid_roc:[0.7398250285279575]
+
+EPOCH:	23
+train_roc:[0.7673244808616528]
+valid_roc:[0.7444528971725624]
+
+EPOCH:	24
+train_roc:[0.7707603292475268]
+valid_roc:[0.7494928363129201]
+
+EPOCH:	25
+train_roc:[0.772478253440464]
+valid_roc:[0.7510143273741601]
+
+EPOCH:	26
+train_roc:[0.7699601894096367]
+valid_roc:[0.7471472042601749]
+
+EPOCH:	27
+train_roc:[0.7744707469739434]
+valid_roc:[0.7546437175098263]
+
+EPOCH:	28
+train_roc:[0.7718521253591692]
+valid_roc:[0.7516165842525675]
+
+EPOCH:	29
+train_roc:[0.7740453412574804]
+valid_roc:[0.7544693799923925]
+
+EPOCH:	30
+train_roc:[0.7734068398797236]
+valid_roc:[0.7532807151007987]
+
+EPOCH:	31
+train_roc:[0.773687694069263]
+valid_roc:[0.7542474958792951]
+
+EPOCH:	32
+train_roc:[0.776556138431655]
+valid_roc:[0.7572746291365537]
+
+EPOCH:	33
+train_roc:[0.7762301118899523]
+valid_roc:[0.7593983770762013]
+
+EPOCH:	34
+train_roc:[0.7815105634563526]
+valid_roc:[0.7618074045898314]
+
+EPOCH:	35
+train_roc:[0.7811138323634371]
+valid_roc:[0.7572904780017751]
+
+EPOCH:	36
+train_roc:[0.7788960662737326]
+valid_roc:[0.7554203119056676]
+
+EPOCH:	37
+train_roc:[0.7825695605122938]
+valid_roc:[0.7612685431723089]
+
+EPOCH:	38
+train_roc:[0.7846614332205335]
+valid_roc:[0.7656903765690376]
+
+EPOCH:	39
+train_roc:[0.7803796834400121]
+valid_roc:[0.7613794852288576]
+
+EPOCH:	40
+train_roc:[0.787505425592298]
+valid_roc:[0.7671484721693926]
+
+EPOCH:	41
+train_roc:[0.7880180335885899]
+valid_roc:[0.7645017116774439]
+
+EPOCH:	42
+train_roc:[0.7866924214541178]
+valid_roc:[0.763804361607709]
+
+EPOCH:	43
+train_roc:[0.7869076775322541]
+valid_roc:[0.7630277672118676]
+
+EPOCH:	44
+train_roc:[0.7881780026357085]
+valid_roc:[0.7638360593381512]
+
+EPOCH:	45
+train_roc:[0.7878549221169728]
+valid_roc:[0.7652783060732851]
+
+EPOCH:	46
+train_roc:[0.7900410675601628]
+valid_roc:[0.7720774692532015]
+
+EPOCH:	47
+train_roc:[0.7915620010173599]
+valid_roc:[0.7704608850006339]
+
+EPOCH:	48
+train_roc:[0.7907404534125747]
+valid_roc:[0.7701280588309876]
+
+EPOCH:	49
+train_roc:[0.7925174944663869]
+valid_roc:[0.773630658044884]
+
+EPOCH:	50
+train_roc:[0.7929615583283087]
+valid_roc:[0.7695812729808545]
+
+EPOCH:	51
+train_roc:[0.794246417145068]
+valid_roc:[0.7719506783314316]
+
+EPOCH:	52
+train_roc:[0.7953985085267725]
+valid_roc:[0.7733612273361227]
+
+EPOCH:	53
+train_roc:[0.7929173679838007]
+valid_roc:[0.7688601496132876]
+
+EPOCH:	54
+train_roc:[0.7953164126867533]
+valid_roc:[0.7723627488271839]
+
+EPOCH:	55
+train_roc:[0.7964556397681676]
+valid_roc:[0.7745340433624952]
+
+EPOCH:	56
+train_roc:[0.7987320317149194]
+valid_roc:[0.7761506276150627]
+
+EPOCH:	57
+train_roc:[0.7984464638886326]
+valid_roc:[0.7752789400278939]
+
+EPOCH:	58
+train_roc:[0.795102531419335]
+valid_roc:[0.7707620134398376]
+
+EPOCH:	59
+train_roc:[0.7972321132215547]
+valid_roc:[0.7741061240015216]
+
+EPOCH:	60
+train_roc:[0.7964633976286479]
+valid_roc:[0.7723310510967414]
+
+EPOCH:	61
+train_roc:[0.7968811436853962]
+valid_roc:[0.7708254089007227]
+
+EPOCH:	62
+train_roc:[0.8015576605435215]
+valid_roc:[0.7787815392417904]
+
+EPOCH:	63
+train_roc:[0.7987797572869878]
+valid_roc:[0.7746132876886016]
+
+EPOCH:	64
+train_roc:[0.8026863801430196]
+valid_roc:[0.7798117154811717]
+
+EPOCH:	65
+train_roc:[0.8018726885994804]
+valid_roc:[0.7782902244199317]
+
+EPOCH:	66
+train_roc:[0.804171372120017]
+valid_roc:[0.781301508811969]
+
+EPOCH:	67
+train_roc:[0.8035578137367159]
+valid_roc:[0.7782268289590466]
+
+EPOCH:	68
+train_roc:[0.80377955106538]
+valid_roc:[0.7801603905160391]
+
+EPOCH:	69
+train_roc:[0.8056151197754737]
+valid_roc:[0.7809528337771017]
+
+EPOCH:	70
+train_roc:[0.802510993575706]
+valid_roc:[0.7790034233548878]
+
+EPOCH:	71
+train_roc:[0.8045877433660473]
+valid_roc:[0.7836471408647141]
+
+EPOCH:	72
+train_roc:[0.8068414509359515]
+valid_roc:[0.7876410549004691]
+
+EPOCH:	73
+train_roc:[0.804657760511901]
+valid_roc:[0.7809686826423229]
+
+EPOCH:	74
+train_roc:[0.8078902351122729]
+valid_roc:[0.7847407125649803]
+
+EPOCH:	75
+train_roc:[0.8048713471770226]
+valid_roc:[0.7816660327120579]
+
+EPOCH:	76
+train_roc:[0.8052545265642892]
+valid_roc:[0.7842969443387853]
+
+EPOCH:	77
+train_roc:[0.8096366375272261]
+valid_roc:[0.7849784455432991]
+
+EPOCH:	78
+train_roc:[0.8085487694462068]
+valid_roc:[0.7877361480917967]
+
+EPOCH:	79
+train_roc:[0.807582866716029]
+valid_roc:[0.7830765817167491]
+
+EPOCH:	80
+train_roc:[0.8082205824876612]
+valid_roc:[0.7828863953340941]
+
+EPOCH:	81
+train_roc:[0.8115574445018374]
+valid_roc:[0.7848992012171929]
+
+EPOCH:	82
+train_roc:[0.8102248601130094]
+valid_roc:[0.7877519969570179]
+
+EPOCH:	83
+train_roc:[0.8113011405036914]
+valid_roc:[0.7873399264612654]
+
+EPOCH:	84
+train_roc:[0.7991446713318576]
+valid_roc:[0.7755166730062129]
+
+EPOCH:	85
+train_roc:[0.8135248968400958]
+valid_roc:[0.7940439964498542]
+
+EPOCH:	86
+train_roc:[0.8133311467296198]
+valid_roc:[0.7886236845441867]
+
+EPOCH:	87
+train_roc:[0.813425223063039]
+valid_roc:[0.7900025358184354]
+
+EPOCH:	88
+train_roc:[0.8178061556167892]
+valid_roc:[0.7943768226195005]
+
+EPOCH:	89
+train_roc:[0.812928719992301]
+valid_roc:[0.7889882084442753]
+
+EPOCH:	90
+train_roc:[0.8163472850434342]
+valid_roc:[0.7933783441105617]
+
+EPOCH:	91
+train_roc:[0.8164230960344566]
+valid_roc:[0.7963896285025993]
+
+EPOCH:	92
+train_roc:[0.8168996643497832]
+valid_roc:[0.7925225053886141]
+
+EPOCH:	93
+train_roc:[0.8176340096747394]
+valid_roc:[0.7949632306326866]
+
+EPOCH:	94
+train_roc:[0.8187455441402621]
+valid_roc:[0.7962311398503868]
+
+EPOCH:	95
+train_roc:[0.8223060092976486]
+valid_roc:[0.7990046912641056]
+
+EPOCH:	96
+train_roc:[0.8185501246167715]
+valid_roc:[0.7949315329022442]
+
+EPOCH:	97
+train_roc:[0.8193431939995404]
+valid_roc:[0.7945194624064916]
+
+EPOCH:	98
+train_roc:[0.8217581472265157]
+valid_roc:[0.7984816787118043]
+
+EPOCH:	99
+train_roc:[0.8267019665685313]
+valid_roc:[0.7998605299860531]
+
+EPOCH:	100
+train_roc:[0.8248194578924937]
+valid_roc:[0.8024914416127806]
+
+EPOCH:	101
+train_roc:[0.8249306211591225]
+valid_roc:[0.8033789780651706]
+
+EPOCH:	102
+train_roc:[0.8264910313240801]
+valid_roc:[0.8000824140991505]
+
+EPOCH:	103
+train_roc:[0.8245865256765541]
+valid_roc:[0.7991790287815392]
+
+EPOCH:	104
+train_roc:[0.8257238869434225]
+valid_roc:[0.7981330036769368]
+
+EPOCH:	105
+train_roc:[0.8263272324471042]
+valid_roc:[0.8005420311905668]
+
+EPOCH:	106
+train_roc:[0.8238900858471092]
+valid_roc:[0.7991314821858755]
+
+EPOCH:	107
+train_roc:[0.8287881436323677]
+valid_roc:[0.8017940915430456]
+
+EPOCH:	108
+train_roc:[0.8298636384169251]
+valid_roc:[0.805756307848358]
+
+EPOCH:	109
+train_roc:[0.830665251266299]
+valid_roc:[0.8028559655128693]
+
+EPOCH:	110
+train_roc:[0.8335579512177876]
+valid_roc:[0.8062793204006593]
+
+EPOCH:	111
+train_roc:[0.8318478830860965]
+valid_roc:[0.804488398630658]
+
+EPOCH:	112
+train_roc:[0.8343738031781696]
+valid_roc:[0.8039336883479142]
+
+EPOCH:	113
+train_roc:[0.8351123711360455]
+valid_roc:[0.8046468872828706]
+
+EPOCH:	114
+train_roc:[0.832696043098352]
+valid_roc:[0.8062634715354381]
+
+EPOCH:	115
+train_roc:[0.8314411355150925]
+valid_roc:[0.8043299099784456]
+
+EPOCH:	116
+train_roc:[0.8352140089284136]
+valid_roc:[0.8136014961328769]
+
+EPOCH:	117
+train_roc:[0.8378899797902826]
+valid_roc:[0.8067230886268544]
+
+EPOCH:	118
+train_roc:[0.8379497840565164]
+valid_roc:[0.8042348167871181]
+
+EPOCH:	119
+train_roc:[0.834193113769515]
+valid_roc:[0.8063744135919868]
+
+EPOCH:	120
+train_roc:[0.8379555779016854]
+valid_roc:[0.8047895270698618]
+
+EPOCH:	121
+train_roc:[0.8374219549415606]
+valid_roc:[0.8100355014580957]
+
+EPOCH:	122
+train_roc:[0.8376548871575002]
+valid_roc:[0.8100038037276531]
+
+EPOCH:	123
+train_roc:[0.8343879440884121]
+valid_roc:[0.802966907569418]
+
+EPOCH:	124
+train_roc:[0.8350500136499064]
+valid_roc:[0.8089260808926081]
+
+EPOCH:	125
+train_roc:[0.8428815247043666]
+valid_roc:[0.8121909471281857]
+
+EPOCH:	126
+train_roc:[0.8393999147617355]
+valid_roc:[0.809623430962343]
+
+EPOCH:	127
+train_roc:[0.8433067340192983]
+valid_roc:[0.8115886902497782]
+
+EPOCH:	128
+train_roc:[0.8409188842036213]
+valid_roc:[0.8091479650057056]
+
+EPOCH:	129
+train_roc:[0.8428683658017797]
+valid_roc:[0.8098294662102196]
+
+EPOCH:	130
+train_roc:[0.8445065509730714]
+valid_roc:[0.8109547356409281]
+
+EPOCH:	131
+train_roc:[0.8434453935002877]
+valid_roc:[0.8140769620895144]
+
+EPOCH:	132
+train_roc:[0.8409616997374112]
+valid_roc:[0.8073094966400407]
+
+EPOCH:	133
+train_roc:[0.8447934936100763]
+valid_roc:[0.8120800050716369]
+
+EPOCH:	134
+train_roc:[0.843531613772461]
+valid_roc:[0.8121750982629644]
+
+EPOCH:	135
+train_roc:[0.8441789532191193]
+valid_roc:[0.8130150881196906]
+
+EPOCH:	136
+train_roc:[0.8429567464907957]
+valid_roc:[0.8103683276277418]
+
+EPOCH:	137
+train_roc:[0.8413818026125333]
+valid_roc:[0.8090845695448208]
+
+EPOCH:	138
+train_roc:[0.8475937866411607]
+valid_roc:[0.8169773044250032]
+
+EPOCH:	139
+train_roc:[0.8396279369393964]
+valid_roc:[0.812016609610752]
+
+EPOCH:	140
+train_roc:[0.8362015158270174]
+valid_roc:[0.8070717636617217]
+
+EPOCH:	141
+train_roc:[0.8477532646844516]
+valid_roc:[0.8170882464815519]
+
+EPOCH:	142
+train_roc:[0.8433051628070493]
+valid_roc:[0.8119849118803094]
+
+EPOCH:	143
+train_roc:[0.844857716910761]
+valid_roc:[0.8175637124381896]
+
+EPOCH:	144
+train_roc:[0.8426617513910138]
+valid_roc:[0.8191010523646507]
+
+EPOCH:	145
+train_roc:[0.84655541174599]
+valid_roc:[0.8198301001648283]
+
+EPOCH:	146
+train_roc:[0.8479386677298537]
+valid_roc:[0.8197984024343857]
+
+EPOCH:	147
+train_roc:[0.8506849503398728]
+valid_roc:[0.8239032585266896]
+
+EPOCH:	148
+train_roc:[0.8499627819098476]
+valid_roc:[0.8151546849245594]
+
+EPOCH:	149
+train_roc:[0.8507004660608334]
+valid_roc:[0.8197033092430583]
+
+EPOCH:	150
+train_roc:[0.8473689068879982]
+valid_roc:[0.8150278940027894]
+
+EPOCH:	151
+train_roc:[0.853874805807986]
+valid_roc:[0.8203848104475719]
+
+EPOCH:	152
+train_roc:[0.8517574991014629]
+valid_roc:[0.8153448713072144]
+
+EPOCH:	153
+train_roc:[0.8527907675568238]
+valid_roc:[0.819243692151642]
+
+EPOCH:	154
+train_roc:[0.853769927390354]
+valid_roc:[0.8243470267528845]
+
+EPOCH:	155
+train_roc:[0.8505299895317984]
+valid_roc:[0.8183720045644731]
+
+EPOCH:	156
+train_roc:[0.8554942346330532]
+valid_roc:[0.8228413845568656]
+
+EPOCH:	157
+train_roc:[0.8545004428854528]
+valid_roc:[0.8196082160517306]
+
+EPOCH:	158
+train_roc:[0.8546365491465372]
+valid_roc:[0.8192119944211994]
+
+EPOCH:	159
+train_roc:[0.853653952286212]
+valid_roc:[0.8206383922911121]
+
+EPOCH:	160
+train_roc:[0.8520266673998991]
+valid_roc:[0.815630150881197]
+
+EPOCH:	161
+train_roc:[0.8517490538356236]
+valid_roc:[0.8221915810827946]
+
+EPOCH:	162
+train_roc:[0.8488246350368548]
+valid_roc:[0.8195289717256244]
+
+EPOCH:	163
+train_roc:[0.8535836405380617]
+valid_roc:[0.8165176873335869]
+
+EPOCH:	164
+train_roc:[0.8567095673077867]
+valid_roc:[0.8225561049828833]
+
+EPOCH:	165
+train_roc:[0.8593277961194985]
+valid_roc:[0.8260745530620008]
+
+EPOCH:	166
+train_roc:[0.857909973466153]
+valid_roc:[0.8230157220742995]
+
+EPOCH:	167
+train_roc:[0.8571946790897182]
+valid_roc:[0.8266926588056296]
+
+EPOCH:	168
+train_roc:[0.8568935955424708]
+valid_roc:[0.8200202865474832]
+
+EPOCH:	169
+train_roc:[0.8504542767415415]
+valid_roc:[0.819497273995182]
+
+EPOCH:	170
+train_roc:[0.8535985670544288]
+valid_roc:[0.8199568910865983]
+
+EPOCH:	171
+train_roc:[0.8580283053886687]
+valid_roc:[0.826597565614302]
+
+EPOCH:	172
+train_roc:[0.8531279889858022]
+valid_roc:[0.8193863319386332]
+
+EPOCH:	173
+train_roc:[0.8563850137775674]
+valid_roc:[0.8277069861797894]
+
+EPOCH:	174
+train_roc:[0.8556193424083933]
+valid_roc:[0.8207810320781033]
+
+EPOCH:	175
+train_roc:[0.8598320570507167]
+valid_roc:[0.8260428553315583]
+
+EPOCH:	176
+train_roc:[0.8551167508901899]
+valid_roc:[0.8238398630658045]
+
+EPOCH:	177
+train_roc:[0.8613485714734632]
+valid_roc:[0.8325725878027134]
+
+EPOCH:	178
+train_roc:[0.8568099284902025]
+valid_roc:[0.8242360846963357]
+
+EPOCH:	179
+train_roc:[0.862697064386314]
+valid_roc:[0.8278813236972232]
+
+EPOCH:	180
+train_roc:[0.8609162917034101]
+valid_roc:[0.8244896665398758]
+
+EPOCH:	181
+train_roc:[0.8593859309727179]
+valid_roc:[0.8244262710789907]
+
+EPOCH:	182
+train_roc:[0.8589794780040105]
+valid_roc:[0.8227779890959808]
+
+EPOCH:	183
+train_roc:[0.8640076518036535]
+valid_roc:[0.8301318625586408]
+
+EPOCH:	184
+train_roc:[0.8607487611973422]
+valid_roc:[0.8294503613541271]
+
+EPOCH:	185
+train_roc:[0.865373231649714]
+valid_roc:[0.8286420692278433]
+
+EPOCH:	186
+train_roc:[0.8624252446672074]
+valid_roc:[0.8281507544059845]
+
+EPOCH:	187
+train_roc:[0.8666586796710667]
+valid_roc:[0.8294820590845695]
+
+EPOCH:	188
+train_roc:[0.8665924923550705]
+valid_roc:[0.8307499683022697]
+
+EPOCH:	189
+train_roc:[0.8619259919750335]
+valid_roc:[0.8248700393051858]
+
+EPOCH:	190
+train_roc:[0.8607879433028061]
+valid_roc:[0.819243692151642]
+
+EPOCH:	191
+train_roc:[0.8644772478646244]
+valid_roc:[0.8271364270318244]
+
+EPOCH:	192
+train_roc:[0.8678005581731515]
+valid_roc:[0.8277069861797897]
+
+EPOCH:	193
+train_roc:[0.8608707265481842]
+valid_roc:[0.8245055154050971]
+
+EPOCH:	194
+train_roc:[0.8620071058073968]
+valid_roc:[0.8264549258273108]
+
+EPOCH:	195
+train_roc:[0.8656556570515024]
+valid_roc:[0.8281507544059846]
+
+EPOCH:	196
+train_roc:[0.8618050086318474]
+valid_roc:[0.8190059591733232]
+
+177 0.8325725878027134
+649206
+EPOCH:	0
+train_roc:[0.5341930624621936]
+valid_roc:[0.5350289731167474]
+
+EPOCH:	1
+train_roc:[0.629619853409064]
+valid_roc:[0.6489819828377821]
+
+EPOCH:	2
+train_roc:[0.641923652518206]
+valid_roc:[0.6641651625977645]
+
+EPOCH:	3
+train_roc:[0.6618859638786108]
+valid_roc:[0.6866786992178842]
+
+EPOCH:	4
+train_roc:[0.687105143252182]
+valid_roc:[0.713229473417561]
+
+EPOCH:	5
+train_roc:[0.7026310362706512]
+valid_roc:[0.733478990532282]
+
+EPOCH:	6
+train_roc:[0.7093480199225409]
+valid_roc:[0.7369620974636648]
+
+EPOCH:	7
+train_roc:[0.7179632815630083]
+valid_roc:[0.7473322567366454]
+
+EPOCH:	8
+train_roc:[0.729222247099212]
+valid_roc:[0.7576074221842246]
+
+EPOCH:	9
+train_roc:[0.7301383422497703]
+valid_roc:[0.7588265096102086]
+
+EPOCH:	10
+train_roc:[0.7330037786838238]
+valid_roc:[0.7608055476394033]
+
+EPOCH:	11
+train_roc:[0.7362083932345063]
+valid_roc:[0.7602355846869955]
+
+EPOCH:	12
+train_roc:[0.7342888061401649]
+valid_roc:[0.7606155599886006]
+
+EPOCH:	13
+train_roc:[0.7414116447880088]
+valid_roc:[0.7649219467401285]
+
+EPOCH:	14
+train_roc:[0.7412626774449498]
+valid_roc:[0.7648427852189608]
+
+EPOCH:	15
+train_roc:[0.7416611675425986]
+valid_roc:[0.7664893448592507]
+
+EPOCH:	16
+train_roc:[0.7455136967468753]
+valid_roc:[0.7664893448592507]
+
+EPOCH:	17
+train_roc:[0.7486978859795904]
+valid_roc:[0.7691491719704886]
+
+EPOCH:	18
+train_roc:[0.7496525731972694]
+valid_roc:[0.7678192584148698]
+
+EPOCH:	19
+train_roc:[0.7412290935086768]
+valid_roc:[0.7645736360469904]
+
+EPOCH:	20
+train_roc:[0.7463878610764143]
+valid_roc:[0.7723156328172003]
+
+EPOCH:	21
+train_roc:[0.7514266299010943]
+valid_roc:[0.772933092682309]
+
+EPOCH:	22
+train_roc:[0.7561798370688098]
+valid_roc:[0.7759253981824514]
+
+EPOCH:	23
+train_roc:[0.7556244255379322]
+valid_roc:[0.775402932142744]
+
+EPOCH:	24
+train_roc:[0.7584233814899484]
+valid_roc:[0.7758304043570501]
+
+EPOCH:	25
+train_roc:[0.7620132293213295]
+valid_roc:[0.7774294670846396]
+
+EPOCH:	26
+train_roc:[0.7588724438892949]
+valid_roc:[0.7782369146005509]
+
+EPOCH:	27
+train_roc:[0.764206790632635]
+valid_roc:[0.7743105031506284]
+
+EPOCH:	28
+train_roc:[0.7638766467912611]
+valid_roc:[0.779883474240841]
+
+EPOCH:	29
+train_roc:[0.7680426260674194]
+valid_roc:[0.7786168899021564]
+
+EPOCH:	30
+train_roc:[0.7684399377813391]
+valid_roc:[0.7823216490928091]
+
+EPOCH:	31
+train_roc:[0.7723447086642627]
+valid_roc:[0.78357240112726]
+
+EPOCH:	32
+train_roc:[0.7689095236972968]
+valid_roc:[0.7821474937462398]
+
+EPOCH:	33
+train_roc:[0.7729415600229392]
+valid_roc:[0.7848864823786454]
+
+EPOCH:	34
+train_roc:[0.7715982025720188]
+valid_roc:[0.7854564453310535]
+
+EPOCH:	35
+train_roc:[0.7738917301029907]
+valid_roc:[0.78544061302682]
+
+EPOCH:	36
+train_roc:[0.7678047889514742]
+valid_roc:[0.7792185174630316]
+
+EPOCH:	37
+train_roc:[0.7760121334244616]
+valid_roc:[0.7817675184446344]
+
+EPOCH:	38
+train_roc:[0.7745388591674327]
+valid_roc:[0.786406383585067]
+
+EPOCH:	39
+train_roc:[0.7822673870519196]
+valid_roc:[0.7870080111459422]
+
+EPOCH:	40
+train_roc:[0.7809995443582916]
+valid_roc:[0.7888603907412686]
+
+EPOCH:	41
+train_roc:[0.7820642140573322]
+valid_roc:[0.7872929926221462]
+
+EPOCH:	42
+train_roc:[0.7785583260666336]
+valid_roc:[0.7836673949526615]
+
+EPOCH:	43
+train_roc:[0.7839718209170968]
+valid_roc:[0.7902061366011208]
+
+EPOCH:	44
+train_roc:[0.7822215282851374]
+valid_roc:[0.787229663405212]
+
+EPOCH:	45
+train_roc:[0.7885235244671742]
+valid_roc:[0.7881162724422912]
+
+EPOCH:	46
+train_roc:[0.7849805173890159]
+valid_roc:[0.7947025110034515]
+
+EPOCH:	47
+train_roc:[0.7867808913294525]
+valid_roc:[0.7921851746303156]
+
+EPOCH:	48
+train_roc:[0.7878636295790027]
+valid_roc:[0.7919001931541116]
+
+EPOCH:	49
+train_roc:[0.7856224419253219]
+valid_roc:[0.7870396757544094]
+
+EPOCH:	50
+train_roc:[0.7910328926178186]
+valid_roc:[0.7944016972230138]
+
+EPOCH:	51
+train_roc:[0.7926500278884149]
+valid_roc:[0.7920426838922136]
+
+EPOCH:	52
+train_roc:[0.7868013166474197]
+valid_roc:[0.7926126468446217]
+
+EPOCH:	53
+train_roc:[0.7944395999780036]
+valid_roc:[0.7941958772679776]
+
+EPOCH:	54
+train_roc:[0.7943666383854573]
+valid_roc:[0.7922960007599507]
+
+EPOCH:	55
+train_roc:[0.7955072156363665]
+valid_roc:[0.7940692188341091]
+
+EPOCH:	56
+train_roc:[0.7907080515032248]
+valid_roc:[0.7941008834425762]
+
+EPOCH:	57
+train_roc:[0.7943671293786776]
+valid_roc:[0.7983914378898704]
+
+EPOCH:	58
+train_roc:[0.7944765226681751]
+valid_roc:[0.7952724739558595]
+
+EPOCH:	59
+train_roc:[0.7967621943076211]
+valid_roc:[0.7905544472942593]
+
+EPOCH:	60
+train_roc:[0.7941785879820572]
+valid_roc:[0.7929926221462271]
+
+EPOCH:	61
+train_roc:[0.7938920443386518]
+valid_roc:[0.8006871220037364]
+
+EPOCH:	62
+train_roc:[0.799477779610819]
+valid_roc:[0.8002438174851969]
+
+EPOCH:	63
+train_roc:[0.7953813249746646]
+valid_roc:[0.7985972578449068]
+
+EPOCH:	64
+train_roc:[0.794410925973934]
+valid_roc:[0.7952724739558596]
+
+EPOCH:	65
+train_roc:[0.7978521992568327]
+valid_roc:[0.8022228555143915]
+
+EPOCH:	66
+train_roc:[0.7953036498472029]
+valid_roc:[0.7906969380323612]
+
+EPOCH:	67
+train_roc:[0.8017534349885697]
+valid_roc:[0.8035052721573097]
+
+EPOCH:	68
+train_roc:[0.7951554680932966]
+valid_roc:[0.7869921788417087]
+
+EPOCH:	69
+train_roc:[0.8042095794741266]
+valid_roc:[0.8026503277286976]
+
+EPOCH:	70
+train_roc:[0.8024795157628464]
+valid_roc:[0.8038694151546817]
+
+EPOCH:	71
+train_roc:[0.8056186318179319]
+valid_roc:[0.8034419429403755]
+
+EPOCH:	72
+train_roc:[0.8048851861453495]
+valid_roc:[0.7908235964662298]
+
+EPOCH:	73
+train_roc:[0.8049116997792495]
+valid_roc:[0.8041385643266521]
+
+EPOCH:	74
+train_roc:[0.8050495706755281]
+valid_roc:[0.804502707324024]
+
+EPOCH:	75
+train_roc:[0.8082840376140086]
+valid_roc:[0.804819353408695]
+
+EPOCH:	76
+train_roc:[0.8092389212289757]
+valid_roc:[0.7998796744878249]
+
+EPOCH:	77
+train_roc:[0.8100313842866458]
+valid_roc:[0.8113105981444539]
+
+EPOCH:	78
+train_roc:[0.8086901872058951]
+valid_roc:[0.8005762958741016]
+
+EPOCH:	79
+train_roc:[0.806229721979999]
+valid_roc:[0.7972673442892879]
+
+EPOCH:	80
+train_roc:[0.8129178352305312]
+valid_roc:[0.8055318070992052]
+
+EPOCH:	81
+train_roc:[0.8063766271515322]
+valid_roc:[0.7908394287704633]
+
+EPOCH:	82
+train_roc:[0.8036637914103683]
+valid_roc:[0.8047085272790602]
+
+EPOCH:	83
+train_roc:[0.808428193223508]
+valid_roc:[0.8072733605648966]
+
+EPOCH:	84
+train_roc:[0.8035777693981602]
+valid_roc:[0.8045185396282575]
+
+EPOCH:	85
+train_roc:[0.8120691043498072]
+valid_roc:[0.8080649757765744]
+
+EPOCH:	86
+train_roc:[0.8111090162067042]
+valid_roc:[0.8078274912130712]
+
+EPOCH:	87
+train_roc:[0.8165009073554713]
+valid_roc:[0.8106139767581774]
+
+EPOCH:	88
+train_roc:[0.8150383367506462]
+valid_roc:[0.8076216712580349]
+
+EPOCH:	89
+train_roc:[0.8153091686109999]
+valid_roc:[0.8124346917450366]
+
+EPOCH:	90
+train_roc:[0.8188838938511936]
+valid_roc:[0.8128304993508756]
+
+EPOCH:	91
+train_roc:[0.8164315791127557]
+valid_roc:[0.8049301795383301]
+
+EPOCH:	92
+train_roc:[0.8176559198070592]
+valid_roc:[0.8066559006997879]
+
+EPOCH:	93
+train_roc:[0.8140339610190661]
+valid_roc:[0.8078908204300054]
+
+EPOCH:	94
+train_roc:[0.8141042712482226]
+valid_roc:[0.8101073430227035]
+
+EPOCH:	95
+train_roc:[0.8188126998342407]
+valid_roc:[0.8099015230676673]
+
+EPOCH:	96
+train_roc:[0.820975230374019]
+valid_roc:[0.8127988347424084]
+
+EPOCH:	97
+train_roc:[0.8221760033937451]
+valid_roc:[0.8153478357240114]
+
+EPOCH:	98
+train_roc:[0.8207171643373949]
+valid_roc:[0.8130204870016782]
+
+EPOCH:	99
+train_roc:[0.8203689519455115]
+valid_roc:[0.8067192299167221]
+
+EPOCH:	100
+train_roc:[0.8113091450433253]
+valid_roc:[0.7949874924796554]
+
+EPOCH:	101
+train_roc:[0.8205704555631494]
+valid_roc:[0.8026186631202304]
+
+EPOCH:	102
+train_roc:[0.8182932290070939]
+valid_roc:[0.8051834964060669]
+
+EPOCH:	103
+train_roc:[0.8189342697556032]
+valid_roc:[0.8102181691523385]
+
+EPOCH:	104
+train_roc:[0.8201943547563495]
+valid_roc:[0.8135271207371522]
+
+EPOCH:	105
+train_roc:[0.8191895862301934]
+valid_roc:[0.8091890693771572]
+
+EPOCH:	106
+train_roc:[0.8194607126864792]
+valid_roc:[0.8024603400778949]
+
+EPOCH:	107
+train_roc:[0.8218281837964381]
+valid_roc:[0.8168677369304329]
+
+EPOCH:	108
+train_roc:[0.8240891093775777]
+valid_roc:[0.8201291916025459]
+
+EPOCH:	109
+train_roc:[0.8258156379376713]
+valid_roc:[0.8100281815015358]
+
+EPOCH:	110
+train_roc:[0.8273919225723332]
+valid_roc:[0.8192900794781672]
+
+EPOCH:	111
+train_roc:[0.8280339453072831]
+valid_roc:[0.8171368861024033]
+
+EPOCH:	112
+train_roc:[0.8294615571948182]
+valid_roc:[0.8156328172002154]
+
+EPOCH:	113
+train_roc:[0.8306438688694586]
+valid_roc:[0.8192742471739338]
+
+EPOCH:	114
+train_roc:[0.8278554201723582]
+valid_roc:[0.8149520281181724]
+
+EPOCH:	115
+train_roc:[0.8249294933735555]
+valid_roc:[0.8169468984516006]
+
+EPOCH:	116
+train_roc:[0.8250249424555945]
+valid_roc:[0.8112472689275197]
+
+EPOCH:	117
+train_roc:[0.8239117626263817]
+valid_roc:[0.8070042113929262]
+
+EPOCH:	118
+train_roc:[0.8310572851610065]
+valid_roc:[0.8196700547797726]
+
+EPOCH:	119
+train_roc:[0.8289629044802149]
+valid_roc:[0.8172002153193375]
+
+EPOCH:	120
+train_roc:[0.8309746019026969]
+valid_roc:[0.8190684272188975]
+
+EPOCH:	121
+train_roc:[0.8238381136433268]
+valid_roc:[0.8160444571102878]
+
+EPOCH:	122
+train_roc:[0.8291688270368364]
+valid_roc:[0.8215224343750989]
+
+EPOCH:	123
+train_roc:[0.8294833572938025]
+valid_roc:[0.82370729235933]
+
+EPOCH:	124
+train_roc:[0.8296275129033018]
+valid_roc:[0.8215382666793325]
+
+EPOCH:	125
+train_roc:[0.8332856087923138]
+valid_roc:[0.823200658623856]
+
+EPOCH:	126
+train_roc:[0.8321836236085253]
+valid_roc:[0.8212216205946613]
+
+EPOCH:	127
+train_roc:[0.8335556550635149]
+valid_roc:[0.8224723726291124]
+
+EPOCH:	128
+train_roc:[0.8308320174715028]
+valid_roc:[0.812418859440803]
+
+EPOCH:	129
+train_roc:[0.8329839425577211]
+valid_roc:[0.8277761945473544]
+
+EPOCH:	130
+train_roc:[0.8330524852112842]
+valid_roc:[0.8180868243564169]
+
+EPOCH:	131
+train_roc:[0.8341872687421932]
+valid_roc:[0.8260821379943637]
+
+EPOCH:	132
+train_roc:[0.8301485549087538]
+valid_roc:[0.8110414489724835]
+
+EPOCH:	133
+train_roc:[0.8351761290880095]
+valid_roc:[0.8225040372375796]
+
+EPOCH:	134
+train_roc:[0.8307216421955645]
+valid_roc:[0.8073366897818308]
+
+EPOCH:	135
+train_roc:[0.8348076877754471]
+valid_roc:[0.8220765650232735]
+
+EPOCH:	136
+train_roc:[0.8281521764747473]
+valid_roc:[0.814714543554669]
+
+EPOCH:	137
+train_roc:[0.8372927026623617]
+valid_roc:[0.8248155536556792]
+
+EPOCH:	138
+train_roc:[0.8385333443315814]
+valid_roc:[0.8224090434121781]
+
+EPOCH:	139
+train_roc:[0.8350107625713903]
+valid_roc:[0.8154903264621134]
+
+EPOCH:	140
+train_roc:[0.838325948795299]
+valid_roc:[0.8223140495867769]
+
+EPOCH:	141
+train_roc:[0.8309133259487953]
+valid_roc:[0.8200658623856116]
+
+EPOCH:	142
+train_roc:[0.8356890206060035]
+valid_roc:[0.8197808809094076]
+
+EPOCH:	143
+train_roc:[0.830711429536581]
+valid_roc:[0.8213482790285298]
+
+EPOCH:	144
+train_roc:[0.8398668819180943]
+valid_roc:[0.825528007346189]
+
+EPOCH:	145
+train_roc:[0.8371981373681192]
+valid_roc:[0.8131154808270796]
+
+EPOCH:	146
+train_roc:[0.8402147015154016]
+valid_roc:[0.8211741236819607]
+
+EPOCH:	147
+train_roc:[0.8408184267791631]
+valid_roc:[0.8282353313701276]
+
+EPOCH:	148
+train_roc:[0.8225644772296985]
+valid_roc:[0.8186726196130584]
+
+EPOCH:	149
+train_roc:[0.8392729765187402]
+valid_roc:[0.8274437161584498]
+
+EPOCH:	150
+train_roc:[0.8418591360090499]
+valid_roc:[0.8243722491371394]
+
+EPOCH:	151
+train_roc:[0.836175791284674]
+valid_roc:[0.8249105474810805]
+
+EPOCH:	152
+train_roc:[0.8437160723684727]
+valid_roc:[0.8249105474810804]
+
+EPOCH:	153
+train_roc:[0.8376616349681443]
+valid_roc:[0.8245622367879422]
+
+EPOCH:	154
+train_roc:[0.8348862466907057]
+valid_roc:[0.8137487729964219]
+
+EPOCH:	155
+train_roc:[0.8425471157094263]
+valid_roc:[0.824134764573636]
+
+EPOCH:	156
+train_roc:[0.8332473113211253]
+valid_roc:[0.8215382666793325]
+
+EPOCH:	157
+train_roc:[0.843680131664742]
+valid_roc:[0.8203191792533485]
+
+EPOCH:	158
+train_roc:[0.8456278035712883]
+valid_roc:[0.8300243817485197]
+
+EPOCH:	159
+train_roc:[0.8429145750355479]
+valid_roc:[0.8303410278331909]
+
+EPOCH:	160
+train_roc:[0.8436632414979613]
+valid_roc:[0.8214907697666318]
+
+EPOCH:	161
+train_roc:[0.842709143472147]
+valid_roc:[0.82299483866882]
+
+EPOCH:	162
+train_roc:[0.8424538269975568]
+valid_roc:[0.831876761343846]
+
+EPOCH:	163
+train_roc:[0.8399821671262363]
+valid_roc:[0.8209841360311578]
+
+EPOCH:	164
+train_roc:[0.8465868115293065]
+valid_roc:[0.8307526677432633]
+
+EPOCH:	165
+train_roc:[0.8448598901746365]
+valid_roc:[0.8288211266267693]
+
+EPOCH:	166
+train_roc:[0.8446002529597071]
+valid_roc:[0.822947341756119]
+
+EPOCH:	167
+train_roc:[0.8444342972512235]
+valid_roc:[0.824134764573636]
+
+EPOCH:	168
+train_roc:[0.838148602044103]
+valid_roc:[0.8128938285678098]
+
+EPOCH:	169
+train_roc:[0.8441626798017173]
+valid_roc:[0.8275228776796175]
+
+EPOCH:	170
+train_roc:[0.8424363476389118]
+valid_roc:[0.8356765143598999]
+
+EPOCH:	171
+train_roc:[0.8485325194629711]
+valid_roc:[0.8281878344574269]
+
+EPOCH:	172
+train_roc:[0.848983349437911]
+valid_roc:[0.8277128653304202]
+
+EPOCH:	173
+train_roc:[0.8497315249071041]
+valid_roc:[0.8296602387511479]
+
+EPOCH:	174
+train_roc:[0.8512070577329467]
+valid_roc:[0.8312909660872043]
+
+EPOCH:	175
+train_roc:[0.8471357419496752]
+valid_roc:[0.8286469712802003]
+
+EPOCH:	176
+train_roc:[0.8511783837288776]
+valid_roc:[0.8316392767803426]
+
+EPOCH:	177
+train_roc:[0.8346438924371333]
+valid_roc:[0.8198600424305754]
+
+EPOCH:	178
+train_roc:[0.8505602232644371]
+valid_roc:[0.8328583642063265]
+
+EPOCH:	179
+train_roc:[0.849669659761338]
+valid_roc:[0.8293594249707101]
+
+EPOCH:	180
+train_roc:[0.8466229486303254]
+valid_roc:[0.8349957252778569]
+
+EPOCH:	181
+train_roc:[0.853052406652369]
+valid_roc:[0.8317184383015104]
+
+EPOCH:	182
+train_roc:[0.8505994045234222]
+valid_roc:[0.8317817675184447]
+
+EPOCH:	183
+train_roc:[0.8466797074465997]
+valid_roc:[0.8223615464994776]
+
+EPOCH:	184
+train_roc:[0.8465895610913404]
+valid_roc:[0.8301827047908551]
+
+EPOCH:	185
+train_roc:[0.8517783774441642]
+valid_roc:[0.8357873404895348]
+
+EPOCH:	186
+train_roc:[0.8458027935550266]
+valid_roc:[0.8209049745099901]
+
+EPOCH:	187
+train_roc:[0.8560166309223602]
+valid_roc:[0.8330958487698299]
+
+EPOCH:	188
+train_roc:[0.8530893293425404]
+valid_roc:[0.8340932839365441]
+
+EPOCH:	189
+train_roc:[0.8533517161195038]
+valid_roc:[0.8361831480953738]
+
+EPOCH:	190
+train_roc:[0.8549120925738257]
+valid_roc:[0.8362306450080745]
+
+EPOCH:	191
+train_roc:[0.8546717022931347]
+valid_roc:[0.8379880307779994]
+
+EPOCH:	192
+train_roc:[0.8497988891769384]
+valid_roc:[0.824388081441373]
+
+EPOCH:	193
+train_roc:[0.8538662770144471]
+valid_roc:[0.8252905227826859]
+
+EPOCH:	194
+train_roc:[0.8505039554413831]
+valid_roc:[0.8309584876982996]
+
+EPOCH:	195
+train_roc:[0.856604448005782]
+valid_roc:[0.8352965390582945]
+
+EPOCH:	196
+train_roc:[0.8562008515786413]
+valid_roc:[0.832557550425889]
+
+EPOCH:	197
+train_roc:[0.8525690729262411]
+valid_roc:[0.840188721066464]
+
+EPOCH:	198
+train_roc:[0.8552376210789281]
+valid_roc:[0.8415661315347835]
+
+EPOCH:	199
+train_roc:[0.8497264185776123]
+valid_roc:[0.8220923973275072]
+
+EPOCH:	200
+train_roc:[0.8533994406605234]
+valid_roc:[0.835138216015959]
+
+EPOCH:	201
+train_roc:[0.8562144029915235]
+valid_roc:[0.837291409391723]
+
+EPOCH:	202
+train_roc:[0.8520967374482493]
+valid_roc:[0.8315759475634084]
+
+EPOCH:	203
+train_roc:[0.845827539613333]
+valid_roc:[0.822915677147652]
+
+EPOCH:	204
+train_roc:[0.8551298971663799]
+valid_roc:[0.8384155029923055]
+
+EPOCH:	205
+train_roc:[0.854996936202305]
+valid_roc:[0.8419936037490896]
+
+EPOCH:	206
+train_roc:[0.8603501370853072]
+valid_roc:[0.8378930369525981]
+
+EPOCH:	207
+train_roc:[0.8566482446010384]
+valid_roc:[0.8397770811563915]
+
+EPOCH:	208
+train_roc:[0.8579531081834821]
+valid_roc:[0.831338462999905]
+
+EPOCH:	209
+train_roc:[0.8545595594416031]
+valid_roc:[0.8406320255850036]
+
+EPOCH:	210
+train_roc:[0.8605068621212478]
+valid_roc:[0.8365631233969792]
+
+EPOCH:	211
+train_roc:[0.8609613254460182]
+valid_roc:[0.8387638136854437]
+
+EPOCH:	212
+train_roc:[0.8587013818513194]
+valid_roc:[0.8370539248282195]
+
+EPOCH:	213
+train_roc:[0.8471276896608613]
+valid_roc:[0.8201766885152466]
+
+EPOCH:	214
+train_roc:[0.8578160228763562]
+valid_roc:[0.8380355276907]
+
+EPOCH:	215
+train_roc:[0.8628172798190002]
+valid_roc:[0.8363889680504101]
+
+EPOCH:	216
+train_roc:[0.8574163543949784]
+valid_roc:[0.8252588581742186]
+
+EPOCH:	217
+train_roc:[0.8605457487843007]
+valid_roc:[0.8345207561508503]
+
+EPOCH:	218
+train_roc:[0.8623824562230444]
+valid_roc:[0.8378613723441309]
+
+EPOCH:	219
+train_roc:[0.8446701703942873]
+valid_roc:[0.83144928912954]
+
+EPOCH:	220
+train_roc:[0.8574287274241318]
+valid_roc:[0.8310059846110004]
+
+EPOCH:	221
+train_roc:[0.8585656713252103]
+valid_roc:[0.8328583642063265]
+
+EPOCH:	222
+train_roc:[0.8638464016088866]
+valid_roc:[0.8378772046483645]
+
+EPOCH:	223
+train_roc:[0.8612156599341676]
+valid_roc:[0.8389063044235459]
+
+EPOCH:	224
+train_roc:[0.8603644740873418]
+valid_roc:[0.8338241347645736]
+
+205 0.8419936037490896
+649206
+EPOCH:	0
+train_roc:[0.47362137145154504]
+valid_roc:[0.4627228139235885]
+
+EPOCH:	1
+train_roc:[0.6287563446594928]
+valid_roc:[0.6442040602530119]
+
+EPOCH:	2
+train_roc:[0.6378559840818147]
+valid_roc:[0.6523705972921064]
+
+EPOCH:	3
+train_roc:[0.6597399553361099]
+valid_roc:[0.6527197980984429]
+
+EPOCH:	4
+train_roc:[0.6874371815891801]
+valid_roc:[0.6812907731623308]
+
+EPOCH:	5
+train_roc:[0.714019577357732]
+valid_roc:[0.6986238313677561]
+
+EPOCH:	6
+train_roc:[0.708662541067536]
+valid_roc:[0.70751257916541]
+
+EPOCH:	7
+train_roc:[0.7226947998919524]
+valid_roc:[0.7096712750591261]
+
+EPOCH:	8
+train_roc:[0.7317755937910283]
+valid_roc:[0.7154807066554498]
+
+EPOCH:	9
+train_roc:[0.73358348802367]
+valid_roc:[0.7160521261567278]
+
+EPOCH:	10
+train_roc:[0.737845128275195]
+valid_roc:[0.7239250170632212]
+
+EPOCH:	11
+train_roc:[0.7399482690386898]
+valid_roc:[0.7263059316518786]
+
+EPOCH:	12
+train_roc:[0.7427338729434823]
+valid_roc:[0.7298773035348645]
+
+EPOCH:	13
+train_roc:[0.7476154523867855]
+valid_roc:[0.7330677290836654]
+
+EPOCH:	14
+train_roc:[0.7473037160230921]
+valid_roc:[0.7408771289344613]
+
+EPOCH:	15
+train_roc:[0.7524033931364604]
+valid_roc:[0.7414009301439659]
+
+EPOCH:	16
+train_roc:[0.7533832621914831]
+valid_roc:[0.7363533912160125]
+
+EPOCH:	17
+train_roc:[0.7580700064074779]
+valid_roc:[0.7485595466738623]
+
+EPOCH:	18
+train_roc:[0.756091030159119]
+valid_roc:[0.7462738686687513]
+
+EPOCH:	19
+train_roc:[0.7577415839034105]
+valid_roc:[0.7421628228123363]
+
+EPOCH:	20
+train_roc:[0.7620705576390329]
+valid_roc:[0.7509087157346709]
+
+EPOCH:	21
+train_roc:[0.763118839869589]
+valid_roc:[0.7519880636815289]
+
+EPOCH:	22
+train_roc:[0.7645753436167072]
+valid_roc:[0.7540991412834717]
+
+EPOCH:	23
+train_roc:[0.7633785547368221]
+valid_roc:[0.7587498611133157]
+
+EPOCH:	24
+train_roc:[0.7679959042396146]
+valid_roc:[0.7499404771352836]
+
+EPOCH:	25
+train_roc:[0.769689253026277]
+valid_roc:[0.7601942826304344]
+
+EPOCH:	26
+train_roc:[0.7713321507767495]
+valid_roc:[0.7589244615164839]
+
+EPOCH:	27
+train_roc:[0.7721589981091659]
+valid_roc:[0.7574641672354407]
+
+EPOCH:	28
+train_roc:[0.7657792977215762]
+valid_roc:[0.7447342105680862]
+
+EPOCH:	29
+train_roc:[0.7724471775688018]
+valid_roc:[0.7621148870652847]
+
+EPOCH:	30
+train_roc:[0.7736576098222867]
+valid_roc:[0.755607053856288]
+
+EPOCH:	31
+train_roc:[0.7749449946290259]
+valid_roc:[0.761718067967175]
+
+EPOCH:	32
+train_roc:[0.7790009045851158]
+valid_roc:[0.7631466167203695]
+
+EPOCH:	33
+train_roc:[0.7806518509444749]
+valid_roc:[0.7671306804653895]
+
+EPOCH:	34
+train_roc:[0.7807698317722958]
+valid_roc:[0.7668290979508261]
+
+EPOCH:	35
+train_roc:[0.7829924256701154]
+valid_roc:[0.7762257741940604]
+
+EPOCH:	36
+train_roc:[0.7772871398149369]
+valid_roc:[0.762670433802638]
+
+EPOCH:	37
+train_roc:[0.7808574830861428]
+valid_roc:[0.763162489484294]
+
+EPOCH:	38
+train_roc:[0.7819625963477377]
+valid_roc:[0.7645434199457152]
+
+EPOCH:	39
+train_roc:[0.7848877749090704]
+valid_roc:[0.7713369629053508]
+
+EPOCH:	40
+train_roc:[0.7855039842577063]
+valid_roc:[0.7695750861097442]
+
+EPOCH:	41
+train_roc:[0.7866101772107369]
+valid_roc:[0.77122585355788]
+
+EPOCH:	42
+train_roc:[0.7857631102023381]
+valid_roc:[0.7710671259186362]
+
+EPOCH:	43
+train_roc:[0.7728486264754475]
+valid_roc:[0.7448611926794814]
+
+EPOCH:	44
+train_roc:[0.7840748654115548]
+valid_roc:[0.7634481992349329]
+
+EPOCH:	45
+train_roc:[0.7902854468587655]
+valid_roc:[0.7725750384914525]
+
+EPOCH:	46
+train_roc:[0.7895828621952522]
+valid_roc:[0.7763210107776067]
+
+EPOCH:	47
+train_roc:[0.7893227547129513]
+valid_roc:[0.7713687084331994]
+
+EPOCH:	48
+train_roc:[0.7861005628529609]
+valid_roc:[0.7613371216329898]
+
+EPOCH:	49
+train_roc:[0.7864733508596699]
+valid_roc:[0.7691623942477103]
+
+EPOCH:	50
+train_roc:[0.7912593285340068]
+valid_roc:[0.7677497182584403]
+
+EPOCH:	51
+train_roc:[0.7918188050053709]
+valid_roc:[0.7751940445389754]
+
+EPOCH:	52
+train_roc:[0.7928898589098492]
+valid_roc:[0.7764003745972285]
+
+EPOCH:	53
+train_roc:[0.7927116116691479]
+valid_roc:[0.7744004063427564]
+
+EPOCH:	54
+train_roc:[0.7948107281281998]
+valid_roc:[0.7758448278598753]
+
+EPOCH:	55
+train_roc:[0.7898312893792914]
+valid_roc:[0.77263852954715]
+
+EPOCH:	56
+train_roc:[0.7969015996708315]
+valid_roc:[0.7798130188409707]
+
+EPOCH:	57
+train_roc:[0.7899253206879873]
+valid_roc:[0.7742892969952857]
+
+EPOCH:	58
+train_roc:[0.7926010905276119]
+valid_roc:[0.7763210107776067]
+
+EPOCH:	59
+train_roc:[0.7990209358058659]
+valid_roc:[0.7809241123156776]
+
+EPOCH:	60
+train_roc:[0.7940610296565718]
+valid_roc:[0.7718448913509309]
+
+EPOCH:	61
+train_roc:[0.796719328125687]
+valid_roc:[0.7775590863637085]
+
+EPOCH:	62
+train_roc:[0.7991536396987229]
+valid_roc:[0.7815748956365773]
+
+EPOCH:	63
+train_roc:[0.7990346773332329]
+valid_roc:[0.7730036031174109]
+
+EPOCH:	64
+train_roc:[0.8008161682025768]
+valid_roc:[0.775876573387724]
+
+EPOCH:	65
+train_roc:[0.7980233009190334]
+valid_roc:[0.780114601355534]
+
+EPOCH:	66
+train_roc:[0.797858795205699]
+valid_roc:[0.7717972730591577]
+
+EPOCH:	67
+train_roc:[0.8017405803792975]
+valid_roc:[0.7742734242313614]
+
+EPOCH:	68
+train_roc:[0.7982245161411907]
+valid_roc:[0.778162251392835]
+
+EPOCH:	69
+train_roc:[0.8034199913310593]
+valid_roc:[0.7839081919334613]
+
+EPOCH:	70
+train_roc:[0.8010717606116]
+valid_roc:[0.7811622037745434]
+
+EPOCH:	71
+train_roc:[0.8031865816733569]
+valid_roc:[0.7709560165711656]
+
+EPOCH:	72
+train_roc:[0.8041571261205235]
+valid_roc:[0.777701941239028]
+
+EPOCH:	73
+train_roc:[0.8042002156241952]
+valid_roc:[0.7834955000714274]
+
+EPOCH:	74
+train_roc:[0.8080565789721652]
+valid_roc:[0.7837018460024444]
+
+EPOCH:	75
+train_roc:[0.8073302410970608]
+valid_roc:[0.7804479293979459]
+
+EPOCH:	76
+train_roc:[0.8080722835748702]
+valid_roc:[0.7800193647719877]
+
+EPOCH:	77
+train_roc:[0.8101085816231022]
+valid_roc:[0.7875430548721449]
+
+EPOCH:	78
+train_roc:[0.8102089929266469]
+valid_roc:[0.7790193806447516]
+
+EPOCH:	79
+train_roc:[0.8097666138992016]
+valid_roc:[0.7934318502880907]
+
+EPOCH:	80
+train_roc:[0.8086945784570542]
+valid_roc:[0.7857811780765385]
+
+EPOCH:	81
+train_roc:[0.8108332508841691]
+valid_roc:[0.788955730861415]
+
+EPOCH:	82
+train_roc:[0.80983296584563]
+valid_roc:[0.780479674925795]
+
+EPOCH:	83
+train_roc:[0.8106494088787541]
+valid_roc:[0.781193949302392]
+
+EPOCH:	84
+train_roc:[0.8053149479549467]
+valid_roc:[0.7797177822574244]
+
+EPOCH:	85
+train_roc:[0.8132625566150928]
+valid_roc:[0.7818129870954429]
+
+EPOCH:	86
+train_roc:[0.8163236781435903]
+valid_roc:[0.7907493531848702]
+
+EPOCH:	87
+train_roc:[0.8175931989647526]
+valid_roc:[0.7884319296519103]
+
+EPOCH:	88
+train_roc:[0.817995825716601]
+valid_roc:[0.7940032697893684]
+
+EPOCH:	89
+train_roc:[0.8186016307659448]
+valid_roc:[0.7924636116887034]
+
+EPOCH:	90
+train_roc:[0.8132173077285492]
+valid_roc:[0.7783209790320788]
+
+EPOCH:	91
+train_roc:[0.8181673985011527]
+valid_roc:[0.7819558419707624]
+
+EPOCH:	92
+train_roc:[0.8178314181570335]
+valid_roc:[0.7879081284424057]
+
+EPOCH:	93
+train_roc:[0.8204850052453373]
+valid_roc:[0.7931302677735274]
+
+EPOCH:	94
+train_roc:[0.8121256415330206]
+valid_roc:[0.7873684544689767]
+
+EPOCH:	95
+train_roc:[0.8190401817964809]
+valid_roc:[0.7889874763892636]
+
+EPOCH:	96
+train_roc:[0.8191677816934588]
+valid_roc:[0.7869716353708671]
+
+EPOCH:	97
+train_roc:[0.8210122872811564]
+valid_roc:[0.7922572657576864]
+
+EPOCH:	98
+train_roc:[0.8206660007915119]
+valid_roc:[0.7960508563356137]
+
+EPOCH:	99
+train_roc:[0.8212688612278487]
+valid_roc:[0.7910826812272822]
+
+EPOCH:	100
+train_roc:[0.8197008548015252]
+valid_roc:[0.7864002158695893]
+
+EPOCH:	101
+train_roc:[0.8180967277889803]
+valid_roc:[0.7915588641450136]
+
+EPOCH:	102
+train_roc:[0.8219226634692096]
+valid_roc:[0.7865748162727575]
+
+EPOCH:	103
+train_roc:[0.8231678421561792]
+valid_roc:[0.7856541959651434]
+
+EPOCH:	104
+train_roc:[0.8228764236222352]
+valid_roc:[0.7987968444945317]
+
+EPOCH:	105
+train_roc:[0.8252044346657118]
+valid_roc:[0.7939715242615197]
+
+EPOCH:	106
+train_roc:[0.8227780735477953]
+valid_roc:[0.802082506626879]
+
+EPOCH:	107
+train_roc:[0.8188831357694313]
+valid_roc:[0.7792733448675417]
+
+EPOCH:	108
+train_roc:[0.8281362876831941]
+valid_roc:[0.7960032380438405]
+
+EPOCH:	109
+train_roc:[0.8270255796568857]
+valid_roc:[0.790416025142458]
+
+EPOCH:	110
+train_roc:[0.8255890011244496]
+valid_roc:[0.8030983635180394]
+
+EPOCH:	111
+train_roc:[0.8255542546909648]
+valid_roc:[0.7917493373121062]
+
+EPOCH:	112
+train_roc:[0.8270579703999648]
+valid_roc:[0.7923366295773082]
+
+EPOCH:	113
+train_roc:[0.8294695102990784]
+valid_roc:[0.7959238742242186]
+
+EPOCH:	114
+train_roc:[0.8287872434653148]
+valid_roc:[0.7917652100760305]
+
+EPOCH:	115
+train_roc:[0.8309644903228238]
+valid_roc:[0.7925905938000983]
+
+EPOCH:	116
+train_roc:[0.8316912208129958]
+valid_roc:[0.7932255043570735]
+
+EPOCH:	117
+train_roc:[0.83261013637877]
+valid_roc:[0.7968286217679085]
+
+EPOCH:	118
+train_roc:[0.8328111552933933]
+valid_roc:[0.7970667132267741]
+
+EPOCH:	119
+train_roc:[0.825260578620382]
+valid_roc:[0.7879874922620276]
+
+EPOCH:	120
+train_roc:[0.8305618635709754]
+valid_roc:[0.7871303630101109]
+
+EPOCH:	121
+train_roc:[0.8253241822613372]
+valid_roc:[0.7795431818542562]
+
+EPOCH:	122
+train_roc:[0.8332591290855524]
+valid_roc:[0.8015269598895256]
+
+EPOCH:	123
+train_roc:[0.8326479255790287]
+valid_roc:[0.7993365184679608]
+
+EPOCH:	124
+train_roc:[0.8290650186256587]
+valid_roc:[0.7857018142569165]
+
+EPOCH:	125
+train_roc:[0.8272637006953998]
+valid_roc:[0.79781273313122]
+
+EPOCH:	126
+train_roc:[0.8355582829215586]
+valid_roc:[0.7928604307868129]
+
+EPOCH:	127
+train_roc:[0.8365396242830848]
+valid_roc:[0.7953683274868653]
+
+EPOCH:	128
+train_roc:[0.8372502575554843]
+valid_roc:[0.79332074094062]
+
+EPOCH:	129
+train_roc:[0.8374173152667583]
+valid_roc:[0.7993365184679608]
+
+110 0.8030983635180394
+649206
+EPOCH:	0
+train_roc:[0.4582449306520985]
+valid_roc:[0.5408452950558214]
+
+EPOCH:	1
+train_roc:[0.6166456765540179]
+valid_roc:[0.5639234449760766]
+
+EPOCH:	2
+train_roc:[0.6533034090011837]
+valid_roc:[0.6181499202551833]
+
+EPOCH:	3
+train_roc:[0.6663723075073764]
+valid_roc:[0.6638277511961722]
+
+EPOCH:	4
+train_roc:[0.6897758248112559]
+valid_roc:[0.6804306220095695]
+
+EPOCH:	5
+train_roc:[0.7052461794524998]
+valid_roc:[0.690956937799043]
+
+EPOCH:	6
+train_roc:[0.7050859056042029]
+valid_roc:[0.6724082934609251]
+
+EPOCH:	7
+train_roc:[0.7228723744845604]
+valid_roc:[0.7122488038277511]
+
+EPOCH:	8
+train_roc:[0.7278856461805524]
+valid_roc:[0.7169537480063796]
+
+EPOCH:	9
+train_roc:[0.7318952421843912]
+valid_roc:[0.7057097288676235]
+
+EPOCH:	10
+train_roc:[0.7374509112236083]
+valid_roc:[0.7226794258373206]
+
+EPOCH:	11
+train_roc:[0.7398511888744808]
+valid_roc:[0.7154066985645933]
+
+EPOCH:	12
+train_roc:[0.7454884679430698]
+valid_roc:[0.7215948963317383]
+
+EPOCH:	13
+train_roc:[0.7484256433443339]
+valid_roc:[0.730909090909091]
+
+EPOCH:	14
+train_roc:[0.7515329132953835]
+valid_roc:[0.7285167464114833]
+
+EPOCH:	15
+train_roc:[0.7540293356138312]
+valid_roc:[0.7220095693779904]
+
+EPOCH:	16
+train_roc:[0.7527259321122405]
+valid_roc:[0.7178468899521531]
+
+EPOCH:	17
+train_roc:[0.7600509969386909]
+valid_roc:[0.7274003189792664]
+
+EPOCH:	18
+train_roc:[0.7636086442600161]
+valid_roc:[0.7277352472089315]
+
+EPOCH:	19
+train_roc:[0.7591050669712918]
+valid_roc:[0.7345135566188198]
+
+EPOCH:	20
+train_roc:[0.7647883069228482]
+valid_roc:[0.7255023923444976]
+
+EPOCH:	21
+train_roc:[0.7614386620590554]
+valid_roc:[0.7196969696969696]
+
+EPOCH:	22
+train_roc:[0.7693567008413984]
+valid_roc:[0.7379106858054227]
+
+EPOCH:	23
+train_roc:[0.765425572242455]
+valid_roc:[0.7364114832535886]
+
+EPOCH:	24
+train_roc:[0.7724117246605278]
+valid_roc:[0.7356140350877193]
+
+EPOCH:	25
+train_roc:[0.7721849646631519]
+valid_roc:[0.7311323763955342]
+
+EPOCH:	26
+train_roc:[0.7765607746255072]
+valid_roc:[0.7317065390749602]
+
+EPOCH:	27
+train_roc:[0.7787197576408003]
+valid_roc:[0.7251196172248804]
+
+EPOCH:	28
+train_roc:[0.7776084470603302]
+valid_roc:[0.723444976076555]
+
+EPOCH:	29
+train_roc:[0.7803211212255607]
+valid_roc:[0.7268580542264754]
+
+EPOCH:	30
+train_roc:[0.7821721270421658]
+valid_roc:[0.7272727272727274]
+
+EPOCH:	31
+train_roc:[0.7848533749626322]
+valid_roc:[0.7331419457735247]
+
+EPOCH:	32
+train_roc:[0.7861334051946796]
+valid_roc:[0.7361244019138756]
+
+EPOCH:	33
+train_roc:[0.7855559479471396]
+valid_roc:[0.7296491228070175]
+
+EPOCH:	34
+train_roc:[0.7868886171391668]
+valid_roc:[0.7337639553429027]
+
+EPOCH:	35
+train_roc:[0.7782020102583119]
+valid_roc:[0.7238437001594897]
+
+EPOCH:	36
+train_roc:[0.7849121027575352]
+valid_roc:[0.7350079744816587]
+
+EPOCH:	37
+train_roc:[0.7904999836976354]
+valid_roc:[0.7360287081339714]
+
+EPOCH:	38
+train_roc:[0.7901779628958184]
+valid_roc:[0.7349441786283891]
+
+EPOCH:	39
+train_roc:[0.7894655692098225]
+valid_roc:[0.7317065390749601]
+
+EPOCH:	40
+train_roc:[0.7868933310758814]
+valid_roc:[0.7354545454545455]
+
+EPOCH:	41
+train_roc:[0.7935698367760129]
+valid_roc:[0.7333173843700159]
+
+22 0.7379106858054227
+/opt/conda/lib/python3.6/site-packages/sklearn/metrics/_classification.py:1248: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/opt/conda/lib/python3.6/site-packages/sklearn/metrics/_classification.py:1248: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/opt/conda/lib/python3.6/site-packages/sklearn/metrics/_classification.py:1248: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/opt/conda/lib/python3.6/site-packages/sklearn/metrics/_classification.py:1248: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/opt/conda/lib/python3.6/site-packages/sklearn/metrics/_classification.py:1248: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/opt/conda/lib/python3.6/site-packages/sklearn/metrics/_classification.py:1248: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))

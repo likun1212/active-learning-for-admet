@@ -1,3 +1,6 @@
 .ip*/
 __pycache__/
 saved_models/
+*pt
+saved_models_copy/
+data/
