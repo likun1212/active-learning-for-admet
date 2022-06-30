@@ -14,14 +14,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
-from sklearn.metrics import (
-    accuracy_score,
-    auc,
-    precision_recall_curve,
-    precision_score,
-    recall_score,
-    roc_auc_score,
-)
+from sklearn.metrics import accuracy_score, roc_auc_score
 
 from AttentiveFP import (
     Fingerprint,
@@ -53,20 +46,32 @@ class Acquisiton:
     def __init__(self, pool):
         self.pool = pool
 
-    def random(self, frac=0.1):
+    def random(self, sample_size=1000):
 
-        return self.pool.sample(frac=frac, random_state=42)
+        return self.pool.sample(n=sample_size, random_state=42)
+
+    def entropy_sample(self, props, sample_size=500):
+        from scipy.stats import entropy
+
+        props = props.reshape((-1, 1))
+        props = np.hstack((1 - props, props))
+        entropies = entropy(props, axis=1, base=2)
+        _pool = self.pool
+        _pool["entropy"] = entropies
+        _pool.sort_values("entropy", inplace=True)
+        return _pool.iloc[-sample_size:]
 
 
 class Al:
     def __init__(
-        self, pool, test_set, iters=8, initial_frac=0.1, batch_frac=0.05
+        self, pool, test_set, iters=8, initial_frac=0.1, batch_frac=0.05, epochs=100
     ) -> None:
         self.pool = pool
         self.test_set = test_set
         self.iters = iters
-        self.initial_frac = initial_frac
-        self.batch_frac = batch_frac
+        self.initial_size = int(initial_frac * len(pool))
+        self.batch_size = int(batch_frac * (len(pool) - self.initial_size))
+        self.epochs = epochs
         self.train_data = pd.DataFrame()
 
     def explore_initial(self):
@@ -79,34 +84,46 @@ class Al:
             to each input failing or no inputs being acquired
         """
         ac = Acquisiton(self.pool)
-        sampled_df = ac.random(frac=self.initial_frac)
+        sampled_df = ac.random(sample_size=self.initial_size)
         self.pool.drop(index=sampled_df.index, inplace=True)  # update the pool
+        self.pool.reset_index(drop=True, inplace=True)
         return sampled_df.reset_index(drop=True)
 
-    def explore_batch(self):
+    def explore_batch(self, model):
         ac = Acquisiton(self.pool)
-        sampled_df = ac.random(frac=self.batch_frac)
+        # sampled_df = ac.random(sample_size=self.batch_size)
+        props = eval_model(model=model, dataset=self.pool)[-1]
+        sampled_df = ac.entropy_sample(props=props, sample_size=self.batch_size)
         self.pool.drop(index=sampled_df.index, inplace=True)  # update the pool
+        self.pool.reset_index(drop=True, inplace=True)
         return sampled_df.reset_index(drop=True)
 
     def run(self):
         acc_list = []
+        auc_list = []
         chose_data = self.explore_initial()
-        self.train_data = pd.concat((self.train_data, chose_data), ignore_index=True)
-        model = Model(train_data=self.train_data, epochs=100)
-        fited_model = model.fit()
-        acc = model.eval(fited_model, self.test_set)
+        self.train_data = pd.concat(
+            (self.train_data, chose_data), ignore_index=True
+        )  # update training set
+        model = Model(
+            train_data=self.train_data, epochs=self.epochs
+        )  # init model with training set
+        fited_model = model.fit()[0]
+        acc, auc = eval_model(fited_model, self.test_set)[:2]
         acc_list.append(acc)
-        for _ in range(self.iters):
-            chose_data = self.explore_batch()
+        auc_list.append(auc)
+        for i in range(self.iters):
+            print(i)
+            chose_data = self.explore_batch(fited_model)
             self.train_data = pd.concat(
                 (self.train_data, chose_data), ignore_index=True
             )
-            model = Model(train_data=self.train_data, epochs=100)
-            fited_model = model.fit()
-            acc = model.eval(fited_model, self.test_set)
+            model = Model(train_data=self.train_data, epochs=self.epochs)
+            fited_model = model.fit()[0]
+            acc, auc = eval_model(fited_model, self.test_set)[:2]
             acc_list.append(acc)
-        return acc_list
+            auc_list.append(auc)
+        return acc_list, auc_list
 
 
 class Model:
@@ -175,6 +192,7 @@ class Model:
         # shuffle them
         np.random.shuffle(valList)
         batch_list = []
+        losses_list = []
         for i in range(0, train_data.shape[0], self.batch_size):
             batch = valList[i : i + self.batch_size]
             batch_list.append(batch)
@@ -217,8 +235,10 @@ class Model:
             )
             # Step 5. Do the backward pass and update the gradient
             #             print(y_val,y_pred,validInds,y_val_adjust,y_pred_adjust)
+            losses_list.append(loss.cpu().detach().numpy())
             loss.backward()
             self.optimizer.step()
+        return losses_list
 
     def eval(self, model, dataset):
         batch_size = self.batch_size
@@ -289,10 +309,11 @@ class Model:
     # return test_roc, test_prc, test_precision, test_recall, test_loss
 
     def fit(self, n_splits=3):
-        # losses = []
+        losses = []
 
         for epoch in range(self.epochs):
-            self.train(self.train_data)
+            loss = self.train(self.train_data)
+            losses.append(sum(loss) / len(loss))
             # _losses = []
 
             # kf = StratifiedKFold(n_splits=n_splits, shuffle=True, random_state=42)
@@ -309,4 +330,45 @@ class Model:
             #     _losses.append(test_roc[0])
             #    self.train(train_df)
             # losses.append(sum(_losses) / len(_losses))
-        return self.model
+        return self.model, losses
+
+
+def eval_model(model, dataset, batch_size=100):
+
+    model.eval()
+    y_pred_list = []
+    predList = np.arange(0, dataset.shape[0])
+    batch_list = []
+
+    for i in range(0, dataset.shape[0], batch_size):
+        batch = predList[i : i + batch_size]
+        batch_list.append(batch)
+    for counter, test_batch in enumerate(batch_list):
+        batch_df = dataset.loc[test_batch, :]
+        smiles_list = batch_df.cano_smiles.values
+        feature_dicts = save_smiles_dicts(smiles_list, "junk")
+        (
+            x_atom,
+            x_bonds,
+            x_atom_index,
+            x_bond_index,
+            x_mask,
+            smiles_to_rdkit_list,
+        ) = get_smiles_array(smiles_list, feature_dicts)
+        atoms_prediction, mol_prediction = model(
+            torch.Tensor(x_atom),
+            torch.Tensor(x_bonds),
+            torch.cuda.LongTensor(x_atom_index),
+            torch.cuda.LongTensor(x_bond_index),
+            torch.Tensor(x_mask),
+        )
+        # atom_pred = atoms_prediction.data[:,:,1].unsqueeze(2).cpu().numpy()
+        y_pred = mol_prediction[:, 0:2]
+        y_pred_adjust = F.softmax(y_pred, dim=-1).data.cpu().numpy()[:, 1]
+
+        y_pred_list.append(y_pred_adjust)
+    y_pred_list = np.concatenate(y_pred_list)
+    y_true = dataset.acute_toxic.values
+    acc = accuracy_score(y_true, (y_pred_list > 0.5).astype(int))
+    auc = roc_auc_score(y_true, y_pred_list)
+    return acc, auc, y_pred_list
