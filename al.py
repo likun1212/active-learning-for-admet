@@ -340,46 +340,46 @@ class Model:
         return self.model, losses
 
 
-# def eval_model(model, dataset, batch_size=100):
+def eval_model(model, dataset, batch_size=100):
 
-#     model.eval()
-#     y_pred_list = []
-#     predList = np.arange(0, dataset.shape[0])
-#     batch_list = []
+    model.eval()
+    y_pred_list = []
+    predList = np.arange(0, dataset.shape[0])
+    batch_list = []
 
-#     for i in range(0, dataset.shape[0], batch_size):
-#         batch = predList[i : i + batch_size]
-#         batch_list.append(batch)
-#     for counter, test_batch in enumerate(batch_list):
-#         batch_df = dataset.loc[test_batch, :]
-#         smiles_list = batch_df.cano_smiles.values
-#         feature_dicts = save_smiles_dicts(smiles_list, "junk")
-#         (
-#             x_atom,
-#             x_bonds,
-#             x_atom_index,
-#             x_bond_index,
-#             x_mask,
-#             smiles_to_rdkit_list,
-#         ) = get_smiles_array(smiles_list, feature_dicts)
-#         atoms_prediction, mol_prediction = model(
-#             torch.Tensor(x_atom),
-#             torch.Tensor(x_bonds),
-#             torch.cuda.LongTensor(x_atom_index),
-#             torch.cuda.LongTensor(x_bond_index),
-#             torch.Tensor(x_mask),
-#         )
-#         # atom_pred = atoms_prediction.data[:,:,1].unsqueeze(2).cpu().numpy()
-#         y_pred = mol_prediction[:, 0:2]
-#         y_pred_adjust = F.softmax(y_pred, dim=-1).data.cpu().numpy()[:, 1]
+    for i in range(0, dataset.shape[0], batch_size):
+        batch = predList[i : i + batch_size]
+        batch_list.append(batch)
+    for counter, test_batch in enumerate(batch_list):
+        batch_df = dataset.loc[test_batch, :]
+        smiles_list = batch_df.cano_smiles.values
+        feature_dicts = save_smiles_dicts(smiles_list, "junk")
+        (
+            x_atom,
+            x_bonds,
+            x_atom_index,
+            x_bond_index,
+            x_mask,
+            smiles_to_rdkit_list,
+        ) = get_smiles_array(smiles_list, feature_dicts)
+        atoms_prediction, mol_prediction = model(
+            torch.Tensor(x_atom),
+            torch.Tensor(x_bonds),
+            torch.cuda.LongTensor(x_atom_index),
+            torch.cuda.LongTensor(x_bond_index),
+            torch.Tensor(x_mask),
+        )
+        # atom_pred = atoms_prediction.data[:,:,1].unsqueeze(2).cpu().numpy()
+        y_pred = mol_prediction[:, 0:2]
+        y_pred_adjust = F.softmax(y_pred, dim=-1).data.cpu().numpy()[:, 1]
 
-#         y_pred_list.append(y_pred_adjust)
-#     y_pred_list = np.concatenate(y_pred_list)
-#     y_true = dataset.acute_toxic.values
-#     acc = accuracy_score(y_true, (y_pred_list > 0.5).astype(int))
-#     balanced_acc = balanced_accuracy_score(y_true, (y_pred_list > 0.5).astype(int))
-#     auc = roc_auc_score(y_true, y_pred_list)
-#     return acc, balanced_acc, auc, y_pred_list
+        y_pred_list.append(y_pred_adjust)
+    y_pred_list = np.concatenate(y_pred_list)
+    y_true = dataset.acute_toxic.values
+    acc = accuracy_score(y_true, (y_pred_list > 0.5).astype(int))
+    balanced_acc = balanced_accuracy_score(y_true, (y_pred_list > 0.5).astype(int))
+    auc = roc_auc_score(y_true, y_pred_list)
+    return acc, balanced_acc, auc, y_pred_list
 
 
 class Al_for_rf:
