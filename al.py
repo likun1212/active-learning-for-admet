@@ -14,15 +14,11 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
-from sklearn.metrics import accuracy_score, roc_auc_score
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import accuracy_score, balanced_accuracy_score, roc_auc_score
 
-from AttentiveFP import (
-    Fingerprint,
-    get_smiles_array,
-    get_smiles_dicts,
-    moltosvg_highlight,
-    save_smiles_dicts,
-)
+from AttentiveFP import Fingerprint, get_smiles_array, save_smiles_dicts
+from featurizer import Featurizer
 
 os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
 os.environ["CUDA_VISIBLE_DEVICES"] = "1"
@@ -41,6 +37,13 @@ import copy
 
 import pandas as pd
 
+RG = np.random.default_rng(42)
+
+
+def random(Y_mean: np.ndarray) -> np.ndarray:
+    """Random acquistion score"""
+    return RG.random(len(Y_mean))
+
 
 class Acquisiton:
     def __init__(self, pool):
@@ -53,8 +56,8 @@ class Acquisiton:
     def entropy_sample(self, props, sample_size=500):
         from scipy.stats import entropy
 
-        props = props.reshape((-1, 1))
-        props = np.hstack((1 - props, props))
+        # props = props.reshape((-1, 1))
+        # props = np.hstack((1 - props, props))
         entropies = entropy(props, axis=1, base=2)
         _pool = self.pool
         _pool["entropy"] = entropies
@@ -100,6 +103,7 @@ class Al:
 
     def run(self):
         acc_list = []
+        balanced_acc_list = []
         auc_list = []
         chose_data = self.explore_initial()
         self.train_data = pd.concat(
@@ -109,8 +113,9 @@ class Al:
             train_data=self.train_data, epochs=self.epochs
         )  # init model with training set
         fited_model = model.fit()[0]
-        acc, auc = eval_model(fited_model, self.test_set)[:2]
+        acc, balanced_acc, auc = eval_model(fited_model, self.test_set)[:3]
         acc_list.append(acc)
+        balanced_acc_list.append(balanced_acc)
         auc_list.append(auc)
         for i in range(self.iters):
             print(i)
@@ -120,10 +125,11 @@ class Al:
             )
             model = Model(train_data=self.train_data, epochs=self.epochs)
             fited_model = model.fit()[0]
-            acc, auc = eval_model(fited_model, self.test_set)[:2]
+            acc, balanced_acc, auc = eval_model(fited_model, self.test_set)[:3]
             acc_list.append(acc)
+            balanced_acc_list.append(balanced_acc)
             auc_list.append(auc)
-        return acc_list, auc_list
+        return acc_list, balanced_acc_list, auc_list
 
 
 class Model:
@@ -314,6 +320,7 @@ class Model:
         for epoch in range(self.epochs):
             loss = self.train(self.train_data)
             losses.append(sum(loss) / len(loss))
+            print("loss:{:.2f}".format(sum(loss) / len(loss)))
             # _losses = []
 
             # kf = StratifiedKFold(n_splits=n_splits, shuffle=True, random_state=42)
@@ -333,42 +340,140 @@ class Model:
         return self.model, losses
 
 
-def eval_model(model, dataset, batch_size=100):
+# def eval_model(model, dataset, batch_size=100):
 
-    model.eval()
-    y_pred_list = []
-    predList = np.arange(0, dataset.shape[0])
-    batch_list = []
+#     model.eval()
+#     y_pred_list = []
+#     predList = np.arange(0, dataset.shape[0])
+#     batch_list = []
 
-    for i in range(0, dataset.shape[0], batch_size):
-        batch = predList[i : i + batch_size]
-        batch_list.append(batch)
-    for counter, test_batch in enumerate(batch_list):
-        batch_df = dataset.loc[test_batch, :]
-        smiles_list = batch_df.cano_smiles.values
-        feature_dicts = save_smiles_dicts(smiles_list, "junk")
-        (
-            x_atom,
-            x_bonds,
-            x_atom_index,
-            x_bond_index,
-            x_mask,
-            smiles_to_rdkit_list,
-        ) = get_smiles_array(smiles_list, feature_dicts)
-        atoms_prediction, mol_prediction = model(
-            torch.Tensor(x_atom),
-            torch.Tensor(x_bonds),
-            torch.cuda.LongTensor(x_atom_index),
-            torch.cuda.LongTensor(x_bond_index),
-            torch.Tensor(x_mask),
-        )
-        # atom_pred = atoms_prediction.data[:,:,1].unsqueeze(2).cpu().numpy()
-        y_pred = mol_prediction[:, 0:2]
-        y_pred_adjust = F.softmax(y_pred, dim=-1).data.cpu().numpy()[:, 1]
+#     for i in range(0, dataset.shape[0], batch_size):
+#         batch = predList[i : i + batch_size]
+#         batch_list.append(batch)
+#     for counter, test_batch in enumerate(batch_list):
+#         batch_df = dataset.loc[test_batch, :]
+#         smiles_list = batch_df.cano_smiles.values
+#         feature_dicts = save_smiles_dicts(smiles_list, "junk")
+#         (
+#             x_atom,
+#             x_bonds,
+#             x_atom_index,
+#             x_bond_index,
+#             x_mask,
+#             smiles_to_rdkit_list,
+#         ) = get_smiles_array(smiles_list, feature_dicts)
+#         atoms_prediction, mol_prediction = model(
+#             torch.Tensor(x_atom),
+#             torch.Tensor(x_bonds),
+#             torch.cuda.LongTensor(x_atom_index),
+#             torch.cuda.LongTensor(x_bond_index),
+#             torch.Tensor(x_mask),
+#         )
+#         # atom_pred = atoms_prediction.data[:,:,1].unsqueeze(2).cpu().numpy()
+#         y_pred = mol_prediction[:, 0:2]
+#         y_pred_adjust = F.softmax(y_pred, dim=-1).data.cpu().numpy()[:, 1]
 
-        y_pred_list.append(y_pred_adjust)
-    y_pred_list = np.concatenate(y_pred_list)
-    y_true = dataset.acute_toxic.values
-    acc = accuracy_score(y_true, (y_pred_list > 0.5).astype(int))
-    auc = roc_auc_score(y_true, y_pred_list)
-    return acc, auc, y_pred_list
+#         y_pred_list.append(y_pred_adjust)
+#     y_pred_list = np.concatenate(y_pred_list)
+#     y_true = dataset.acute_toxic.values
+#     acc = accuracy_score(y_true, (y_pred_list > 0.5).astype(int))
+#     balanced_acc = balanced_accuracy_score(y_true, (y_pred_list > 0.5).astype(int))
+#     auc = roc_auc_score(y_true, y_pred_list)
+#     return acc, balanced_acc, auc, y_pred_list
+
+
+class Al_for_rf:
+    def __init__(
+        self,
+        pool,
+        test_set,
+        iters=8,
+        initial_frac=0.1,
+        batch_frac=0.05,
+        epochs=100,
+    ) -> None:
+        self.pool = pool
+        self.iters = iters
+        self.initial_size = int(initial_frac * len(pool))
+        self.batch_size = int(batch_frac * (len(pool) - self.initial_size))
+        self.epochs = epochs
+        self.train_data = pd.DataFrame()
+        self.clf = RandomForestClassifier()
+        self.featurizer = Featurizer()
+        test_s = test_set.cano_smiles.values
+        self.test_X = np.vstack([self.featurizer(_) for _ in test_s])
+        self.test_y = test_set.acute_toxic.values
+
+    def explore_initial(self):
+        """Perform an initial round of exploration
+        Must be called before explore_batch()
+        Returns
+        -------
+        Optional[float]
+            the average score of the batch. None if no objective values were calculated, either due
+            to each input failing or no inputs being acquired
+        """
+        ac = Acquisiton(self.pool)
+        sampled_df = ac.random(sample_size=self.initial_size)
+        self.pool.drop(index=sampled_df.index, inplace=True)  # update the pool
+        self.pool.reset_index(drop=True, inplace=True)
+        return sampled_df.reset_index(drop=True)
+
+    def explore_batch(self):
+        ac = Acquisiton(self.pool)
+        # sampled_df = ac.random(sample_size=self.batch_size)
+        s = self.pool.cano_smiles.values
+        X = np.vstack([self.featurizer(_) for _ in s])
+        props = self.clf.predict_proba(X)
+        sampled_df = ac.entropy_sample(props=props, sample_size=self.batch_size)
+        self.pool.drop(index=sampled_df.index, inplace=True)  # update the pool
+        self.pool.reset_index(drop=True, inplace=True)
+        return sampled_df.reset_index(drop=True)
+
+    def run(self):
+        acc_list = []
+        balanced_acc_list = []
+        auc_list = []
+        chose_data = self.explore_initial()
+        self.train_data = pd.concat(
+            (self.train_data, chose_data), ignore_index=True
+        )  # update training set
+        self.fit_model()
+        self.eval_model(self.test_X)
+        acc_list.append(self.acc)
+        balanced_acc_list.append(self.balanced_acc)
+        auc_list.append(self.auc)
+        for i in range(self.iters):
+            print(i)
+            chose_data = self.explore_batch()
+            self.train_data = pd.concat(
+                (self.train_data, chose_data), ignore_index=True
+            )
+            self.fit_model()
+            self.eval_model(self.test_X)
+            acc_list.append(self.acc)
+            balanced_acc_list.append(self.balanced_acc)
+            auc_list.append(self.auc)
+        return acc_list, balanced_acc_list, auc_list
+
+    def fit_model(self):
+
+        s = self.train_data.cano_smiles.values
+        X = np.vstack([self.featurizer(_) for _ in s])
+        y = self.train_data.acute_toxic.values
+        self.clf.fit(X, y)
+        return 0
+
+    def eval_model(self, X):
+
+        y_pre = self.clf.predict(X)
+        y_pre_proba = self.clf.predict_proba(X)
+        self.acc = accuracy_score(self.test_y, y_pre)
+        self.balanced_acc = balanced_accuracy_score(self.test_y, y_pre)
+        self.auc = roc_auc_score(self.test_y, y_pre_proba[:, 1])
+        return 0
+
+
+class SklearnModel:
+    def __init__(self) -> None:
+        pass
